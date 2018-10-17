@@ -2,7 +2,6 @@
 <glyph name="Aringacute" format="1">
   <advance width="662"/>
   <unicode hex="01FA"/>
-  <unicode hex="01FB"/>
   <outline>
     <component base="A"/>
     <component base="ringcomb.case" xOffset="187"/>
@@ -11,7 +10,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-12 11:54:23 +0000</string>
+      <string>2018-10-16 10:23:19 +0000</string>
     </dict>
   </lib>
 </glyph>

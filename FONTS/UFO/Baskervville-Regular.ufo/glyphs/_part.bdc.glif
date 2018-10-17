@@ -10,8 +10,9 @@
       <point x="85" y="436"/>
       <point x="30" y="436" type="curve"/>
       <point x="30" y="413" type="line"/>
-      <point x="84" y="413"/>
-      <point x="118" y="404"/>
+      <point x="37" y="413" type="line" smooth="yes"/>
+      <point x="87" y="413"/>
+      <point x="118" y="401"/>
     </contour>
   </outline>
   <lib>
@@ -19,7 +20,7 @@
       <key>com.schriftgestaltung.Glyphs.Export</key>
       <false/>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-12 09:07:31 +0000</string>
+      <string>2018-10-16 10:23:06 +0000</string>
     </dict>
   </lib>
 </glyph>

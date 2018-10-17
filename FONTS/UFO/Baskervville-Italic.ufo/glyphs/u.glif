@@ -5,11 +5,12 @@
   <outline>
     <contour>
       <point x="139" y="-14" type="curve" smooth="yes"/>
-      <point x="211" y="-14"/>
-      <point x="272" y="35"/>
-      <point x="315" y="90" type="curve"/>
-      <point x="310" y="72"/>
-      <point x="307" y="55"/>
+      <point x="218" y="-14"/>
+      <point x="284" y="45"/>
+      <point x="327" y="107" type="curve"/>
+      <point x="322" y="113" type="line"/>
+      <point x="313" y="87"/>
+      <point x="307" y="61"/>
       <point x="307" y="41" type="curve" smooth="yes"/>
       <point x="307" y="8"/>
       <point x="322" y="-14"/>
@@ -29,16 +30,13 @@
       <point x="384" y="85" type="curve" smooth="yes"/>
       <point x="509" y="440" type="line"/>
       <point x="443" y="440" type="line"/>
-      <point x="346" y="177" type="line" smooth="yes"/>
+      <point x="348" y="186" type="line" smooth="yes"/>
       <point x="318" y="107"/>
       <point x="225" y="11"/>
       <point x="158" y="11" type="curve" smooth="yes"/>
-      <point x="135" y="11"/>
-      <point x="116" y="23"/>
-      <point x="116" y="54" type="curve" smooth="yes"/>
-      <point x="116" y="65"/>
-      <point x="118" y="79"/>
-      <point x="124" y="95" type="curve" smooth="yes"/>
+      <point x="115" y="11"/>
+      <point x="108" y="51"/>
+      <point x="129" y="108" type="curve" smooth="yes"/>
       <point x="249" y="443" type="line"/>
       <point x="85" y="440" type="line"/>
       <point x="78" y="416" type="line"/>
@@ -48,12 +46,9 @@
       <point x="153" y="373"/>
       <point x="151" y="361"/>
       <point x="145" y="346" type="curve" smooth="yes"/>
-      <point x="62" y="125" type="line" smooth="yes"/>
-      <point x="52" y="99"/>
-      <point x="46" y="74"/>
-      <point x="46" y="54" type="curve" smooth="yes"/>
-      <point x="46" y="13"/>
-      <point x="70" y="-14"/>
+      <point x="66" y="137" type="line" smooth="yes"/>
+      <point x="27" y="35"/>
+      <point x="54" y="-14"/>
     </contour>
     <contour>
       <point x="187" y="0" type="move" name="bottom"/>
@@ -71,7 +66,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-12 11:54:23 +0000</string>
+      <string>2018-10-16 10:23:19 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>i</string>
     </dict>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i" format="1">
-  <advance width="283"/>
+  <advance width="284"/>
   <unicode hex="0069"/>
   <outline>
-    <component base="idotless" xOffset="-1"/>
-    <component base="dotaccentcomb" xOffset="4"/>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="5"/>
   </outline>
   <lib>
     <dict>
@@ -20,7 +20,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-12 09:07:31 +0000</string>
+      <string>2018-10-16 13:39:50 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
     </dict>

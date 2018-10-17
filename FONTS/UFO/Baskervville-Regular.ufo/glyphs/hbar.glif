@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hbar" format="1">
-  <advance width="581"/>
+  <advance width="582"/>
   <unicode hex="0127"/>
   <outline>
     <component base="h"/>
@@ -20,7 +20,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-12 09:07:31 +0000</string>
+      <string>2018-10-16 13:39:37 +0000</string>
     </dict>
   </lib>
 </glyph>

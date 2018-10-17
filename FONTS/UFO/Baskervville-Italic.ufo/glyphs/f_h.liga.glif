@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_h.liga" format="1">
-  <advance width="853"/>
+  <advance width="855"/>
   <outline>
     <contour>
-      <point x="-123" y="-290" type="curve" smooth="yes"/>
-      <point x="-36" y="-290"/>
-      <point x="14" y="-260"/>
-      <point x="61" y="-131" type="curve" smooth="yes"/>
-      <point x="292" y="504" type="line" smooth="yes"/>
-      <point x="325" y="595"/>
-      <point x="365" y="695"/>
-      <point x="471" y="695" type="curve" smooth="yes"/>
-      <point x="519" y="695"/>
-      <point x="571" y="663"/>
-      <point x="595" y="581" type="curve"/>
-      <point x="640" y="657" type="line"/>
-      <point x="613" y="697"/>
-      <point x="553" y="720"/>
-      <point x="480" y="720" type="curve" smooth="yes"/>
-      <point x="325" y="720"/>
-      <point x="277" y="653"/>
-      <point x="228" y="520" type="curve" smooth="yes"/>
-      <point x="-11" y="-131" type="line" smooth="yes"/>
-      <point x="-41" y="-214"/>
-      <point x="-70" y="-268"/>
-      <point x="-105" y="-268" type="curve" smooth="yes"/>
-      <point x="-149" y="-268"/>
-      <point x="-126" y="-174"/>
-      <point x="-185" y="-174" type="curve" smooth="yes"/>
-      <point x="-213" y="-174"/>
-      <point x="-234" y="-194"/>
-      <point x="-234" y="-221" type="curve" smooth="yes"/>
-      <point x="-234" y="-255"/>
-      <point x="-205" y="-290"/>
+      <point x="-101" y="-290" type="curve" smooth="yes"/>
+      <point x="-14" y="-290"/>
+      <point x="42" y="-261"/>
+      <point x="85" y="-131" type="curve" smooth="yes"/>
+      <point x="295" y="504" type="line" smooth="yes"/>
+      <point x="325" y="596"/>
+      <point x="367" y="695"/>
+      <point x="473" y="695" type="curve" smooth="yes"/>
+      <point x="521" y="695"/>
+      <point x="573" y="663"/>
+      <point x="597" y="581" type="curve"/>
+      <point x="642" y="657" type="line"/>
+      <point x="615" y="697"/>
+      <point x="555" y="720"/>
+      <point x="482" y="720" type="curve" smooth="yes"/>
+      <point x="327" y="720"/>
+      <point x="279" y="653"/>
+      <point x="230" y="520" type="curve" smooth="yes"/>
+      <point x="11" y="-131" type="line" smooth="yes"/>
+      <point x="-19" y="-214"/>
+      <point x="-48" y="-268"/>
+      <point x="-83" y="-268" type="curve" smooth="yes"/>
+      <point x="-127" y="-268"/>
+      <point x="-104" y="-174"/>
+      <point x="-163" y="-174" type="curve" smooth="yes"/>
+      <point x="-191" y="-174"/>
+      <point x="-212" y="-194"/>
+      <point x="-212" y="-221" type="curve" smooth="yes"/>
+      <point x="-212" y="-255"/>
+      <point x="-183" y="-290"/>
     </contour>
     <contour>
-      <point x="106" y="416" type="line"/>
-      <point x="373" y="416" type="line"/>
-      <point x="380" y="440" type="line"/>
-      <point x="113" y="440" type="line"/>
+      <point x="108" y="416" type="line"/>
+      <point x="375" y="416" type="line"/>
+      <point x="382" y="440" type="line"/>
+      <point x="115" y="440" type="line"/>
     </contour>
     <contour>
-      <point x="331" y="0" type="line"/>
-      <point x="403" y="0" type="line"/>
-      <point x="640" y="657" type="line"/>
-      <point x="576" y="664" type="line"/>
+      <point x="333" y="0" type="line"/>
+      <point x="405" y="0" type="line"/>
+      <point x="642" y="657" type="line"/>
+      <point x="578" y="664" type="line"/>
     </contour>
-    <component base="_part.jambage" xOffset="290"/>
+    <component base="_part.jambage" xOffset="292"/>
     <contour>
-      <point x="136" y="0" type="move" name="bottom_1"/>
-    </contour>
-    <contour>
-      <point x="567" y="0" type="move" name="bottom_2"/>
+      <point x="138" y="0" type="move" name="bottom_1"/>
     </contour>
     <contour>
-      <point x="433" y="0" type="move" name="caret_1"/>
+      <point x="569" y="0" type="move" name="bottom_2"/>
     </contour>
     <contour>
-      <point x="296" y="440" type="move" name="top_1"/>
+      <point x="435" y="0" type="move" name="caret_1"/>
     </contour>
     <contour>
-      <point x="727" y="440" type="move" name="top_2"/>
+      <point x="298" y="440" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="729" y="440" type="move" name="top_2"/>
     </contour>
   </outline>
   <lib>
@@ -77,7 +77,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-12 11:54:23 +0000</string>
+      <string>2018-10-16 10:23:19 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>f</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
