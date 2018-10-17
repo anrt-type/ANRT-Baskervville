@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t_t.liga" format="1">
+  <advance width="597"/>
+  <outline>
+    <contour>
+      <point x="108" y="-14" type="curve" smooth="yes"/>
+      <point x="170" y="-14"/>
+      <point x="210" y="31"/>
+      <point x="235" y="72" type="curve"/>
+      <point x="217" y="84" type="line"/>
+      <point x="200" y="55"/>
+      <point x="169" y="19"/>
+      <point x="139" y="19" type="curve" smooth="yes"/>
+      <point x="124" y="19"/>
+      <point x="115" y="28"/>
+      <point x="115" y="46" type="curve" smooth="yes"/>
+      <point x="115" y="55"/>
+      <point x="118" y="67"/>
+      <point x="123" y="82" type="curve" smooth="yes"/>
+      <point x="282" y="526" type="line"/>
+      <point x="215" y="526" type="line"/>
+      <point x="129" y="289" type="line"/>
+      <point x="62" y="110" type="line" smooth="yes"/>
+      <point x="53" y="85"/>
+      <point x="47" y="61"/>
+      <point x="47" y="42" type="curve" smooth="yes"/>
+      <point x="47" y="9"/>
+      <point x="63" y="-14"/>
+    </contour>
+    <contour>
+      <point x="108" y="-14" type="move" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="110" y="416" type="line"/>
+      <point x="466" y="416" type="line"/>
+      <point x="474" y="440" type="line"/>
+      <point x="118" y="440" type="line"/>
+    </contour>
+    <component base="t" xOffset="289"/>
+    <contour>
+      <point x="84" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="72" y="0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="375" y="0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="304" y="0" type="move" name="caret_1"/>
+    </contour>
+    <contour>
+      <point x="164" y="220" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="center_1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="center_2"/>
+    </contour>
+    <contour>
+      <point x="244" y="440" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="232" y="440" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="535" y="440" type="move" name="top_2"/>
+    </contour>
+    <contour>
+      <point x="399" y="440" type="move" name="topright"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="topright_1"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="topright_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 11:54:23 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

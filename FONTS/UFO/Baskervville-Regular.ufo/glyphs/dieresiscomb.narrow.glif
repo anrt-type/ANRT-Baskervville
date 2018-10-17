@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscomb.narrow" format="1">
+  <advance width="391"/>
+  <outline>
+    <component base="dotaccent" xScale="0.9" yScale="0.93" yOffset="59"/>
+    <component base="dotaccent" xScale="0.9" yScale="0.93" xOffset="150" yOffset="59"/>
+    <contour>
+      <point x="198" y="436" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="192" y="651" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

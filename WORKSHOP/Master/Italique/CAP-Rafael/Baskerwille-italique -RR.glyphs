@@ -1,0 +1,4775 @@
+{
+.appVersion = "1064";
+DisplayStrings = (
+"oonor/_part-jambage/_part-ascendante huarnnon\012yeotpi\012dongn\012tpire\012onohoab\012\012R\012e\012g\012l\012u\012",
+"the quick brown fox jumps \012above the world\012the lazy dog",
+"/_part-fut",
+coucou,
+"CAlleB\012eeABuBeauxArts\012ABCDEFGHIJK\012LMrNOPQP\012PSRSSiesling\012RIESLING\012Killing Machine\012Hellrider\012ELLE\012Festival de Canne\012Festival de Dauville\012Festival de Gerardmer\012\012GHIJKLMNO\012PQRSTUVWXYZ",
+"",
+"",
+B,
+"/_corner-bdc",
+H
+);
+date = "2017-10-13 07:30:52 +0000";
+familyName = Baskerwille;
+fontMaster = (
+{
+alignmentZones = (
+"{710, 10}",
+"{440, 14}",
+"{0, -14}",
+"{-280, -10}"
+);
+ascender = 710;
+capHeight = 710;
+customParameters = (
+{
+name = paramArea;
+value = "360";
+},
+{
+name = paramDepth;
+value = "20";
+},
+{
+name = paramOver;
+value = "3";
+}
+);
+descender = -280;
+id = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+italicAngle = 20;
+userData = {
+GSCornerRadius = 47;
+};
+verticalStems = (
+90,
+70
+);
+xHeight = 440;
+}
+);
+glyphs = (
+{
+glyphname = A;
+lastChange = "2017-10-17 12:56:02 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"537 69 OFFCURVE",
+"541 35 OFFCURVE",
+"587 24 CURVE SMOOTH",
+"622 16 LINE",
+"614 -3 LINE",
+"461 0 LINE",
+"345 -3 LINE",
+"352 16 LINE",
+"388 23 LINE SMOOTH",
+"441 33 OFFCURVE",
+"460 62 OFFCURVE",
+"466 187 CURVE SMOOTH",
+"487 638 LINE",
+"522 660 LINE",
+"114 115 LINE SMOOTH",
+"53 34 OFFCURVE",
+"56 26 OFFCURVE",
+"97 22 CURVE SMOOTH",
+"127 19 LINE",
+"118 -3 LINE",
+"56 1 OFFCURVE",
+"-11 1 OFFCURVE",
+"-81 -3 CURVE",
+"-72 19 LINE",
+"-45 22 LINE SMOOTH",
+"4 27 OFFCURVE",
+"21 36 OFFCURVE",
+"79 113 CURVE SMOOTH",
+"542 720 LINE",
+"551 719 OFFCURVE",
+"560 719 OFFCURVE",
+"568 720 CURVE",
+"541 146 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"502 299 LINE",
+"489 269 LINE",
+"228 269 LINE",
+"241 299 LINE"
+);
+}
+);
+width = 693;
+}
+);
+unicode = 0041;
+},
+{
+glyphname = B;
+lastChange = "2017-10-17 09:20:22 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {2448, 3264}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Beaux-A Société.JPG";
+locked = "1";
+transform = "{3.15315, 0, 0, 3.15315, -2348, -4654}";
+};
+hints = (
+{
+origin = "{0, 5}";
+scale = "{1.1000, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 3}";
+scale = "{1.2000, -1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"139 0 LINE",
+"200 172 LINE",
+"392 710 LINE",
+"315 710 LINE",
+"125 177 LINE",
+"62 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"335 374 LINE SMOOTH",
+"458 374 OFFCURVE",
+"620 424 OFFCURVE",
+"620 566 CURVE SMOOTH",
+"620 676 OFFCURVE",
+"524 710 OFFCURVE",
+"389 710 CURVE SMOOTH",
+"324 710 LINE",
+"315 684 LINE",
+"369 685 LINE SMOOTH",
+"480 687 OFFCURVE",
+"545 647 OFFCURVE",
+"545 565 CURVE SMOOTH",
+"545 465 OFFCURVE",
+"463 395 OFFCURVE",
+"346 395 CURVE SMOOTH",
+"209 395 LINE",
+"198 374 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"224 0 LINE SMOOTH",
+"425 0 OFFCURVE",
+"571 75 OFFCURVE",
+"571 242 CURVE SMOOTH",
+"571 351 OFFCURVE",
+"476 388 OFFCURVE",
+"327 388 CURVE",
+"320 374 LINE",
+"447 374 OFFCURVE",
+"491 327 OFFCURVE",
+"491 241 CURVE SMOOTH",
+"491 115 OFFCURVE",
+"373 26 OFFCURVE",
+"217 26 CURVE SMOOTH",
+"90 26 LINE",
+"81 0 LINE"
+);
+}
+);
+width = 599;
+}
+);
+unicode = 0042;
+},
+{
+glyphname = C;
+lastChange = "2017-10-17 12:56:58 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"556 11 OFFCURVE",
+"617 119 OFFCURVE",
+"624 247 CURVE",
+"644 247 LINE",
+"642 125 LINE",
+"644 17 LINE",
+"624 17 LINE",
+"608 83 LINE",
+"578 37 OFFCURVE",
+"511 -11 OFFCURVE",
+"422 -11 CURVE",
+"422 11 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"502 721 OFFCURVE",
+"559 682 OFFCURVE",
+"590 642 CURVE",
+"603 690 LINE",
+"623 690 LINE",
+"621 615 LINE",
+"623 525 LINE",
+"603 525 LINE",
+"595 621 OFFCURVE",
+"525 698 OFFCURVE",
+"422 698 CURVE",
+"422 721 LINE"
+);
+}
+);
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"58 468 OFFCURVE",
+"270 720 OFFCURVE",
+"547 720 CURVE SMOOTH",
+"611 720 OFFCURVE",
+"653 698 OFFCURVE",
+"679 680 CURVE SMOOTH",
+"695 669 OFFCURVE",
+"702 662 OFFCURVE",
+"713 662 CURVE SMOOTH",
+"725 662 OFFCURVE",
+"734 674 OFFCURVE",
+"744 690 CURVE",
+"765 690 LINE",
+"742 634 LINE",
+"691 485 LINE",
+"670 485 LINE",
+"703 623 OFFCURVE",
+"651 695 OFFCURVE",
+"544 695 CURVE SMOOTH",
+"344 695 OFFCURVE",
+"138 465 OFFCURVE",
+"138 207 CURVE SMOOTH",
+"138 86 OFFCURVE",
+"179 16 OFFCURVE",
+"313 16 CURVE SMOOTH",
+"428 16 OFFCURVE",
+"548 125 OFFCURVE",
+"606 247 CURVE",
+"627 247 LINE",
+"576 115 LINE",
+"541 17 LINE",
+"520 17 LINE",
+"522 39 OFFCURVE",
+"519 57 OFFCURVE",
+"502 57 CURVE SMOOTH",
+"489 57 OFFCURVE",
+"476 48 OFFCURVE",
+"466 42 CURVE SMOOTH",
+"420 13 OFFCURVE",
+"365 -13 OFFCURVE",
+"302 -13 CURVE SMOOTH",
+"141 -13 OFFCURVE",
+"58 71 OFFCURVE",
+"58 208 CURVE SMOOTH"
+);
+}
+);
+width = 637;
+}
+);
+unicode = 0043;
+},
+{
+glyphname = D;
+lastChange = "2017-10-17 12:56:45 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{654, 1932}, {285, 330}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Dictionn Les Spect La Réha Rabelais.JPG";
+locked = "1";
+transform = "{8.08936, 0, 0, 3, -5423, -6076}";
+};
+guideLines = (
+{
+angle = 270;
+position = "{2870, 356}";
+}
+);
+hints = (
+{
+origin = "{0, 5}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 3}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"114 0 LINE",
+"243 343 LINE",
+"381 710 LINE",
+"308 710 LINE",
+"168 336 LINE",
+"43 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"244 0 LINE SMOOTH",
+"575 0 OFFCURVE",
+"773 194 OFFCURVE",
+"773 440 CURVE SMOOTH",
+"773 615 OFFCURVE",
+"635 710 OFFCURVE",
+"398 710 CURVE SMOOTH",
+"364 710 LINE",
+"355 684 LINE",
+"435 679 LINE SMOOTH",
+"598 669 OFFCURVE",
+"692 588 OFFCURVE",
+"693 440 CURVE SMOOTH",
+"694 238 OFFCURVE",
+"511 26 OFFCURVE",
+"234 26 CURVE SMOOTH",
+"111 26 LINE",
+"101 0 LINE"
+);
+}
+);
+width = 771;
+}
+);
+unicode = 0044;
+},
+{
+glyphname = E;
+lastChange = "2017-10-17 13:05:06 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"407 395 LINE",
+"407 365 LINE",
+"211 365 LINE",
+"211 395 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"156 0 LINE",
+"156 710 LINE",
+"226 710 LINE",
+"592 709 LINE",
+"602 546 LINE",
+"585 546 LINE",
+"582 626 OFFCURVE",
+"538 687 OFFCURVE",
+"442 687 CURVE SMOOTH",
+"303 688 OFFCURVE",
+"313 685 OFFCURVE",
+"313 685 CURVE SMOOTH",
+"263 685 OFFCURVE",
+"246 656 OFFCURVE",
+"246 597 CURVE SMOOTH",
+"245 440 LINE",
+"245 115 LINE SMOOTH",
+"245 56 OFFCURVE",
+"262 27 OFFCURVE",
+"356 27 CURVE SMOOTH",
+"442 26 LINE SMOOTH",
+"558 25 OFFCURVE",
+"608 90 OFFCURVE",
+"618 210 CURVE",
+"635 210 LINE",
+"625 0 LINE",
+"227 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"457 518 LINE",
+"457 229 LINE",
+"435 229 LINE",
+"435 331 OFFCURVE",
+"407 365 OFFCURVE",
+"364 365 CURVE",
+"364 395 LINE",
+"409 395 OFFCURVE",
+"430 409 OFFCURVE",
+"435 518 CURVE"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{0, 0}, {2448, 3264}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/État.JPG";
+locked = "1";
+transform = "{2.67199, -0.04664, 0.04664, 2.67199, -3221, -3696}";
+};
+hints = (
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"44 0 LINE",
+"287 710 LINE",
+"343 710 LINE",
+"670 709 LINE",
+"670 526 LINE",
+"650 526 LINE",
+"650 615 OFFCURVE",
+"621 685 OFFCURVE",
+"525 685 CURVE SMOOTH",
+"356 685 LINE",
+"171 147 LINE SMOOTH",
+"140 56 OFFCURVE",
+"161 24 OFFCURVE",
+"237 24 CURVE SMOOTH",
+"395 25 LINE SMOOTH",
+"511 26 OFFCURVE",
+"561 90 OFFCURVE",
+"613 210 CURVE",
+"633 210 LINE",
+"559 0 LINE",
+"123 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"447 388 LINE",
+"438 362 LINE",
+"212 362 LINE",
+"221 388 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"242 377 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"539 508 LINE",
+"439 226 LINE",
+"417 226 LINE",
+"454 328 OFFCURVE",
+"438 362 OFFCURVE",
+"395 362 CURVE",
+"404 388 LINE",
+"447 388 OFFCURVE",
+"474 399 OFFCURVE",
+"517 508 CURVE"
+);
+}
+);
+width = 654;
+}
+);
+unicode = 0045;
+},
+{
+glyphname = F;
+lastChange = "2017-10-17 12:21:55 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1429.818, 1020}, {229.091, 360}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187504.jpg";
+locked = "1";
+transform = "{2.6125, 0, 3.66922, 2.75, -8345, -3085}";
+};
+hints = (
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 10}";
+scale = "{1.3500, 1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"33 0 LINE",
+"276 710 LINE",
+"333 710 LINE",
+"660 709 LINE",
+"660 526 LINE",
+"640 526 LINE",
+"640 615 OFFCURVE",
+"611 685 OFFCURVE",
+"515 685 CURVE SMOOTH",
+"346 685 LINE",
+"113 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"427 358 LINE",
+"418 332 LINE",
+"192 332 LINE",
+"201 358 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"232 377 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"519 478 LINE",
+"419 196 LINE",
+"397 196 LINE",
+"434 298 OFFCURVE",
+"418 332 OFFCURVE",
+"375 332 CURVE",
+"384 358 LINE",
+"427 358 OFFCURVE",
+"454 369 OFFCURVE",
+"497 478 CURVE"
+);
+}
+);
+width = 549;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{1429.818, 1020}, {229.091, 360}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187504.jpg";
+locked = "1";
+transform = "{2.75, 0, 0, 2.75, -3932, -3085}";
+};
+hints = (
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-cap";
+},
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-cap";
+options = 1;
+},
+{
+origin = "{0, 14}";
+type = Corner;
+name = "_corner-cap";
+}
+);
+layerId = "9819B011-9A5C-4824-A6C8-3CFD034EFA7B";
+name = "Oct 16 17, 14:35";
+paths = (
+{
+closed = 1;
+nodes = (
+"169 0 LINE",
+"169 710 LINE",
+"225 710 LINE",
+"605 709 LINE",
+"617 548 LINE",
+"596 548 LINE",
+"585 683 OFFCURVE",
+"479 687 OFFCURVE",
+"413 687 CURVE SMOOTH",
+"356 687 LINE SMOOTH",
+"275 687 OFFCURVE",
+"245 674 OFFCURVE",
+"245 597 CURVE SMOOTH",
+"244 345 LINE",
+"244 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"415 378 LINE",
+"415 353 LINE",
+"219 353 LINE",
+"219 378 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"465 499 LINE",
+"465 217 LINE",
+"443 217 LINE",
+"443 319 OFFCURVE",
+"415 353 OFFCURVE",
+"372 353 CURVE",
+"372 378 LINE",
+"415 378 OFFCURVE",
+"438 390 OFFCURVE",
+"443 499 CURVE"
+);
+}
+);
+width = 630;
+}
+);
+unicode = 0046;
+},
+{
+glyphname = G;
+lastChange = "2017-10-17 11:58:04 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"63 488 OFFCURVE",
+"275 720 OFFCURVE",
+"552 720 CURVE SMOOTH",
+"616 720 OFFCURVE",
+"658 698 OFFCURVE",
+"684 680 CURVE SMOOTH",
+"700 669 OFFCURVE",
+"707 662 OFFCURVE",
+"718 662 CURVE SMOOTH",
+"730 662 OFFCURVE",
+"739 674 OFFCURVE",
+"749 690 CURVE",
+"770 690 LINE",
+"747 634 LINE",
+"696 485 LINE",
+"675 485 LINE",
+"708 623 OFFCURVE",
+"656 695 OFFCURVE",
+"549 695 CURVE SMOOTH",
+"349 695 OFFCURVE",
+"143 465 OFFCURVE",
+"143 207 CURVE SMOOTH",
+"143 86 OFFCURVE",
+"184 16 OFFCURVE",
+"318 16 CURVE SMOOTH",
+"433 16 OFFCURVE",
+"553 125 OFFCURVE",
+"611 247 CURVE",
+"632 247 LINE",
+"581 115 LINE",
+"546 17 LINE",
+"525 17 LINE",
+"527 39 OFFCURVE",
+"524 57 OFFCURVE",
+"507 57 CURVE SMOOTH",
+"494 57 OFFCURVE",
+"481 48 OFFCURVE",
+"471 42 CURVE SMOOTH",
+"424 14 OFFCURVE",
+"370 -13 OFFCURVE",
+"307 -13 CURVE SMOOTH",
+"146 -13 OFFCURVE",
+"63 71 OFFCURVE",
+"63 208 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"454 290 LINE",
+"446 270 LINE",
+"491 266 LINE SMOOTH",
+"525 263 OFFCURVE",
+"544 245 OFFCURVE",
+"533 213 CURVE SMOOTH",
+"509 144 LINE SMOOTH",
+"483 68 OFFCURVE",
+"387 16 OFFCURVE",
+"299 16 CURVE SMOOTH",
+"194 16 OFFCURVE",
+"142 86 OFFCURVE",
+"142 207 CURVE SMOOTH",
+"142 445 OFFCURVE",
+"329 695 OFFCURVE",
+"520 695 CURVE SMOOTH",
+"623 695 OFFCURVE",
+"672 623 OFFCURVE",
+"641 485 CURVE",
+"661 485 LINE",
+"710 634 LINE",
+"732 690 LINE",
+"712 690 LINE",
+"702 674 OFFCURVE",
+"693 662 OFFCURVE",
+"682 662 CURVE SMOOTH",
+"671 662 OFFCURVE",
+"664 669 OFFCURVE",
+"649 680 CURVE SMOOTH",
+"625 698 OFFCURVE",
+"585 720 OFFCURVE",
+"524 720 CURVE SMOOTH",
+"259 720 OFFCURVE",
+"58 446 OFFCURVE",
+"58 206 CURVE SMOOTH",
+"58 89 OFFCURVE",
+"135 -13 OFFCURVE",
+"289 -13 CURVE SMOOTH",
+"399 -13 OFFCURVE",
+"451 35 OFFCURVE",
+"497 63 CURVE SMOOTH",
+"510 71 OFFCURVE",
+"523 79 OFFCURVE",
+"539 79 CURVE SMOOTH",
+"552 79 OFFCURVE",
+"568 71 OFFCURVE",
+"572 57 CURVE",
+"596 68 LINE",
+"587 79 OFFCURVE",
+"582 89 OFFCURVE",
+"589 110 CURVE SMOOTH",
+"626 213 LINE SMOOTH",
+"636 240 OFFCURVE",
+"658 262 OFFCURVE",
+"691 266 CURVE SMOOTH",
+"728 270 LINE",
+"736 290 LINE",
+"605 286 LINE"
+);
+}
+);
+width = 708;
+}
+);
+unicode = 0047;
+},
+{
+glyphname = H;
+lastChange = "2017-10-17 13:24:03 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1328.244, 1380.534}, {343.511, 377.863}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187537.jpg";
+locked = "1";
+transform = "{2.42762, -0.046, 3.53947, 2.62, -8971, -3827}";
+};
+hints = (
+{
+origin = "{0, 0}";
+scale = "{-1.2000, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 3}";
+scale = "{1.1000, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{1, 0}";
+scale = "{1.3000, -1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{1, 5}";
+scale = "{1.2000, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{1, 2}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{1, 3}";
+scale = "{-1.3000, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 2}";
+scale = "{1.2000, -1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"577 0 LINE",
+"828 710 LINE",
+"751 710 LINE",
+"500 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"113 0 LINE",
+"178 184 LINE",
+"364 710 LINE",
+"287 710 LINE",
+"103 188 LINE",
+"36 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"631 345 LINE",
+"642 376 LINE",
+"240 376 LINE",
+"229 345 LINE"
+);
+}
+);
+width = 746;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{1328.244, 1380.534}, {343.511, 377.863}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187537.jpg";
+locked = "1";
+transform = "{2.62, -0.046, 0.046, 2.62, -3550, -3827}";
+};
+hints = (
+{
+origin = "{1, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{1, 2}";
+scale = "{1, -1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "D4414EA3-B7D5-445B-9354-C98751CD83C0";
+name = bdc;
+paths = (
+{
+closed = 1;
+nodes = (
+"656 354 LINE",
+"656 384 LINE",
+"244 384 LINE",
+"244 354 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"729 614 LINE",
+"729 0 LINE",
+"659 0 LINE",
+"659 614 LINE"
+);
+}
+);
+width = 900;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{1328.244, 1380.534}, {343.511, 377.863}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187537.jpg";
+locked = "1";
+transform = "{2.62, -0.046, 0.046, 2.62, -3550, -3827}";
+};
+hints = (
+{
+origin = "{1, 2}";
+scale = "{0.9, -1}";
+type = Corner;
+name = "_corner-cap";
+options = 1;
+},
+{
+origin = "{1, 1}";
+scale = "{0.9, 1}";
+type = Corner;
+name = "_corner-cap";
+},
+{
+origin = "{0, 2}";
+scale = "{0.9, -1}";
+type = Corner;
+name = "_corner-cap";
+options = 1;
+},
+{
+origin = "{0, 1}";
+scale = "{0.9, 1}";
+type = Corner;
+name = "_corner-cap";
+},
+{
+origin = "{1, 3}";
+scale = "{0.9, 1}";
+type = Corner;
+name = "_corner-cap";
+},
+{
+origin = "{1, 0}";
+scale = "{-0.9, 1}";
+type = Corner;
+name = "_corner-cap";
+options = 1;
+},
+{
+origin = "{0, 3}";
+scale = "{0.9, 1}";
+type = Corner;
+name = "_corner-cap";
+},
+{
+origin = "{0, 0}";
+scale = "{-0.9, 1}";
+type = Corner;
+name = "_corner-cap";
+options = 1;
+}
+);
+layerId = "BA4FE908-487B-4283-9277-3D1B1A7BDAC7";
+name = "Oct 16 17, 13:57";
+paths = (
+{
+closed = 1;
+nodes = (
+"732 0 LINE",
+"731 710 LINE",
+"656 710 LINE",
+"657 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 0 LINE",
+"255 710 LINE",
+"180 710 LINE",
+"181 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"660 354 LINE",
+"660 384 LINE",
+"248 384 LINE",
+"248 354 LINE"
+);
+}
+);
+width = 900;
+}
+);
+unicode = 0048;
+},
+{
+glyphname = I;
+lastChange = "2017-10-17 12:13:56 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1036.296, 1301.852}, {222.222, 366.667}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/IMG_3190.JPG";
+locked = "1";
+transform = "{2.54531, -0.029, 3.65675, 2.72, -8317, -3787}";
+};
+hints = (
+{
+origin = "{0, 2}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 3}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 1}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 0}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"287 710 LINE",
+"367 710 LINE",
+"116 0 LINE",
+"41 0 LINE"
+);
+}
+);
+width = 305;
+}
+);
+unicode = 0049;
+},
+{
+glyphname = J;
+lastChange = "2017-10-17 12:13:41 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{217.96, 211.469}, {9.121, 15.05}}";
+imagePath = "../../../../1788-89 Epreuves des caracteres de Rolland et Jacob/p19.jpg";
+locked = "1";
+transform = "{63.33555, 0, 88.95396, 66.669, -7879, -14382}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"72 107 OFFCURVE",
+"63 130 OFFCURVE",
+"30 130 CURVE SMOOTH",
+"-9 130 OFFCURVE",
+"-33 100 OFFCURVE",
+"-44 71 CURVE SMOOTH",
+"-61 21 OFFCURVE",
+"-16 -9 OFFCURVE",
+"44 -9 CURVE SMOOTH",
+"139 -9 OFFCURVE",
+"214 44 OFFCURVE",
+"248 140 CURVE SMOOTH",
+"415 610 LINE SMOOTH",
+"433 661 OFFCURVE",
+"448 687 OFFCURVE",
+"495 689 CURVE SMOOTH",
+"571 693 LINE",
+"577 713 LINE",
+"408 710 LINE",
+"237 713 LINE",
+"231 693 LINE",
+"311 689 LINE SMOOTH",
+"358 687 OFFCURVE",
+"354 661 OFFCURVE",
+"335 610 CURVE SMOOTH",
+"162 121 LINE SMOOTH",
+"140 62 OFFCURVE",
+"102 10 OFFCURVE",
+"51 10 CURVE SMOOTH",
+"13 10 OFFCURVE",
+"54 56 OFFCURVE",
+"64 86 CURVE SMOOTH"
+);
+}
+);
+width = 409;
+}
+);
+unicode = 004A;
+},
+{
+glyphname = K;
+lastChange = "2017-10-17 12:17:53 +0000";
+layers = (
+{
+hints = (
+{
+origin = "{0, 2}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 3}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 5}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"110 0 LINE",
+"233 348 LINE",
+"361 710 LINE",
+"287 710 LINE",
+"153 330 LINE",
+"36 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"570 585 LINE SMOOTH",
+"608 619 OFFCURVE",
+"689 688 OFFCURVE",
+"748 690 CURVE SMOOTH",
+"778 691 LINE",
+"786 713 LINE",
+"716 709 OFFCURVE",
+"589 709 OFFCURVE",
+"527 713 CURVE",
+"519 691 LINE",
+"569 688 LINE SMOOTH",
+"627 685 OFFCURVE",
+"587 633 OFFCURVE",
+"512 565 CURVE SMOOTH",
+"209 293 LINE",
+"197 246 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"381 53 OFFCURVE",
+"353 22 OFFCURVE",
+"290 22 CURVE SMOOTH",
+"265 22 LINE",
+"256 -3 LINE",
+"415 0 LINE",
+"551 -3 LINE",
+"560 22 LINE",
+"550 22 LINE SMOOTH",
+"500 22 OFFCURVE",
+"472 53 OFFCURVE",
+"447 111 CURVE SMOOTH",
+"327 389 LINE",
+"272 327 LINE",
+"365 94 LINE SMOOTH"
+);
+}
+);
+width = 632;
+}
+);
+unicode = 004B;
+},
+{
+glyphname = L;
+lastChange = "2017-10-17 12:51:03 +0000";
+layers = (
+{
+hints = (
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 2}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"35 0 LINE",
+"287 710 LINE",
+"362 710 LINE",
+"167 161 LINE SMOOTH",
+"131 60 OFFCURVE",
+"128 26 OFFCURVE",
+"241 26 CURVE SMOOTH",
+"316 26 LINE SMOOTH",
+"432 25 OFFCURVE",
+"505 90 OFFCURVE",
+"557 210 CURVE",
+"574 210 LINE",
+"489 -3 LINE",
+"92 0 LINE"
+);
+}
+);
+width = 583;
+}
+);
+unicode = 004C;
+},
+{
+glyphname = M;
+lastChange = "2017-10-17 13:13:09 +0000";
+layers = (
+{
+hints = (
+{
+origin = "{0, 12}";
+scale = "{1.3000, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 13}";
+scale = "{-1.2000, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 0}";
+scale = "{-1.2000, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 20}";
+scale = "{1.6000, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 1}";
+scale = "{1.3000, 1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"53 0 LINE",
+"330 710 LINE",
+"401 710 LINE",
+"431 104 LINE",
+"421 111 LINE",
+"898 710 LINE",
+"1070 710 LINE",
+"1069 685 LINE",
+"1020 681 LINE SMOOTH",
+"959 676 OFFCURVE",
+"952 658 OFFCURVE",
+"934 607 CURVE",
+"726 1 LINE",
+"651 1 LINE",
+"882 669 LINE",
+"897 666 LINE",
+"371 7 LINE",
+"360 7 LINE",
+"330 670 LINE",
+"349 673 LINE",
+"86 0 LINE"
+);
+}
+);
+width = 948;
+}
+);
+unicode = 004D;
+},
+{
+glyphname = N;
+lastChange = "2017-10-17 13:14:47 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1823, 1956.053}, {43.684, 52.105}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Images/B543956101_050370_0013.jpg";
+locked = "1";
+transform = "{18.05, 0, 25.35099, 19, -473.663, 0}";
+};
+hints = (
+{
+origin = "{0, 0}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 1}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{1, 5}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{1, 4}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"82 0 LINE",
+"52 0 LINE",
+"303 703 LINE",
+"333 703 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"669 384 LINE",
+"544 0 LINE",
+"514 0 LINE",
+"639 383 LINE",
+"746 710 LINE",
+"776 710 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"352 709 LINE",
+"567 116 LINE",
+"514 0 LINE",
+"293 625 LINE SMOOTH",
+"280 663 OFFCURVE",
+"254 683 OFFCURVE",
+"219 684 CURVE SMOOTH",
+"192 685 LINE",
+"194 710 LINE"
+);
+}
+);
+width = 708;
+}
+);
+unicode = 004E;
+},
+{
+glyphname = O;
+lastChange = "2017-10-17 13:26:01 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"52 464.842 OFFCURVE",
+"289.701 720.678 OFFCURVE",
+"549.51 721 CURVE SMOOTH",
+"713.151 720.805 OFFCURVE",
+"786 626.862 OFFCURVE",
+"786 494 CURVE SMOOTH",
+"786 242.158 OFFCURVE",
+"550.296 -10.683 OFFCURVE",
+"289.491 -11 CURVE SMOOTH",
+"125.847 -10.807 OFFCURVE",
+"52 82.137 OFFCURVE",
+"52 214 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"137 85 OFFCURVE",
+"184.874 14.218 OFFCURVE",
+"298.476 14 CURVE SMOOTH",
+"506.287 14.435 OFFCURVE",
+"701 299 OFFCURVE",
+"701 529 CURVE SMOOTH",
+"701 624 OFFCURVE",
+"653.126 695.779 OFFCURVE",
+"540.521 696 CURVE SMOOTH",
+"332.71 695.559 OFFCURVE",
+"137 409 OFFCURVE",
+"137 180 CURVE SMOOTH"
+);
+}
+);
+width = 801;
+}
+);
+unicode = 004F;
+},
+{
+glyphname = P;
+lastChange = "2017-10-17 13:25:32 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1321.132, 1329.434}, {266.038, 373.585}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187519.jpg";
+locked = "1";
+transform = "{2.5175, 0, 3.5358, 2.65, -8873.814, -3803}";
+};
+hints = (
+{
+origin = "{0, 3}";
+scale = "{1.3000, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"58 0 LINE",
+"311 710 LINE",
+"392 710 LINE",
+"133 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"214 357 LINE",
+"257 341 OFFCURVE",
+"296 339 OFFCURVE",
+"343 339 CURVE SMOOTH",
+"479 339 OFFCURVE",
+"586 403 OFFCURVE",
+"586 535 CURVE SMOOTH",
+"586 630 OFFCURVE",
+"514 685 OFFCURVE",
+"375 685 CURVE SMOOTH",
+"355 685 LINE",
+"364 710 LINE",
+"407 710 LINE SMOOTH",
+"586 710 OFFCURVE",
+"671 653 OFFCURVE",
+"671 535 CURVE SMOOTH",
+"671 369 OFFCURVE",
+"492 315 OFFCURVE",
+"358 315 CURVE SMOOTH",
+"294 315 OFFCURVE",
+"255 324 OFFCURVE",
+"203 345 CURVE"
+);
+}
+);
+width = 655;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{1321.132, 1329.434}, {266.038, 373.585}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187519.jpg";
+locked = "1";
+transform = "{2.65, 0, 0, 2.65, -3501, -3803}";
+};
+hints = (
+{
+origin = "{0, 4}";
+scale = "{1.2, 1.1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 0}";
+scale = "{-1.2, 1.1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 1}";
+scale = "{1.2, 1.1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{2, 0}";
+scale = "{-1.2, 1.1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{2, 1}";
+scale = "{1.2, 1.1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{2, 4}";
+scale = "{1.2, 1.1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "05C69439-2CAC-448C-857A-AB981370A93B";
+name = "Oct 16 17, 14:56";
+paths = (
+{
+closed = 1;
+nodes = (
+"184 0 LINE",
+"185 710 LINE",
+"260 710 LINE",
+"259 172 LINE",
+"259 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"207 341 LINE",
+"376 341 LINE SMOOTH",
+"478 341 OFFCURVE",
+"558 401 OFFCURVE",
+"558 517 CURVE SMOOTH",
+"558 639 OFFCURVE",
+"452 690 OFFCURVE",
+"358 685 CURVE SMOOTH",
+"238 685 LINE",
+"238 711 LINE",
+"360 710 LINE SMOOTH",
+"528 710 OFFCURVE",
+"638 664 OFFCURVE",
+"638 514 CURVE SMOOTH",
+"638 337 OFFCURVE",
+"477 315 OFFCURVE",
+"388 315 CURVE",
+"207 315 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"184 0 LINE",
+"185 710 LINE",
+"260 710 LINE",
+"259 172 LINE",
+"259 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"207 341 LINE",
+"376 341 LINE SMOOTH",
+"478 341 OFFCURVE",
+"558 401 OFFCURVE",
+"558 517 CURVE SMOOTH",
+"558 639 OFFCURVE",
+"452 690 OFFCURVE",
+"358 685 CURVE SMOOTH",
+"238 685 LINE",
+"238 711 LINE",
+"360 710 LINE SMOOTH",
+"528 710 OFFCURVE",
+"638 664 OFFCURVE",
+"638 514 CURVE SMOOTH",
+"638 337 OFFCURVE",
+"477 315 OFFCURVE",
+"388 315 CURVE",
+"207 315 LINE"
+);
+}
+);
+width = 655;
+}
+);
+unicode = 0050;
+},
+{
+glyphname = Q;
+lastChange = "2017-10-17 13:32:01 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"326 -1 LINE",
+"113 -82 LINE",
+"131 -79 OFFCURVE",
+"151 -78 OFFCURVE",
+"179 -78 CURVE SMOOTH",
+"418 -78 OFFCURVE",
+"406 -250 OFFCURVE",
+"519 -250 CURVE SMOOTH",
+"571 -250 OFFCURVE",
+"606 -211 OFFCURVE",
+"610 -165 CURVE",
+"632 -165 LINE",
+"623 -261 OFFCURVE",
+"554 -299 OFFCURVE",
+"456 -299 CURVE SMOOTH",
+"257 -299 OFFCURVE",
+"277 -102 OFFCURVE",
+"98 -102 CURVE SMOOTH",
+"60 -102 OFFCURVE",
+"28 -117 OFFCURVE",
+"11 -139 CURVE SMOOTH",
+"-11 -167 OFFCURVE",
+"-30 -180 OFFCURVE",
+"-59 -180 CURVE SMOOTH",
+"-80 -180 OFFCURVE",
+"-92 -167 OFFCURVE",
+"-86 -148 CURVE SMOOTH",
+"-72 -105 OFFCURVE",
+"-25 -86 OFFCURVE",
+"62 -86 CURVE",
+"281 -3 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"52 464.842 OFFCURVE",
+"289.701 720.678 OFFCURVE",
+"549.51 721 CURVE SMOOTH",
+"713.151 720.805 OFFCURVE",
+"786 626.862 OFFCURVE",
+"786 494 CURVE SMOOTH",
+"786 242.158 OFFCURVE",
+"550.296 -10.683 OFFCURVE",
+"289.491 -11 CURVE SMOOTH",
+"125.847 -10.807 OFFCURVE",
+"52 82.137 OFFCURVE",
+"52 214 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"137 85 OFFCURVE",
+"184.874 14.218 OFFCURVE",
+"298.476 14.001 CURVE SMOOTH",
+"506.287 14.435 OFFCURVE",
+"701 299 OFFCURVE",
+"701 529 CURVE SMOOTH",
+"701 624 OFFCURVE",
+"653.126 695.779 OFFCURVE",
+"540.521 695.999 CURVE SMOOTH",
+"332.71 695.559 OFFCURVE",
+"137 409 OFFCURVE",
+"137 180 CURVE SMOOTH"
+);
+}
+);
+width = 800;
+}
+);
+unicode = 0051;
+},
+{
+glyphname = R;
+lastChange = "2017-10-17 13:42:31 +0000";
+layers = (
+{
+background = {
+hints = (
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 3}";
+scale = "{1.3, 1}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"34 0 LINE",
+"287 710 LINE",
+"368 710 LINE",
+"109 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"190 357 LINE",
+"233 341 OFFCURVE",
+"272 339 OFFCURVE",
+"319 339 CURVE SMOOTH",
+"455 339 OFFCURVE",
+"562 403 OFFCURVE",
+"562 535 CURVE SMOOTH",
+"562 630 OFFCURVE",
+"490 685 OFFCURVE",
+"351 685 CURVE SMOOTH",
+"331 685 LINE",
+"340 710 LINE",
+"383 710 LINE SMOOTH",
+"562 710 OFFCURVE",
+"647 653 OFFCURVE",
+"647 535 CURVE SMOOTH",
+"647 369 OFFCURVE",
+"468 315 OFFCURVE",
+"334 315 CURVE SMOOTH",
+"270 315 OFFCURVE",
+"231 324 OFFCURVE",
+"179 345 CURVE"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{1436.296, 1029.63}, {296.296, 366.667}}";
+imagePath = "Workshop Baskerville/1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187518.jpg";
+locked = "1";
+transform = "{2.565, 0, 3.60251, 2.7, -8260, -3060}";
+};
+hints = (
+{
+origin = "{0, 2}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 0}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 5}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"36 0 LINE",
+"92 156 LINE",
+"289 710 LINE",
+"364 710 LINE",
+"172 172 LINE",
+"111 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"418 340 OFFCURVE",
+"474 299 OFFCURVE",
+"487 227 CURVE SMOOTH",
+"503 136 OFFCURVE",
+"520 19 OFFCURVE",
+"572 19 CURVE SMOOTH",
+"587 19 OFFCURVE",
+"607 19 OFFCURVE",
+"629 24 CURVE",
+"629 0 LINE",
+"614 -5 OFFCURVE",
+"594 -13 OFFCURVE",
+"545 -13 CURVE SMOOTH",
+"324 -13 OFFCURVE",
+"502 347 OFFCURVE",
+"280 347 CURVE",
+"294 356 LINE",
+"345 354 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"190 371 LINE",
+"319 369 LINE SMOOTH",
+"455 367 OFFCURVE",
+"562 413 OFFCURVE",
+"562 545 CURVE SMOOTH",
+"562 640 OFFCURVE",
+"490 685 OFFCURVE",
+"351 685 CURVE SMOOTH",
+"331 685 LINE",
+"340 710 LINE",
+"383 710 LINE SMOOTH",
+"562 710 OFFCURVE",
+"647 663 OFFCURVE",
+"647 545 CURVE SMOOTH",
+"647 379 OFFCURVE",
+"468 345 OFFCURVE",
+"334 345 CURVE SMOOTH",
+"182 349 LINE"
+);
+}
+);
+width = 694;
+}
+);
+unicode = 0052;
+},
+{
+glyphname = S;
+lastChange = "2017-10-17 13:56:42 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"338 445 OFFCURVE",
+"285 485 OFFCURVE",
+"285 565 CURVE SMOOTH",
+"285 644 OFFCURVE",
+"346 695 OFFCURVE",
+"430 695 CURVE SMOOTH",
+"515 695 OFFCURVE",
+"561 628 OFFCURVE",
+"542 530 CURVE SMOOTH",
+"535 494 LINE",
+"555 494 LINE",
+"601 633 LINE",
+"623 689 LINE",
+"603 689 LINE",
+"593 676 OFFCURVE",
+"586 668 OFFCURVE",
+"574 668 CURVE SMOOTH",
+"561 668 OFFCURVE",
+"553 675 OFFCURVE",
+"543 682 CURVE SMOOTH",
+"523 696 OFFCURVE",
+"487 720 OFFCURVE",
+"429 720 CURVE SMOOTH",
+"282 720 OFFCURVE",
+"200 640 OFFCURVE",
+"200 522 CURVE SMOOTH",
+"200 435 OFFCURVE",
+"255 397 OFFCURVE",
+"309 353 CURVE SMOOTH",
+"394 283 OFFCURVE",
+"431 242 OFFCURVE",
+"431 163 CURVE SMOOTH",
+"431 79 OFFCURVE",
+"354 16 OFFCURVE",
+"270 16 CURVE SMOOTH",
+"185 16 OFFCURVE",
+"112 81 OFFCURVE",
+"112 167 CURVE SMOOTH",
+"112 192 OFFCURVE",
+"116 220 OFFCURVE",
+"123 248 CURVE",
+"103 248 LINE",
+"58 116 LINE",
+"22 18 LINE",
+"42 18 LINE",
+"55 40 OFFCURVE",
+"71 58 OFFCURVE",
+"88 58 CURVE SMOOTH",
+"100 58 OFFCURVE",
+"107 49 OFFCURVE",
+"113 43 CURVE SMOOTH",
+"134 22 OFFCURVE",
+"197 -10 OFFCURVE",
+"262 -10 CURVE SMOOTH",
+"424 -10 OFFCURVE",
+"515 83 OFFCURVE",
+"516 220 CURVE SMOOTH",
+"516 284 OFFCURVE",
+"476 330 OFFCURVE",
+"392 400 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0053;
+},
+{
+glyphname = T;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+hints = (
+{
+origin = "{0, 0}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 1}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"310 0 LINE",
+"235 0 LINE",
+"416 511 LINE",
+"442 586 OFFCURVE",
+"442 586 OFFCURVE",
+"454 620 CURVE SMOOTH",
+"469 660 OFFCURVE",
+"460 689 OFFCURVE",
+"412 689 CURVE SMOOTH",
+"352 689 OFFCURVE",
+"255 695 OFFCURVE",
+"204 655 CURVE SMOOTH",
+"178 634 OFFCURVE",
+"151 614 OFFCURVE",
+"80 503 CURVE",
+"62 510 LINE",
+"169 713 LINE",
+"518 710 LINE",
+"884 713 LINE",
+"849 510 LINE",
+"825 503 LINE",
+"832 614 OFFCURVE",
+"819 634 OFFCURVE",
+"807 655 CURVE SMOOTH",
+"786 695 OFFCURVE",
+"675 689 OFFCURVE",
+"615 689 CURVE SMOOTH",
+"567 689 OFFCURVE",
+"544 662 OFFCURVE",
+"529 620 CURVE SMOOTH",
+"517 586 OFFCURVE",
+"517 586 OFFCURVE",
+"491 511 CURVE"
+);
+}
+);
+width = 800;
+}
+);
+unicode = 0054;
+},
+{
+glyphname = U;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1243.093, 2255.185}, {79.054, 101.64}}";
+imagePath = "1790 La Constitution Française de Jacob/JACOB-constitution-179001.jpg";
+locked = "1";
+transform = "{9.47887, 0.17, 12.83288, 9.739, -11590.563, 0}";
+};
+hints = (
+{
+origin = "{0, 5}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{0, 6}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 17}";
+scale = "{-1, 1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+},
+{
+origin = "{0, 16}";
+type = Corner;
+name = "_corner-bdc";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"69 -11 OFFCURVE",
+"35 52 OFFCURVE",
+"90 204 CURVE SMOOTH",
+"162 409 OFFCURVE",
+"231 603 OFFCURVE",
+"269 710 CURVE",
+"344 710 LINE",
+"310 614 OFFCURVE",
+"235 405 OFFCURVE",
+"165 204 CURVE SMOOTH",
+"110 51 OFFCURVE",
+"163 15 OFFCURVE",
+"280 15 CURVE SMOOTH",
+"433 15 OFFCURVE",
+"514 81 OFFCURVE",
+"582 274 CURVE SMOOTH",
+"737 710 LINE",
+"765 710 LINE",
+"622 308 LINE SMOOTH",
+"545 91 OFFCURVE",
+"459 -11 OFFCURVE",
+"271 -11 CURVE SMOOTH"
+);
+}
+);
+width = 770;
+}
+);
+unicode = 0055;
+},
+{
+glyphname = V;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1421.943, 833.867}, {330.508, 376.095}}";
+imagePath = "1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187505.jpg";
+locked = "1";
+transform = "{2.5004, 0, 3.51178, 2.632, -7331.814, -2475}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"489 710 LINE",
+"482 692 LINE",
+"439 688 LINE SMOOTH",
+"381 683 OFFCURVE",
+"343 659 OFFCURVE",
+"347 594 CURVE SMOOTH",
+"380 70 LINE",
+"339 43 LINE",
+"787 621 LINE SMOOTH",
+"823 667 OFFCURVE",
+"798 682 OFFCURVE",
+"752 688 CURVE SMOOTH",
+"720 692 LINE",
+"727 710 LINE",
+"859 708 LINE",
+"984 710 LINE",
+"977 692 LINE",
+"933 688 LINE SMOOTH",
+"888 684 OFFCURVE",
+"852 665 OFFCURVE",
+"824 628 CURVE SMOOTH",
+"334 -16 LINE",
+"314 -16 LINE",
+"259 593 LINE SMOOTH",
+"251 682 OFFCURVE",
+"244 684 OFFCURVE",
+"144 684 CURVE",
+"153 711 LINE",
+"394 710 LINE"
+);
+}
+);
+width = 870;
+}
+);
+unicode = 0056;
+},
+{
+glyphname = W;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"334 -16 LINE",
+"354 -16 LINE",
+"586 628 LINE SMOOTH",
+"599 665 OFFCURVE",
+"630 684 OFFCURVE",
+"674 688 CURVE SMOOTH",
+"717 692 LINE",
+"717 710 LINE",
+"460 710 LINE",
+"460 692 LINE",
+"493 688 LINE SMOOTH",
+"540 682 OFFCURVE",
+"569 667 OFFCURVE",
+"552 621 CURVE SMOOTH",
+"357 82 LINE",
+"386 89 LINE",
+"224 594 LINE SMOOTH",
+"210 638 OFFCURVE",
+"226 683 OFFCURVE",
+"283 688 CURVE SMOOTH",
+"326 692 LINE",
+"326 710 LINE",
+"248 710 LINE SMOOTH",
+"172 710 OFFCURVE",
+"106 662 OFFCURVE",
+"129 593 CURVE SMOOTH"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{1180, 1157.037}, {444.444, 366.667}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187514.jpg";
+locked = "1";
+transform = "{2.565, 0, 3.60251, 2.7, -8104.894, -3404}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"644 -16 LINE",
+"664 -16 LINE",
+"1124 628 LINE SMOOTH",
+"1150 665 OFFCURVE",
+"1188 684 OFFCURVE",
+"1233 688 CURVE SMOOTH",
+"1277 692 LINE",
+"1284 710 LINE",
+"1159 708 LINE",
+"1027 710 LINE",
+"1020 692 LINE",
+"1052 688 LINE SMOOTH",
+"1098 682 OFFCURVE",
+"1121 667 OFFCURVE",
+"1087 621 CURVE SMOOTH",
+"701 82 LINE",
+"723 82 LINE",
+"750 594 LINE SMOOTH",
+"753 638 OFFCURVE",
+"784 683 OFFCURVE",
+"842 688 CURVE SMOOTH",
+"885 692 LINE",
+"892 710 LINE",
+"797 710 LINE SMOOTH",
+"727 710 OFFCURVE",
+"663 652 OFFCURVE",
+"662 593 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"707 657 OFFCURVE",
+"700 710 OFFCURVE",
+"637 710 CURVE SMOOTH",
+"581 710 LINE",
+"574 692 LINE",
+"602 690 LINE SMOOTH",
+"665 685 OFFCURVE",
+"673 652 OFFCURVE",
+"634 597 CURVE SMOOTH",
+"271 82 LINE",
+"289 82 LINE",
+"319 628 LINE SMOOTH",
+"321 677 OFFCURVE",
+"369 689 OFFCURVE",
+"413 691 CURVE SMOOTH",
+"439 692 LINE",
+"446 710 LINE",
+"281 708 LINE",
+"126 710 LINE",
+"119 692 LINE",
+"161 688 LINE SMOOTH",
+"203 684 OFFCURVE",
+"233 669 OFFCURVE",
+"232 632 CURVE SMOOTH",
+"211 -16 LINE",
+"231 -16 LINE",
+"679 617 LINE SMOOTH"
+);
+}
+);
+width = 1158;
+}
+);
+unicode = 0057;
+},
+{
+glyphname = X;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1307.627, 1364.547}, {297.969, 378.192}}";
+imagePath = "1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187513.jpg";
+locked = "1";
+transform = "{2.4871, 0, 3.4931, 2.618, -8865.094, -3852}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"411 423 LINE",
+"644 636 LINE SMOOTH",
+"674 663 OFFCURVE",
+"672 684 OFFCURVE",
+"627 690 CURVE SMOOTH",
+"596 694 LINE",
+"602 712 LINE",
+"733 710 LINE",
+"839 712 LINE",
+"831 692 LINE",
+"786 690 LINE SMOOTH",
+"731 688 OFFCURVE",
+"701 661 OFFCURVE",
+"674 636 CURVE SMOOTH",
+"419 403 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"535 41 OFFCURVE",
+"546 31 OFFCURVE",
+"646 31 CURVE",
+"636 4 LINE",
+"395 5 LINE",
+"300 5 LINE",
+"307 23 LINE",
+"350 27 LINE SMOOTH",
+"409 32 OFFCURVE",
+"440 60 OFFCURVE",
+"423 121 CURVE SMOOTH",
+"289 593 LINE SMOOTH",
+"265 674 OFFCURVE",
+"254 684 OFFCURVE",
+"154 684 CURVE",
+"163 711 LINE",
+"404 710 LINE",
+"499 710 LINE",
+"492 692 LINE",
+"449 688 LINE SMOOTH",
+"391 683 OFFCURVE",
+"359 655 OFFCURVE",
+"377 594 CURVE SMOOTH",
+"512 122 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"377 345 LINE",
+"89 74 LINE SMOOTH",
+"62 48 OFFCURVE",
+"60 23 OFFCURVE",
+"106 20 CURVE SMOOTH",
+"177 16 LINE",
+"171 -2 LINE",
+"0 0 LINE",
+"-106 -2 LINE",
+"-98 18 LINE",
+"-53 20 LINE SMOOTH",
+"2 22 OFFCURVE",
+"33 50 OFFCURVE",
+"59 74 CURVE SMOOTH",
+"370 365 LINE"
+);
+}
+);
+width = 780;
+}
+);
+unicode = 0058;
+},
+{
+glyphname = Y;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{248.984, 192.024}, {12.151, 15.037}}";
+imagePath = "1788-89 Epreuves des caracteres de Rolland et Jacob/p19.jpg";
+locked = "1";
+transform = "{62.5442, 0, 87.84252, 65.836, -7042.322, -12922}";
+};
+hints = (
+{
+origin = "{1, 1}";
+type = Corner;
+name = "_corner-bdc";
+},
+{
+origin = "{1, 2}";
+scale = "{1, -1}";
+type = Corner;
+name = "_corner-bdc";
+options = 1;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"500 710 LINE",
+"492 686 LINE",
+"450 686 LINE SMOOTH",
+"398 686 OFFCURVE",
+"335 685 OFFCURVE",
+"342 644 CURVE SMOOTH",
+"408 291 LINE",
+"394 291 LINE",
+"716 621 LINE SMOOTH",
+"756 662 OFFCURVE",
+"727 682 OFFCURVE",
+"681 688 CURVE SMOOTH",
+"649 692 LINE",
+"656 710 LINE",
+"788 708 LINE",
+"913 710 LINE",
+"906 692 LINE",
+"862 688 LINE SMOOTH",
+"817 684 OFFCURVE",
+"788 665 OFFCURVE",
+"753 628 CURVE SMOOTH",
+"395 256 LINE",
+"346 256 LINE",
+"270 593 LINE SMOOTH",
+"249 680 OFFCURVE",
+"255 684 OFFCURVE",
+"155 684 CURVE",
+"164 711 LINE",
+"405 710 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"416 278 LINE",
+"318 0 LINE",
+"243 0 LINE",
+"341 278 LINE"
+);
+}
+);
+width = 800;
+}
+);
+unicode = 0059;
+},
+{
+glyphname = Z;
+lastChange = "2017-10-17 08:12:45 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{267.352, 192.418}, {10.637, 14.626}}";
+imagePath = "1788-89 Epreuves des caracteres de Rolland et Jacob/p19.jpg";
+locked = "1";
+transform = "{64.3017, 0, 90.3109, 67.686, -7244.941, -13304}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"122 116 LINE SMOOTH",
+"62 55 OFFCURVE",
+"72 27 OFFCURVE",
+"128 22 CURVE SMOOTH",
+"169 18 LINE",
+"162 0 LINE",
+"67 0 LINE",
+"-174 -1 LINE",
+"-165 26 LINE",
+"-65 26 OFFCURVE",
+"-46 36 OFFCURVE",
+"34 117 CURVE SMOOTH",
+"504 589 LINE SMOOTH",
+"565 650 OFFCURVE",
+"554 678 OFFCURVE",
+"499 683 CURVE SMOOTH",
+"458 687 LINE",
+"465 705 LINE",
+"560 705 LINE",
+"801 706 LINE",
+"791 679 LINE",
+"691 679 OFFCURVE",
+"672 669 OFFCURVE",
+"591 588 CURVE SMOOTH"
+);
+}
+);
+width = 720;
+}
+);
+unicode = 005A;
+},
+{
+export = 0;
+glyphname = A.001;
+lastChange = "2017-10-13 07:42:06 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187508.jpg";
+transform = "{2.7, 0, 0, 2.7, -4249, -2285}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = H.001;
+lastChange = "2017-10-13 07:43:27 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187537.jpg";
+transform = "{2.69959, -0.04712, 0.04712, 2.69959, -4498, -3957}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = L.001;
+lastChange = "2017-10-13 07:41:37 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187508.jpg";
+transform = "{2.7, 0, 0, 2.7, -3124, -3577}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+glyphname = a;
+lastChange = "2017-10-17 10:19:50 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{260.146, 0}, {47.099, 75.281}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/La Réhab.jpg";
+locked = "1";
+transform = "{12.739, 0, 0, 12.739, -3292, -249}";
+};
+components = (
+{
+name = "_part-jambage-2";
+transform = "{1, 0, 0, 1, 7, 0}";
+},
+{
+name = "_part-adq";
+transform = "{1, 0, 0, 1, -10, 0}";
+}
+);
+guideLines = (
+{
+angle = 69.8938;
+position = "{513, 215}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 559;
+}
+);
+leftMetricsKey = o;
+unicode = 0061;
+},
+{
+glyphname = b;
+lastChange = "2017-10-16 13:04:25 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{299.553, 0}, {47.099, 75.281}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/La Réhab.jpg";
+locked = "1";
+transform = "{12.739, 0, 0, 12.739, -3853, -249}";
+};
+components = (
+{
+name = "_part-attaque-asc";
+transform = "{1, 0, 0, 1, -43, 0}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"335 -14 OFFCURVE",
+"464 122 OFFCURVE",
+"469 274 CURVE SMOOTH",
+"464 369 OFFCURVE",
+"414 454 OFFCURVE",
+"327 454 CURVE SMOOTH",
+"277 454 OFFCURVE",
+"225 434 OFFCURVE",
+"193 378 CURVE",
+"207 370 LINE",
+"328 702 LINE",
+"260 702 LINE",
+"86 233 LINE SMOOTH",
+"24 71 OFFCURVE",
+"84 -14 OFFCURVE",
+"208 -14 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"119 8 OFFCURVE",
+"97 89 OFFCURVE",
+"149 221 CURVE SMOOTH",
+"168 274 LINE SMOOTH",
+"194 359 OFFCURVE",
+"246 432 OFFCURVE",
+"316 432 CURVE SMOOTH",
+"363 432 OFFCURVE",
+"397 397 OFFCURVE",
+"397 326 CURVE SMOOTH",
+"392 184 OFFCURVE",
+"306 8 OFFCURVE",
+"208 8 CURVE SMOOTH"
+);
+}
+);
+width = 520;
+}
+);
+unicode = 0062;
+},
+{
+glyphname = c;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1699.198, 1329.662}, {222.166, 366.573}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Nancy.JPG";
+locked = "1";
+transform = "{2.73241, -0.04769, 0.04769, 2.73241, -4722, -3916}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"372 106 LINE",
+"350 56 OFFCURVE",
+"294 8 OFFCURVE",
+"234 8 CURVE SMOOTH",
+"152 8 OFFCURVE",
+"120 66 OFFCURVE",
+"120 143 CURVE SMOOTH",
+"120 262 OFFCURVE",
+"216 432 OFFCURVE",
+"304 432 CURVE SMOOTH",
+"347 432 OFFCURVE",
+"342 397 OFFCURVE",
+"342 370 CURVE SMOOTH",
+"342 346 OFFCURVE",
+"359 331 OFFCURVE",
+"384 331 CURVE SMOOTH",
+"413 331 OFFCURVE",
+"428 357 OFFCURVE",
+"428 381 CURVE SMOOTH",
+"428 405 OFFCURVE",
+"417 454 OFFCURVE",
+"319 454 CURVE SMOOTH",
+"187 454 OFFCURVE",
+"50 316 OFFCURVE",
+"50 157 CURVE SMOOTH",
+"50 53 OFFCURVE",
+"108 -14 OFFCURVE",
+"222 -14 CURVE SMOOTH",
+"307 -14 OFFCURVE",
+"364 35 OFFCURVE",
+"392 94 CURVE"
+);
+}
+);
+width = 461;
+}
+);
+leftMetricsKey = o;
+unicode = 0063;
+},
+{
+glyphname = d;
+lastChange = "2017-10-16 13:35:20 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1237.515, 1297.063}, {203.222, 335.316}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/ratif de pendan.JPG";
+transform = "{2.94993, -0.02059, 0.02059, 2.94993, -3352, -4029}";
+};
+components = (
+{
+alignment = -1;
+name = l;
+transform = "{1, 0, 0, 1, 290, 0}";
+},
+{
+name = "_part-adq";
+transform = "{1, 0, 0, 1, -6, 0}";
+}
+);
+guideLines = (
+{
+angle = 75;
+position = "{715, 545}";
+},
+{
+angle = 75;
+position = "{786, 539}";
+},
+{
+angle = 70;
+position = "{500, 370}";
+},
+{
+angle = 70;
+position = "{427, 377}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = l;
+unicode = 0064;
+},
+{
+glyphname = e;
+lastChange = "2017-10-16 13:36:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"372 106 LINE",
+"350 56 OFFCURVE",
+"294 8 OFFCURVE",
+"234 8 CURVE SMOOTH",
+"152 8 OFFCURVE",
+"120 66 OFFCURVE",
+"120 143 CURVE SMOOTH",
+"120 262 OFFCURVE",
+"216 432 OFFCURVE",
+"304 432 CURVE SMOOTH",
+"347 432 OFFCURVE",
+"342 397 OFFCURVE",
+"342 370 CURVE SMOOTH",
+"342 346 OFFCURVE",
+"359 331 OFFCURVE",
+"384 331 CURVE SMOOTH",
+"413 331 OFFCURVE",
+"428 357 OFFCURVE",
+"428 381 CURVE SMOOTH",
+"428 405 OFFCURVE",
+"417 454 OFFCURVE",
+"319 454 CURVE SMOOTH",
+"187 454 OFFCURVE",
+"50 316 OFFCURVE",
+"50 157 CURVE SMOOTH",
+"50 53 OFFCURVE",
+"108 -14 OFFCURVE",
+"222 -14 CURVE SMOOTH",
+"307 -14 OFFCURVE",
+"364 35 OFFCURVE",
+"392 94 CURVE"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{25.73, 7.363}, {39.585, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{13.14533, 0, 0, 13.14533, -364, -393}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"351 101 LINE",
+"312 52 OFFCURVE",
+"263 8 OFFCURVE",
+"205 8 CURVE SMOOTH",
+"152 8 OFFCURVE",
+"121 66 OFFCURVE",
+"120 143 CURVE SMOOTH",
+"119 278 OFFCURVE",
+"216 432 OFFCURVE",
+"312 432 CURVE SMOOTH",
+"351 432 OFFCURVE",
+"362 412 OFFCURVE",
+"362 385 CURVE SMOOTH",
+"362 342 OFFCURVE",
+"315 270 OFFCURVE",
+"172 237 CURVE SMOOTH",
+"125 225 LINE",
+"123 206 LINE",
+"197 221 LINE SMOOTH",
+"313 243 OFFCURVE",
+"400 298 OFFCURVE",
+"400 374 CURVE SMOOTH",
+"400 417 OFFCURVE",
+"370 454 OFFCURVE",
+"303 454 CURVE SMOOTH",
+"187 454 OFFCURVE",
+"50 316 OFFCURVE",
+"50 157 CURVE SMOOTH",
+"50 53 OFFCURVE",
+"101 -14 OFFCURVE",
+"201 -14 CURVE SMOOTH",
+"275 -14 OFFCURVE",
+"324 29 OFFCURVE",
+"367 87 CURVE"
+);
+}
+);
+width = 422;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"372 106 LINE",
+"350 56 OFFCURVE",
+"294 8 OFFCURVE",
+"234 8 CURVE SMOOTH",
+"152 8 OFFCURVE",
+"120 66 OFFCURVE",
+"120 143 CURVE SMOOTH",
+"120 262 OFFCURVE",
+"216 432 OFFCURVE",
+"304 432 CURVE SMOOTH",
+"347 432 OFFCURVE",
+"342 397 OFFCURVE",
+"342 370 CURVE SMOOTH",
+"342 346 OFFCURVE",
+"359 331 OFFCURVE",
+"384 331 CURVE SMOOTH",
+"413 331 OFFCURVE",
+"428 357 OFFCURVE",
+"428 381 CURVE SMOOTH",
+"428 405 OFFCURVE",
+"417 454 OFFCURVE",
+"319 454 CURVE SMOOTH",
+"187 454 OFFCURVE",
+"50 316 OFFCURVE",
+"50 157 CURVE SMOOTH",
+"50 53 OFFCURVE",
+"108 -14 OFFCURVE",
+"222 -14 CURVE SMOOTH",
+"307 -14 OFFCURVE",
+"364 35 OFFCURVE",
+"392 94 CURVE"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{25.73, 7.363}, {39.585, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{13.14533, 0, 0, 13.14533, -364, -393}";
+};
+layerId = "B0692760-8043-4FE8-813D-C88D8CB06F71";
+name = "Oct 16 17, 15:34";
+paths = (
+{
+closed = 1;
+nodes = (
+"369 101 LINE",
+"330 52 OFFCURVE",
+"281 8 OFFCURVE",
+"223 8 CURVE SMOOTH",
+"159 8 OFFCURVE",
+"121 66 OFFCURVE",
+"120 143 CURVE SMOOTH",
+"119 278 OFFCURVE",
+"216 432 OFFCURVE",
+"312 432 CURVE SMOOTH",
+"351 432 OFFCURVE",
+"362 412 OFFCURVE",
+"362 385 CURVE SMOOTH",
+"362 336 OFFCURVE",
+"312 255 OFFCURVE",
+"162 217 CURVE SMOOTH",
+"115 205 LINE",
+"113 186 LINE",
+"187 201 LINE SMOOTH",
+"309 226 OFFCURVE",
+"400 288 OFFCURVE",
+"400 374 CURVE SMOOTH",
+"400 417 OFFCURVE",
+"370 454 OFFCURVE",
+"303 454 CURVE SMOOTH",
+"187 454 OFFCURVE",
+"50 316 OFFCURVE",
+"50 157 CURVE SMOOTH",
+"50 53 OFFCURVE",
+"107 -14 OFFCURVE",
+"219 -14 CURVE SMOOTH",
+"293 -14 OFFCURVE",
+"342 29 OFFCURVE",
+"385 87 CURVE"
+);
+}
+);
+width = 422;
+}
+);
+leftMetricsKey = o;
+unicode = 0065;
+},
+{
+glyphname = f;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 0066;
+},
+{
+glyphname = g;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{99.169, 8.386}, {46.161, 76.166}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Réglu.jpg";
+transform = "{12.998, 0, 0, 12.998, -1309, -389}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 0067;
+},
+{
+glyphname = h;
+lastChange = "2017-10-16 13:18:32 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{215.791, 0}, {47.099, 75.28}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/La Réhab.jpg";
+locked = "1";
+transform = "{12.73917, 0, 0, 12.73917, -2798, -264}";
+};
+components = (
+{
+name = "_part-ascendante";
+transform = "{1, 0, 0, 1, -16, 0}";
+},
+{
+name = "_part-jambage";
+transform = "{1, 0, 0, 1, -13, 0}";
+}
+);
+guideLines = (
+{
+angle = 70;
+position = "{481, 539}";
+},
+{
+angle = 70;
+position = "{676, 545}";
+},
+{
+angle = 70;
+position = "{748, 539}";
+},
+{
+angle = 70;
+position = "{398, 539}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 552;
+}
+);
+rightMetricsKey = n;
+unicode = 0068;
+},
+{
+glyphname = i;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{195.392, 7.363}, {31.668, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{12.631, 0, 0, 12.631, -2468, -373}";
+};
+components = (
+{
+name = "_part-attaque-asc";
+transform = "{1, 0, 0, 1, -124, -270}";
+},
+{
+name = "_part-jambage-2";
+transform = "{1, 0, 0, 1, -278, 0}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"280 572 OFFCURVE",
+"310 599 OFFCURVE",
+"316 632 CURVE SMOOTH",
+"322 664 OFFCURVE",
+"300 691 OFFCURVE",
+"267 691 CURVE SMOOTH",
+"234 691 OFFCURVE",
+"204 664 OFFCURVE",
+"198 632 CURVE SMOOTH",
+"192 599 OFFCURVE",
+"214 572 OFFCURVE",
+"247 572 CURVE SMOOTH"
+);
+}
+);
+width = 294;
+}
+);
+unicode = 0069;
+},
+{
+glyphname = j;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 006A;
+},
+{
+glyphname = k;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 006B;
+},
+{
+glyphname = l;
+lastChange = "2017-10-17 10:19:57 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{143.791, 8.386}, {30.774, 76.166}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Réglu.jpg";
+locked = "1";
+transform = "{12.998, 0, 0, 12.998, -1879, -389}";
+};
+components = (
+{
+name = "_part-sortie-2";
+transform = "{1, 0, 0, 1, -281, 0}";
+},
+{
+name = "_part-attaque-asc";
+transform = "{1, 0, 0, 1, -28, 0}";
+}
+);
+guideLines = (
+{
+angle = 70;
+position = "{278, 539}";
+},
+{
+angle = 70;
+position = "{208, 539}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"343 702 LINE",
+"275 702 LINE",
+"64 131 LINE",
+"124 99 LINE"
+);
+}
+);
+width = 291;
+}
+);
+unicode = 006C;
+},
+{
+glyphname = m;
+lastChange = "2017-10-16 13:04:00 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1110.303, 1327.294}, {288.39, 360.104}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/jamais.JPG";
+locked = "1";
+transform = "{2.77402, 0, 0, 2.7492, -3060, -3929}";
+};
+components = (
+{
+name = "_part-fut";
+transform = "{1, 0, 0, 1, 8, 0}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"349 0 LINE",
+"469 331 LINE SMOOTH",
+"492 395 OFFCURVE",
+"489 454 OFFCURVE",
+"393 454 CURVE SMOOTH",
+"279 454 OFFCURVE",
+"196 323 OFFCURVE",
+"173 255 CURVE",
+"196 257 LINE",
+"220 329 OFFCURVE",
+"306 429 OFFCURVE",
+"374 429 CURVE SMOOTH",
+"403 429 OFFCURVE",
+"424 408 OFFCURVE",
+"405 356 CURVE SMOOTH",
+"275 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"543 51 OFFCURVE",
+"532 -14 OFFCURVE",
+"617 -14 CURVE SMOOTH",
+"662 -14 OFFCURVE",
+"702 31 OFFCURVE",
+"727 72 CURVE",
+"709 84 LINE",
+"692 55 OFFCURVE",
+"661 19 OFFCURVE",
+"638 19 CURVE SMOOTH",
+"613 19 OFFCURVE",
+"618 60 OFFCURVE",
+"632 103 CURVE SMOOTH",
+"715 331 LINE SMOOTH",
+"738 395 OFFCURVE",
+"735 454 OFFCURVE",
+"639 454 CURVE SMOOTH",
+"525 454 OFFCURVE",
+"442 323 OFFCURVE",
+"419 255 CURVE",
+"442 257 LINE",
+"466 329 OFFCURVE",
+"552 429 OFFCURVE",
+"620 429 CURVE SMOOTH",
+"649 429 OFFCURVE",
+"670 408 OFFCURVE",
+"651 356 CURVE SMOOTH",
+"570 135 LINE"
+);
+}
+);
+width = 781;
+}
+);
+leftMetricsKey = n;
+rightMetricsKey = n;
+unicode = 006D;
+},
+{
+glyphname = n;
+lastChange = "2017-10-16 13:03:57 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1043.051, 1272.881}, {203.39, 335.593}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/ratif de pendan.JPG";
+transform = "{2.80676, -0.0196, 0.0196, 2.80676, -2958, -3815}";
+};
+components = (
+{
+name = "_part-fut";
+transform = "{1, 0, 0, 1, 8, 0}";
+},
+{
+name = "_part-jambage";
+transform = "{1, 0, 0, 1, -10, 0}";
+}
+);
+guideLines = (
+{
+position = "{475, 214}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 555;
+}
+);
+unicode = 006E;
+},
+{
+glyphname = o;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{60.011, 7.363}, {39.585, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{12.92737, 0, 0, 12.92737, -771, -387}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"353 -14 OFFCURVE",
+"491 124 OFFCURVE",
+"491 278 CURVE SMOOTH",
+"491 369 OFFCURVE",
+"442 454 OFFCURVE",
+"332 454 CURVE SMOOTH",
+"186 454 OFFCURVE",
+"53 316 OFFCURVE",
+"53 169 CURVE SMOOTH",
+"53 74 OFFCURVE",
+"105 -14 OFFCURVE",
+"212 -14 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"168 8 OFFCURVE",
+"123 44 OFFCURVE",
+"123 113 CURVE SMOOTH",
+"123 245 OFFCURVE",
+"215 432 OFFCURVE",
+"331 432 CURVE SMOOTH",
+"376 432 OFFCURVE",
+"421 397 OFFCURVE",
+"421 331 CURVE SMOOTH",
+"421 209 OFFCURVE",
+"334 8 OFFCURVE",
+"213 8 CURVE SMOOTH"
+);
+}
+);
+width = 530;
+}
+);
+unicode = 006F;
+},
+{
+glyphname = q;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+background = {
+components = (
+{
+name = u;
+transform = "{1, 0, 0, 1, 6, 0}";
+}
+);
+};
+backgroundImage = {
+crop = "{{1307.132, 1323.708}, {196.25, 359.131}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/ilboquet.JPG";
+locked = "1";
+transform = "{3.05733, 0, 0, 2.75665, -3996.334, -3929}";
+};
+components = (
+{
+name = "_part-adq";
+transform = "{1, 0, 0, 1, -6, 0}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"336 -280 LINE",
+"343 -256 LINE",
+"282 -256 LINE",
+"532 440 LINE",
+"462 440 LINE",
+"424 336 LINE",
+"396 223 LINE",
+"342 108 LINE",
+"234 -189 LINE SMOOTH",
+"213 -248 OFFCURVE",
+"201 -256 OFFCURVE",
+"168 -256 CURVE SMOOTH",
+"128 -256 LINE",
+"120 -280 LINE"
+);
+}
+);
+width = 560;
+}
+);
+unicode = 0071;
+},
+{
+glyphname = r;
+lastChange = "2017-10-16 13:18:47 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 7.363}, {31.351, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{12.89112, 0, 0, 12.89112, 15, -381}";
+};
+components = (
+{
+name = "_part-fut";
+transform = "{1, 0, 0, 1, 3, 0}";
+}
+);
+guideLines = (
+{
+angle = 70;
+position = "{280, 545}";
+},
+{
+angle = 70;
+position = "{353, 539}";
+},
+{
+position = "{87, 430}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"191 257 LINE",
+"228 363 OFFCURVE",
+"291 413 OFFCURVE",
+"318 413 CURVE SMOOTH",
+"336 413 OFFCURVE",
+"345 379 OFFCURVE",
+"374 379 CURVE SMOOTH",
+"389 379 OFFCURVE",
+"404 391 OFFCURVE",
+"404 417 CURVE SMOOTH",
+"404 442 OFFCURVE",
+"380 454 OFFCURVE",
+"353 454 CURVE SMOOTH",
+"262 454 OFFCURVE",
+"190 319 OFFCURVE",
+"166 253 CURVE"
+);
+}
+);
+width = 369;
+}
+);
+unicode = 0072;
+},
+{
+glyphname = s;
+lastChange = "2017-10-16 14:00:02 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1448.906, 1273.624}, {202.38, 339.587}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Puissan.JPG";
+locked = "1";
+transform = "{2.95648, -0.02064, 0.02064, 2.95648, -4405, -4049}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"136 396 OFFCURVE",
+"170 432 OFFCURVE",
+"219 432 CURVE SMOOTH",
+"252 432 OFFCURVE",
+"277 416 OFFCURVE",
+"277 394 CURVE SMOOTH",
+"277 383 OFFCURVE",
+"262 377 OFFCURVE",
+"262 357 CURVE SMOOTH",
+"262 340 OFFCURVE",
+"274 327 OFFCURVE",
+"291 327 CURVE SMOOTH",
+"315 327 OFFCURVE",
+"328 349 OFFCURVE",
+"328 371 CURVE SMOOTH",
+"328 400 OFFCURVE",
+"304 454 OFFCURVE",
+"220 454 CURVE SMOOTH",
+"131 454 OFFCURVE",
+"91 388 OFFCURVE",
+"91 327 CURVE SMOOTH",
+"91 280 OFFCURVE",
+"107 242 OFFCURVE",
+"137 215 CURVE SMOOTH",
+"180 177 LINE SMOOTH",
+"215 147 OFFCURVE",
+"228 131 OFFCURVE",
+"228 99 CURVE SMOOTH",
+"228 56 OFFCURVE",
+"187 8 OFFCURVE",
+"129 8 CURVE SMOOTH",
+"87 8 OFFCURVE",
+"54 28 OFFCURVE",
+"54 55 CURVE SMOOTH",
+"54 72 OFFCURVE",
+"69 80 OFFCURVE",
+"69 105 CURVE SMOOTH",
+"69 125 OFFCURVE",
+"57 138 OFFCURVE",
+"39 138 CURVE SMOOTH",
+"11 138 OFFCURVE",
+"-2 112 OFFCURVE",
+"-2 93 CURVE SMOOTH",
+"-2 53 OFFCURVE",
+"30 -14 OFFCURVE",
+"129 -14 CURVE SMOOTH",
+"221 -14 OFFCURVE",
+"285 56 OFFCURVE",
+"285 132 CURVE SMOOTH",
+"285 187 OFFCURVE",
+"254 215 OFFCURVE",
+"228 238 CURVE SMOOTH",
+"166 294 LINE SMOOTH",
+"143 314 OFFCURVE",
+"136 334 OFFCURVE",
+"136 357 CURVE SMOOTH"
+);
+}
+);
+width = 341;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{1448.906, 1273.624}, {202.38, 339.587}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Puissan.JPG";
+locked = "1";
+transform = "{2.95648, -0.02064, 0.02064, 2.95648, -4405, -4049}";
+};
+layerId = "D785CAB6-474E-4900-B847-20EB8A20100E";
+name = "Oct 16 17, 15:58";
+paths = (
+{
+closed = 1;
+nodes = (
+"146 396 OFFCURVE",
+"178 432 OFFCURVE",
+"227 432 CURVE SMOOTH",
+"262 432 OFFCURVE",
+"287 416 OFFCURVE",
+"287 394 CURVE SMOOTH",
+"287 383 OFFCURVE",
+"272 377 OFFCURVE",
+"272 357 CURVE SMOOTH",
+"272 340 OFFCURVE",
+"284 327 OFFCURVE",
+"301 327 CURVE SMOOTH",
+"325 327 OFFCURVE",
+"338 349 OFFCURVE",
+"338 371 CURVE SMOOTH",
+"338 400 OFFCURVE",
+"314 454 OFFCURVE",
+"230 454 CURVE SMOOTH",
+"141 454 OFFCURVE",
+"101 388 OFFCURVE",
+"101 327 CURVE SMOOTH",
+"101 280 OFFCURVE",
+"117 242 OFFCURVE",
+"150 211 CURVE SMOOTH",
+"190 177 LINE SMOOTH",
+"219 156 OFFCURVE",
+"228 131 OFFCURVE",
+"228 105 CURVE SMOOTH",
+"228 56 OFFCURVE",
+"187 8 OFFCURVE",
+"129 8 CURVE SMOOTH",
+"87 8 OFFCURVE",
+"54 28 OFFCURVE",
+"54 55 CURVE SMOOTH",
+"54 72 OFFCURVE",
+"69 80 OFFCURVE",
+"69 105 CURVE SMOOTH",
+"69 125 OFFCURVE",
+"57 138 OFFCURVE",
+"39 138 CURVE SMOOTH",
+"11 138 OFFCURVE",
+"-2 112 OFFCURVE",
+"-2 93 CURVE SMOOTH",
+"-2 53 OFFCURVE",
+"30 -14 OFFCURVE",
+"129 -14 CURVE SMOOTH",
+"221 -14 OFFCURVE",
+"285 56 OFFCURVE",
+"285 132 CURVE SMOOTH",
+"285 187 OFFCURVE",
+"263 214 OFFCURVE",
+"238 238 CURVE SMOOTH",
+"173 298 LINE SMOOTH",
+"154 314 OFFCURVE",
+"146 334 OFFCURVE",
+"146 352 CURVE SMOOTH"
+);
+}
+);
+width = 341;
+}
+);
+unicode = 0073;
+},
+{
+glyphname = t;
+lastChange = "2017-10-16 13:18:38 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{99.517, 7.363}, {23.751, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{12.631, 0, 0, 12.631, -1257, -373}";
+};
+guideLines = (
+{
+angle = 70;
+position = "{169, 523}";
+},
+{
+angle = 70;
+position = "{226, 503}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"118 -14 OFFCURVE",
+"150 21 OFFCURVE",
+"208 89 CURVE",
+"190 105 LINE",
+"148 55 OFFCURVE",
+"117 19 OFFCURVE",
+"94 19 CURVE SMOOTH",
+"69 19 OFFCURVE",
+"73 60 OFFCURVE",
+"87 99 CURVE SMOOTH",
+"243 526 LINE",
+"173 526 LINE",
+"29 131 LINE SMOOTH",
+"0 51 OFFCURVE",
+"-1 -14 OFFCURVE",
+"68 -14 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"275 418 LINE",
+"282 440 LINE",
+"76 440 LINE",
+"69 418 LINE"
+);
+}
+);
+width = 263;
+}
+);
+unicode = 0074;
+},
+{
+glyphname = u;
+lastChange = "2017-10-17 12:53:59 +0000";
+layers = (
+{
+background = {
+components = (
+{
+name = i;
+transform = "{1, 0, 0, 1, 256, 0}";
+}
+);
+};
+backgroundImage = {
+crop = "{{167.872, 8.386}, {46.161, 76.166}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Réglu.jpg";
+locked = "1";
+transform = "{12.998, 0, 0, 12.998, -2246, -389}";
+};
+components = (
+{
+name = "_part-attaque-asc";
+transform = "{1, 0, 0, 1, -131, -270}";
+}
+);
+guideLines = (
+{
+angle = 70;
+position = "{382, 539}";
+},
+{
+angle = 70;
+position = "{306, 540}";
+},
+{
+angle = 70;
+position = "{645, 522}";
+},
+{
+angle = 70;
+position = "{575, 522}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"251 -14 OFFCURVE",
+"341 117 OFFCURVE",
+"366 185 CURVE",
+"343 183 LINE",
+"318 113 OFFCURVE",
+"222 11 OFFCURVE",
+"146 11 CURVE SMOOTH",
+"117 11 OFFCURVE",
+"97 33 OFFCURVE",
+"115 84 CURVE SMOOTH",
+"236 421 LINE",
+"170 425 LINE",
+"94 224 LINE",
+"51 109 LINE SMOOTH",
+"27 46 OFFCURVE",
+"31 -14 OFFCURVE",
+"127 -14 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"414 -14 OFFCURVE",
+"454 31 OFFCURVE",
+"479 68 CURVE",
+"461 80 LINE",
+"444 55 OFFCURVE",
+"409 19 OFFCURVE",
+"387 19 CURVE SMOOTH",
+"365 19 OFFCURVE",
+"369 60 OFFCURVE",
+"383 99 CURVE",
+"504 440 LINE",
+"434 440 LINE",
+"360 231 LINE",
+"324 131 LINE SMOOTH",
+"296 52 OFFCURVE",
+"294 -14 OFFCURVE",
+"357 -14 CURVE SMOOTH"
+);
+}
+);
+width = 534;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{167.872, 8.386}, {46.161, 76.166}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/Réglu.jpg";
+transform = "{12.998, 0, 0, 12.998, -2192, -389}";
+};
+components = (
+{
+name = "_part-attaque-asc";
+transform = "{1, 0, 0, 1, -102, -265}";
+}
+);
+guideLines = (
+{
+angle = 70;
+position = "{306, 539}";
+},
+{
+angle = 70;
+position = "{230, 540}";
+},
+{
+angle = 70;
+position = "{569, 522}";
+},
+{
+angle = 70;
+position = "{499, 522}";
+}
+);
+layerId = "63256523-1E53-4463-9365-D2C2FEB15BDE";
+name = "Oct 16 17, 10:35";
+paths = (
+{
+closed = 1;
+nodes = (
+"263 421 LINE",
+"142 88 LINE SMOOTH",
+"123 37 OFFCURVE",
+"144 15 OFFCURVE",
+"173 15 CURVE SMOOTH",
+"249 15 OFFCURVE",
+"344 115 OFFCURVE",
+"369 183 CURVE",
+"392 185 LINE",
+"367 118 OFFCURVE",
+"278 -10 OFFCURVE",
+"154 -10 CURVE SMOOTH",
+"53 -10 OFFCURVE",
+"50 50 OFFCURVE",
+"74 113 CURVE SMOOTH",
+"193 425 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"512 72 LINE",
+"487 35 OFFCURVE",
+"447 -10 OFFCURVE",
+"402 -10 CURVE SMOOTH",
+"310 -10 OFFCURVE",
+"322 55 OFFCURVE",
+"351 135 CURVE SMOOTH",
+"462 440 LINE",
+"537 440 LINE",
+"416 103 LINE SMOOTH",
+"402 64 OFFCURVE",
+"398 23 OFFCURVE",
+"423 23 CURVE SMOOTH",
+"446 23 OFFCURVE",
+"477 59 OFFCURVE",
+"494 84 CURVE"
+);
+}
+);
+width = 590;
+}
+);
+unicode = 0075;
+},
+{
+glyphname = v;
+lastChange = "2017-10-17 10:19:04 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{118.468, 14.004}, {223.311, 374.709}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/ville.JPG";
+locked = "1";
+transform = "{2.64165, -0.04611, 0.04611, 2.64165, -391, -317}";
+};
+guideLines = (
+{
+angle = 249.5863;
+position = "{415, 286}";
+},
+{
+angle = 69.8686;
+position = "{480, 270}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"197 -14 LINE",
+"381 233 LINE SMOOTH",
+"423 289 OFFCURVE",
+"430 351 OFFCURVE",
+"430 374 CURVE SMOOTH",
+"430 432 OFFCURVE",
+"407 447 OFFCURVE",
+"394 454 CURVE",
+"339 414 LINE",
+"348 399 OFFCURVE",
+"364 370 OFFCURVE",
+"364 324 CURVE SMOOTH",
+"364 291 OFFCURVE",
+"349 233 OFFCURVE",
+"309 176 CURVE SMOOTH",
+"211 37 LINE",
+"230 47 LINE",
+"200 124 LINE SMOOTH",
+"174 210 OFFCURVE",
+"141 254 OFFCURVE",
+"137 326 CURVE SMOOTH",
+"137 390 OFFCURVE",
+"177 415 OFFCURVE",
+"209 435 CURVE",
+"205 448 LINE",
+"60 440 LINE",
+"53 416 LINE",
+"122 419 OFFCURVE",
+"138 424 OFFCURVE",
+"138 415 CURVE SMOOTH",
+"138 398 OFFCURVE",
+"61 372 OFFCURVE",
+"61 291 CURVE SMOOTH",
+"61 180 OFFCURVE",
+"150 126 OFFCURVE",
+"192 -14 CURVE"
+);
+}
+);
+width = 452;
+}
+);
+unicode = 0076;
+},
+{
+glyphname = w;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 0077;
+},
+{
+glyphname = x;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 0078;
+},
+{
+glyphname = y;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{108.859, 7.363}, {47.502, 78.379}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+transform = "{12.631, 0, 0, 12.631, -1375, -373}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 0079;
+},
+{
+glyphname = z;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 590;
+}
+);
+unicode = 007A;
+},
+{
+export = 0;
+glyphname = p;
+lastChange = "2017-10-16 12:54:36 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{146.073, 7.363}, {47.503, 78.38}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{12.63069, 0, 0, 12.63069, -1950, -373}";
+};
+guideLines = (
+{
+angle = 70;
+position = "{242, 545}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"70 -280 LINE",
+"77 -256 LINE",
+"6 -256 LINE",
+"144 125 LINE",
+"170 240 LINE",
+"218 342 LINE",
+"248 443 LINE",
+"100 440 LINE",
+"92 416 LINE",
+"141 416 OFFCURVE",
+"180 422 OFFCURVE",
+"152 345 CURVE SMOOTH",
+"-43 -189 LINE SMOOTH",
+"-65 -248 OFFCURVE",
+"-75 -256 OFFCURVE",
+"-108 -256 CURVE SMOOTH",
+"-128 -256 LINE",
+"-136 -280 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"156 8 OFFCURVE",
+"124 89 OFFCURVE",
+"171 221 CURVE SMOOTH",
+"190 274 LINE SMOOTH",
+"221 359 OFFCURVE",
+"273 432 OFFCURVE",
+"338 432 CURVE SMOOTH",
+"378 432 OFFCURVE",
+"412 397 OFFCURVE",
+"412 326 CURVE SMOOTH",
+"412 184 OFFCURVE",
+"326 8 OFFCURVE",
+"230 8 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"355 -14 OFFCURVE",
+"484 122 OFFCURVE",
+"484 274 CURVE SMOOTH",
+"484 369 OFFCURVE",
+"434 454 OFFCURVE",
+"343 454 CURVE SMOOTH",
+"291 454 OFFCURVE",
+"238 432 OFFCURVE",
+"191 337 CURVE",
+"140 196 LINE",
+"93 70 OFFCURVE",
+"141 -14 OFFCURVE",
+"231 -14 CURVE SMOOTH"
+);
+}
+);
+width = 525;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+backgroundImage = {
+crop = "{{146.073, 7.363}, {47.503, 78.38}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Italique/réotypie.JPG";
+locked = "1";
+transform = "{12.63069, 0, 0, 12.63069, -1950, -373}";
+};
+guideLines = (
+{
+angle = 70;
+position = "{247, 545}";
+}
+);
+layerId = "4DBAC77B-C555-4C53-A4F4-37F0C3FA7B6B";
+name = "Oct 16 17, 14:17";
+paths = (
+{
+closed = 1;
+nodes = (
+"266 254 LINE",
+"241 186 LINE SMOOTH",
+"206 89 OFFCURVE",
+"243 8 OFFCURVE",
+"313 8 CURVE SMOOTH",
+"409 8 OFFCURVE",
+"495 184 OFFCURVE",
+"495 326 CURVE SMOOTH",
+"495 397 OFFCURVE",
+"461 432 OFFCURVE",
+"421 432 CURVE SMOOTH",
+"356 432 OFFCURVE",
+"304 359 OFFCURVE",
+"288 316 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"281 354 LINE",
+"321 426 OFFCURVE",
+"374 454 OFFCURVE",
+"426 454 CURVE SMOOTH",
+"517 454 OFFCURVE",
+"567 369 OFFCURVE",
+"567 274 CURVE SMOOTH",
+"567 122 OFFCURVE",
+"438 -14 OFFCURVE",
+"314 -14 CURVE SMOOTH",
+"224 -14 OFFCURVE",
+"176 70 OFFCURVE",
+"217 189 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 340 LINE",
+"11 -256 LINE",
+"82 -256 LINE",
+"75 -280 LINE",
+"-131 -280 LINE",
+"-123 -256 LINE",
+"-103 -256 LINE SMOOTH",
+"-70 -256 OFFCURVE",
+"-60 -248 OFFCURVE",
+"-38 -189 CURVE SMOOTH",
+"157 345 LINE SMOOTH",
+"185 422 OFFCURVE",
+"146 416 OFFCURVE",
+"97 416 CURVE",
+"105 440 LINE",
+"253 443 LINE",
+"223 342 LINE"
+);
+}
+);
+width = 543;
+}
+);
+rightMetricsKey = o;
+unicode = 0070;
+},
+{
+export = 0;
+glyphname = f.001;
+lastChange = "2017-10-13 07:46:13 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187513.jpg";
+transform = "{2.69959, 0.04712, -0.04712, 2.69959, -4875, -2742}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+glyphname = space;
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 260;
+}
+);
+unicode = 0020;
+},
+{
+export = 0;
+glyphname = "_corner-bdc";
+lastChange = "2017-10-17 13:15:27 +0000";
+layers = (
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "22EA310E-A8A6-4E31-9984-701A46A378AA";
+name = "Oct 13 17, 10:33";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 98 LINE SMOOTH",
+"0 47 OFFCURVE",
+"5 25 OFFCURVE",
+"52 19 CURVE SMOOTH",
+"85 15 LINE SMOOTH",
+"87 15 OFFCURVE",
+"88 14 OFFCURVE",
+"88 12 CURVE SMOOTH",
+"88 0 LINE SMOOTH",
+"88 -2 OFFCURVE",
+"87 -3 OFFCURVE",
+"85 -3 CURVE SMOOTH",
+"45 -3 OFFCURVE",
+"4 0 OFFCURVE",
+"-36 0 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "42BA8E2A-11D2-4138-856E-2AE9709097F1";
+name = "Oct 13 17, 12:06";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 118 LINE SMOOTH",
+"0 37 OFFCURVE",
+"25 25 OFFCURVE",
+"72 19 CURVE SMOOTH",
+"88 17 LINE",
+"88 -3 LINE",
+"-35 0 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 123 LINE SMOOTH",
+"0 33 OFFCURVE",
+"14 31 OFFCURVE",
+"72 24 CURVE SMOOTH",
+"88 22 LINE",
+"88 -3 LINE",
+"-35 0 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-adq";
+lastChange = "2017-10-16 12:24:10 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"351 103 OFFCURVE",
+"277 10 OFFCURVE",
+"196 10 CURVE SMOOTH",
+"154 10 OFFCURVE",
+"128 44 OFFCURVE",
+"128 107 CURVE SMOOTH",
+"128 242 OFFCURVE",
+"244 430 OFFCURVE",
+"349 430 CURVE SMOOTH",
+"422 430 OFFCURVE",
+"434 336 OFFCURVE",
+"398 234 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"449 405 OFFCURVE",
+"416 454 OFFCURVE",
+"351 454 CURVE SMOOTH",
+"213 454 OFFCURVE",
+"51 296 OFFCURVE",
+"51 135 CURVE SMOOTH",
+"51 60 OFFCURVE",
+"92 -14 OFFCURVE",
+"191 -14 CURVE SMOOTH",
+"270 -14 OFFCURVE",
+"322 37 OFFCURVE",
+"363 101 CURVE",
+"449 322 LINE"
+);
+}
+);
+width = 594;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-ascendante";
+lastChange = "2017-10-16 12:24:17 +0000";
+layers = (
+{
+components = (
+{
+name = "_part-attaque-asc";
+}
+);
+guideLines = (
+{
+angle = 69.9645;
+position = "{172, 351}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"44 0 LINE",
+"116 0 LINE",
+"371 702 LINE",
+"303 702 LINE"
+);
+}
+);
+width = 308;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "8400EDB1-03E7-4FE2-9DE3-13A105F90EF5";
+name = "Oct 16 17, 10:39";
+paths = (
+{
+closed = 1;
+nodes = (
+"371 702 LINE",
+"116 0 LINE",
+"40 0 LINE",
+"296 702 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"259 600 LINE",
+"291 693 OFFCURVE",
+"247 686 OFFCURVE",
+"200 686 CURVE",
+"207 710 LINE",
+"262 710 OFFCURVE",
+"319 711 OFFCURVE",
+"375 713 CURVE",
+"338 612 LINE"
+);
+}
+);
+width = 308;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-attaque";
+lastChange = "2017-10-13 12:45:14 +0000";
+layers = (
+{
+guideLines = (
+{
+angle = 70;
+position = "{247, 600}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"150 335 LINE",
+"182 421 OFFCURVE",
+"145 416 OFFCURVE",
+"102 416 CURVE",
+"102 440 LINE",
+"157 440 OFFCURVE",
+"191 443 OFFCURVE",
+"246 448 CURVE",
+"222 341 LINE"
+);
+}
+);
+width = 227;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-attaque-asc";
+lastChange = "2017-10-16 12:23:57 +0000";
+layers = (
+{
+guideLines = (
+{
+angle = 69.4118;
+position = "{172, 351}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"338 612 LINE",
+"375 713 LINE",
+"211 710 LINE",
+"204 686 LINE",
+"254 686 OFFCURVE",
+"301 693 OFFCURVE",
+"266 601 CURVE"
+);
+}
+);
+width = 227;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "BF77BDFC-AEB6-4EC2-AFB7-3A9478F945FC";
+name = "Oct 16 17, 10:38";
+paths = (
+{
+closed = 1;
+nodes = (
+"261 600 LINE",
+"295 688 OFFCURVE",
+"249 681 OFFCURVE",
+"200 681 CURVE",
+"207 705 LINE",
+"262 705 OFFCURVE",
+"319 708 OFFCURVE",
+"375 713 CURVE",
+"338 612 LINE"
+);
+}
+);
+width = 227;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-fut";
+lastChange = "2017-10-16 12:54:31 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"97 440 LINE",
+"89 416 LINE",
+"138 416 OFFCURVE",
+"175 421 OFFCURVE",
+"147 344 CURVE SMOOTH",
+"23 0 LINE",
+"95 0 LINE",
+"218 340 LINE",
+"214 342 LINE",
+"244 443 LINE"
+);
+}
+);
+width = 298;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "F1EBFAC4-FE25-45D5-B735-B45FDD33121E";
+name = "Oct 16 17, 10:39";
+paths = (
+{
+closed = 1;
+nodes = (
+"223 342 LINE",
+"227 340 LINE",
+"104 0 LINE",
+"28 0 LINE",
+"154 345 LINE SMOOTH",
+"184 421 OFFCURVE",
+"143 416 OFFCURVE",
+"94 416 CURVE",
+"102 440 LINE",
+"157 440 OFFCURVE",
+"199 443 OFFCURVE",
+"254 448 CURVE"
+);
+}
+);
+width = 308;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-jambage";
+lastChange = "2017-10-16 12:24:22 +0000";
+layers = (
+{
+guideLines = (
+{
+angle = 70;
+position = "{507, 545}";
+},
+{
+angle = 70;
+position = "{579, 539}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"476 55 OFFCURVE",
+"445 19 OFFCURVE",
+"422 19 CURVE SMOOTH",
+"397 19 OFFCURVE",
+"402 60 OFFCURVE",
+"416 103 CURVE SMOOTH",
+"499 331 LINE SMOOTH",
+"521 394 OFFCURVE",
+"519 454 OFFCURVE",
+"423 454 CURVE SMOOTH",
+"299 454 OFFCURVE",
+"208 323 OFFCURVE",
+"183 255 CURVE",
+"206 257 LINE",
+"233 329 OFFCURVE",
+"328 429 OFFCURVE",
+"404 429 CURVE SMOOTH",
+"433 429 OFFCURVE",
+"454 407 OFFCURVE",
+"435 356 CURVE SMOOTH",
+"354 135 LINE SMOOTH",
+"327 51 OFFCURVE",
+"316 -14 OFFCURVE",
+"401 -14 CURVE SMOOTH",
+"446 -14 OFFCURVE",
+"486 31 OFFCURVE",
+"511 72 CURVE",
+"493 84 LINE"
+);
+}
+);
+userData = {
+PartSelection = {
+Bold = 1;
+};
+};
+width = 600;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "0A006F23-EE7B-46D5-AD5F-5329B57B676C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"166 367 OFFCURVE",
+"236 453 OFFCURVE",
+"344 453 CURVE SMOOTH",
+"476 453 OFFCURVE",
+"506 396 OFFCURVE",
+"506 289 CURVE SMOOTH",
+"506 0 LINE",
+"450 0 LINE",
+"384 0 OFFCURVE",
+"352 -3 OFFCURVE",
+"313 -3 CURVE",
+"311 -3 OFFCURVE",
+"310 -2 OFFCURVE",
+"310 0 CURVE",
+"310 12 LINE",
+"310 14 OFFCURVE",
+"311 15 OFFCURVE",
+"313 15 CURVE",
+"346 19 LINE",
+"393 25 OFFCURVE",
+"398 47 OFFCURVE",
+"398 98 CURVE",
+"398 318 LINE SMOOTH",
+"398 379 OFFCURVE",
+"366 404 OFFCURVE",
+"324 404 CURVE SMOOTH",
+"248 404 OFFCURVE",
+"184 350 OFFCURVE",
+"184 266 CURVE",
+"166 271 LINE"
+);
+}
+);
+userData = {
+PartSelection = {
+Bold = 2;
+};
+};
+width = 600;
+}
+);
+partsSettings = (
+{
+name = Bold;
+bottomName = Low;
+bottomValue = 0;
+topName = High;
+topValue = 100;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-jambage-2";
+lastChange = "2017-10-16 13:21:41 +0000";
+layers = (
+{
+guideLines = (
+{
+angle = 249.5863;
+position = "{403, 286}";
+},
+{
+angle = 69.8686;
+position = "{468, 270}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"464 55 OFFCURVE",
+"433 19 OFFCURVE",
+"410 19 CURVE SMOOTH",
+"385 19 OFFCURVE",
+"392 62 OFFCURVE",
+"405 99 CURVE SMOOTH",
+"530 440 LINE",
+"460 440 LINE",
+"345 131 LINE SMOOTH",
+"315 51 OFFCURVE",
+"316 -14 OFFCURVE",
+"380 -14 CURVE SMOOTH",
+"434 -14 OFFCURVE",
+"466 21 OFFCURVE",
+"524 89 CURVE",
+"506 105 LINE"
+);
+}
+);
+width = 554;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "9E3F15B2-7DC3-41AA-98AC-5196FAC15FDC";
+name = "Oct 16 17, 10:36";
+paths = (
+{
+closed = 1;
+nodes = (
+"528 93 LINE",
+"470 25 OFFCURVE",
+"438 -10 OFFCURVE",
+"387 -10 CURVE SMOOTH",
+"301 -10 OFFCURVE",
+"312 54 OFFCURVE",
+"342 135 CURVE SMOOTH",
+"451 433 LINE",
+"535 450 LINE",
+"407 103 LINE SMOOTH",
+"393 64 OFFCURVE",
+"389 23 OFFCURVE",
+"414 23 CURVE SMOOTH",
+"437 23 OFFCURVE",
+"468 59 OFFCURVE",
+"510 109 CURVE"
+);
+}
+);
+width = 554;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-sortie";
+lastChange = "2017-10-13 11:53:54 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"413 83 LINE",
+"408 71 OFFCURVE",
+"405 59 OFFCURVE",
+"405 50 CURVE SMOOTH",
+"405 34 OFFCURVE",
+"412 23 OFFCURVE",
+"428 23 CURVE SMOOTH",
+"454 23 OFFCURVE",
+"491 54 OFFCURVE",
+"510 73 CURVE",
+"526 56 LINE",
+"493 20 OFFCURVE",
+"455 -10 OFFCURVE",
+"400 -10 CURVE SMOOTH",
+"353 -10 OFFCURVE",
+"336 14 OFFCURVE",
+"336 45 CURVE SMOOTH",
+"336 60 OFFCURVE",
+"343 98 OFFCURVE",
+"366 158 CURVE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-sortie-2";
+lastChange = "2017-10-16 12:25:11 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"464 55 OFFCURVE",
+"433 19 OFFCURVE",
+"410 19 CURVE SMOOTH",
+"385 19 OFFCURVE",
+"392 62 OFFCURVE",
+"405 99 CURVE",
+"345 131 LINE",
+"315 51 OFFCURVE",
+"319 -14 OFFCURVE",
+"384 -14 CURVE SMOOTH",
+"434 -14 OFFCURVE",
+"466 21 OFFCURVE",
+"524 89 CURVE",
+"506 105 LINE"
+);
+}
+);
+width = 554;
+}
+);
+},
+{
+glyphname = "_part-curve-cap-left";
+lastChange = "2017-10-17 12:47:06 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"9372F035-DA38-4B54-966C-CEBA9B53DD02" = 1;
+};
+isItalic = 1;
+linkStyle = Regular;
+name = Italique;
+}
+);
+kerning = {
+"9372F035-DA38-4B54-966C-CEBA9B53DD02" = {
+o = {
+o = 0;
+};
+};
+};
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"9372F035-DA38-4B54-966C-CEBA9B53DD02" = {
+HV = "90";
+OH = "25";
+OV = "100";
+nV = "67";
+nd = "20";
+oH = "22";
+oV = "78";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

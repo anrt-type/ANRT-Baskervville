@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="perthousand" format="1">
+  <advance width="1041"/>
+  <unicode hex="2030"/>
+  <outline>
+    <contour>
+      <point x="853" y="-10" type="curve" smooth="yes"/>
+      <point x="940" y="-10"/>
+      <point x="996" y="44"/>
+      <point x="996" y="129" type="curve" smooth="yes"/>
+      <point x="996" y="213"/>
+      <point x="940" y="267"/>
+      <point x="853" y="267" type="curve" smooth="yes"/>
+      <point x="768" y="267"/>
+      <point x="712" y="213"/>
+      <point x="712" y="129" type="curve" smooth="yes"/>
+      <point x="712" y="44"/>
+      <point x="768" y="-10"/>
+    </contour>
+    <contour>
+      <point x="853" y="13" type="curve" smooth="yes"/>
+      <point x="798" y="13"/>
+      <point x="773" y="48"/>
+      <point x="773" y="129" type="curve" smooth="yes"/>
+      <point x="773" y="209"/>
+      <point x="798" y="244"/>
+      <point x="853" y="244" type="curve" smooth="yes"/>
+      <point x="909" y="244"/>
+      <point x="934" y="211"/>
+      <point x="934" y="129" type="curve" smooth="yes"/>
+      <point x="934" y="48"/>
+      <point x="909" y="13"/>
+    </contour>
+    <component base="percent"/>
+    <contour>
+      <point x="422" y="356" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
+</glyph>

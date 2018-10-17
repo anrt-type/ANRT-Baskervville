@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="strokelongcomb" format="1">
+  <advance width="842"/>
+  <unicode hex="0336"/>
+  <outline>
+    <contour>
+      <point x="155" y="522" type="line"/>
+      <point x="907" y="522" type="line"/>
+      <point x="917" y="551" type="line"/>
+      <point x="165" y="551" type="line"/>
+    </contour>
+    <contour>
+      <point x="536" y="537" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 11:54:23 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

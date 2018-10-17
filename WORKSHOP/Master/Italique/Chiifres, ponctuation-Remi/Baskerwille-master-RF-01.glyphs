@@ -1,0 +1,1350 @@
+{
+.appVersion = "1064";
+DisplayStrings = (
+",."
+);
+date = "2017-10-13 07:30:52 +0000";
+familyName = "Baskerwille-master";
+fontMaster = (
+{
+alignmentZones = (
+"{710, 10}",
+"{440, 10}",
+"{0, -10}",
+"{-280, -10}"
+);
+ascender = 710;
+capHeight = 710;
+descender = -280;
+id = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+userData = {
+GSCornerRadius = 3;
+};
+verticalStems = (
+90,
+70
+);
+xHeight = 440;
+}
+);
+glyphs = (
+{
+glyphname = A;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0041;
+},
+{
+glyphname = B;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0042;
+},
+{
+glyphname = C;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0043;
+},
+{
+glyphname = D;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0044;
+},
+{
+glyphname = E;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0045;
+},
+{
+glyphname = F;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0046;
+},
+{
+glyphname = G;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0047;
+},
+{
+glyphname = H;
+lastChange = "2017-10-13 07:32:27 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0048;
+},
+{
+glyphname = I;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0049;
+},
+{
+glyphname = J;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 004A;
+},
+{
+glyphname = K;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 004B;
+},
+{
+glyphname = L;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 004C;
+},
+{
+glyphname = M;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 004D;
+},
+{
+glyphname = N;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 004E;
+},
+{
+glyphname = O;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 004F;
+},
+{
+glyphname = P;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0050;
+},
+{
+glyphname = Q;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0051;
+},
+{
+glyphname = R;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0052;
+},
+{
+glyphname = S;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0053;
+},
+{
+glyphname = T;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0054;
+},
+{
+glyphname = U;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0055;
+},
+{
+glyphname = V;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0056;
+},
+{
+glyphname = W;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0057;
+},
+{
+glyphname = X;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0058;
+},
+{
+glyphname = Y;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0059;
+},
+{
+glyphname = Z;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 005A;
+},
+{
+export = 0;
+glyphname = A.001;
+lastChange = "2017-10-13 07:42:06 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187508.jpg";
+transform = "{2.7, 0, 0, 2.7, -4249, -2285}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = H.001;
+lastChange = "2017-10-13 07:43:27 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187537.jpg";
+transform = "{2.69959, -0.04712, 0.04712, 2.69959, -4498, -3957}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = L.001;
+lastChange = "2017-10-13 07:41:37 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187508.jpg";
+transform = "{2.7, 0, 0, 2.7, -3124, -3577}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+glyphname = a;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0061;
+},
+{
+glyphname = b;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0062;
+},
+{
+glyphname = c;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0063;
+},
+{
+glyphname = d;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0064;
+},
+{
+glyphname = e;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0065;
+},
+{
+glyphname = f;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0066;
+},
+{
+glyphname = g;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0067;
+},
+{
+glyphname = h;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0068;
+},
+{
+glyphname = i;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0069;
+},
+{
+glyphname = j;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 006A;
+},
+{
+glyphname = k;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 006B;
+},
+{
+glyphname = l;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 006C;
+},
+{
+glyphname = m;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 006D;
+},
+{
+glyphname = n;
+lastChange = "2017-10-13 07:32:27 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 006E;
+},
+{
+glyphname = o;
+lastChange = "2017-10-13 08:57:02 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"405 -10 OFFCURVE",
+"499 84 OFFCURVE",
+"499 224 CURVE SMOOTH",
+"499 364 OFFCURVE",
+"405 450 OFFCURVE",
+"270 450 CURVE SMOOTH",
+"135 450 OFFCURVE",
+"40 364 OFFCURVE",
+"40 224 CURVE SMOOTH",
+"40 84 OFFCURVE",
+"135 -10 OFFCURVE",
+"270 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"180 16 OFFCURVE",
+"122 74 OFFCURVE",
+"122 224 CURVE SMOOTH",
+"122 374 OFFCURVE",
+"180 424 OFFCURVE",
+"270 424 CURVE SMOOTH",
+"360 424 OFFCURVE",
+"419 374 OFFCURVE",
+"419 224 CURVE SMOOTH",
+"419 74 OFFCURVE",
+"360 16 OFFCURVE",
+"270 16 CURVE SMOOTH"
+);
+}
+);
+width = 539;
+}
+);
+unicode = 006F;
+},
+{
+glyphname = p;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0070;
+},
+{
+glyphname = q;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0071;
+},
+{
+glyphname = r;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0072;
+},
+{
+glyphname = s;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0073;
+},
+{
+glyphname = t;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0074;
+},
+{
+glyphname = u;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0075;
+},
+{
+glyphname = v;
+lastChange = "2017-10-12 12:51:34 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0076;
+},
+{
+glyphname = w;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0077;
+},
+{
+glyphname = x;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0078;
+},
+{
+glyphname = y;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0079;
+},
+{
+glyphname = z;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 007A;
+},
+{
+export = 0;
+glyphname = f.001;
+lastChange = "2017-10-13 07:46:13 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {3264, 2448}}";
+imagePath = "../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187513.jpg";
+transform = "{2.69959, 0.04712, -0.04712, 2.69959, -4875, -2742}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+},
+{
+glyphname = zero;
+lastChange = "2017-10-13 09:18:10 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{962.222, 849.259}, {222.222, 366.667}}";
+imagePath = "/Users/RMFRT/Documents/WRK/ANRT/Baskerwille - Workshop/chiffres/0/JACOB-notice-187525.jpg";
+locked = "1";
+transform = "{2.7, 0, 0, 2.7, -2646, -2573}";
+};
+components = (
+{
+name = "_part-o";
+transform = "{1, 0, 0, 1, -10, 0}";
+},
+{
+name = "_part-o";
+transform = "{1, 0, 0, -1, -10, 448}";
+},
+{
+name = "_part-o";
+transform = "{-1, 0, 0, 1, 528, 0}";
+},
+{
+name = "_part-o";
+transform = "{-1, 0, 0, -1, 528, 448}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 518;
+}
+);
+leftMetricsKey = "=o";
+rightMetricsKey = "=o";
+unicode = 0030;
+},
+{
+glyphname = one;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0031;
+},
+{
+glyphname = two;
+lastChange = "2017-10-13 12:14:18 +0000";
+layers = (
+{
+background = {
+guideLines = (
+{
+position = "{-88, 200}";
+},
+{
+angle = 90;
+position = "{320, -90}";
+},
+{
+angle = 90;
+position = "{240, -90}";
+},
+{
+angle = 90;
+position = "{50, -90}";
+},
+{
+angle = 90;
+position = "{30, -90}";
+},
+{
+position = "{-88, 220}";
+},
+{
+position = "{-88, 430}";
+},
+{
+position = "{-88, 450}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"262 200 OFFCURVE",
+"320 250 OFFCURVE",
+"320 325 CURVE SMOOTH",
+"320 400 OFFCURVE",
+"262 450 OFFCURVE",
+"175 450 CURVE SMOOTH",
+"88 450 OFFCURVE",
+"30 400 OFFCURVE",
+"30 325 CURVE SMOOTH",
+"30 250 OFFCURVE",
+"88 200 OFFCURVE",
+"175 200 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"88 220 OFFCURVE",
+"50 262 OFFCURVE",
+"50 325 CURVE SMOOTH",
+"50 388 OFFCURVE",
+"88 430 OFFCURVE",
+"145 430 CURVE SMOOTH",
+"202 430 OFFCURVE",
+"240 388 OFFCURVE",
+"240 325 CURVE SMOOTH",
+"240 262 OFFCURVE",
+"202 220 OFFCURVE",
+"145 220 CURVE SMOOTH"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{1351.482, 1232.963}, {181.481, 366.667}}";
+imagePath = "/Users/RMFRT/Documents/WRK/ANRT/Baskerwille - Workshop/chiffres/2/JACOB-notice-187522.jpg";
+locked = "1";
+transform = "{2.7, 0, 0, 2.7, -3737, -3609}";
+};
+guideLines = (
+{
+angle = 90;
+position = "{320, -90}";
+},
+{
+angle = 90;
+position = "{240, -90}";
+},
+{
+position = "{-88, 430}";
+},
+{
+position = "{-88, 450}";
+},
+{
+position = "{-88, 200}";
+},
+{
+angle = 90;
+position = "{50, -90}";
+},
+{
+angle = 90;
+position = "{30, -90}";
+},
+{
+position = "{-88, 220}";
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"114 209 LINE",
+"114 225 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"114 225 LINE",
+"75 237 OFFCURVE",
+"50 274 OFFCURVE",
+"50 325 CURVE SMOOTH",
+"50 388 OFFCURVE",
+"91 430 OFFCURVE",
+"152 430 CURVE SMOOTH",
+"205 430 OFFCURVE",
+"240 387 OFFCURVE",
+"240 323 CURVE SMOOTH",
+"240 254 OFFCURVE",
+"196 177 OFFCURVE",
+"42 17 CURVE",
+"42 -5 LINE",
+"270 0 LINE",
+"277 -56 LINE",
+"292 -56 LINE",
+"297 -1 OFFCURVE",
+"303 36 OFFCURVE",
+"320 82 CURVE",
+"103 65 LINE",
+"108 44 LINE",
+"200 156 OFFCURVE",
+"320 232 OFFCURVE",
+"320 333 CURVE SMOOTH",
+"320 402 OFFCURVE",
+"260 450 OFFCURVE",
+"171 450 CURVE SMOOTH",
+"86 450 OFFCURVE",
+"30 400 OFFCURVE",
+"30 325 CURVE SMOOTH",
+"30 269 OFFCURVE",
+"62 223 OFFCURVE",
+"114 209 CURVE"
+);
+}
+);
+width = 350;
+}
+);
+unicode = 0032;
+},
+{
+glyphname = three;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0033;
+},
+{
+glyphname = four;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0034;
+},
+{
+glyphname = five;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0035;
+},
+{
+glyphname = six;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0036;
+},
+{
+glyphname = seven;
+lastChange = "2017-10-13 09:33:05 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{1728.519, 821.482}, {222.222, 366.667}}";
+imagePath = "/Users/RMFRT/Documents/WRK/ANRT/Baskerwille - Workshop/chiffres/0/JACOB-notice-187525.jpg";
+locked = "1";
+transform = "{2.69836, -0.09423, 0.09423, 2.69836, -4789, -2458}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"130 440 LINE",
+"130 510 LINE",
+"106 510 LINE",
+"106 240 LINE",
+"130 240 LINE",
+"130 340 LINE",
+"445 340 LINE",
+"471 440 LINE",
+"212 -215 LINE SMOOTH",
+"190 -270 OFFCURVE",
+"195 -312 OFFCURVE",
+"229 -312 CURVE SMOOTH",
+"254 -312 OFFCURVE",
+"269 -296 OFFCURVE",
+"285 -243 CURVE SMOOTH",
+"490 440 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0037;
+},
+{
+glyphname = eight;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0038;
+},
+{
+glyphname = nine;
+lastChange = "2017-10-13 08:44:58 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0039;
+},
+{
+glyphname = colon;
+lastChange = "2017-10-13 12:20:19 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 003A;
+},
+{
+glyphname = comma;
+lastChange = "2017-10-13 12:36:32 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"96 -10 OFFCURVE",
+"60 26 OFFCURVE",
+"60 70 CURVE SMOOTH",
+"60 114 OFFCURVE",
+"96 150 OFFCURVE",
+"140 150 CURVE SMOOTH",
+"184 150 OFFCURVE",
+"220 114 OFFCURVE",
+"220 70 CURVE SMOOTH",
+"220 26 OFFCURVE",
+"184 -10 OFFCURVE",
+"140 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"193 150 OFFCURVE",
+"250 112 OFFCURVE",
+"250 13 CURVE SMOOTH",
+"250 -115 OFFCURVE",
+"175 -169 OFFCURVE",
+"109 -217 CURVE",
+"98 -196 LINE",
+"152 -159 OFFCURVE",
+"223 -96 OFFCURVE",
+"223 0 CURVE SMOOTH",
+"223 76 OFFCURVE",
+"182 97 OFFCURVE",
+"110 109 CURVE",
+"140 150 LINE"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{1428.519, 1325.926}, {222.222, 366.667}}";
+imagePath = "../../../../1878 Limprimerie Berger Levrault Notice historique/Romain/JACOB-notice-187516.jpg";
+locked = "1";
+transform = "{2.7, 0, 0, 2.7, -3953, -4069}";
+};
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"96 -10 OFFCURVE",
+"60 26 OFFCURVE",
+"60 70 CURVE SMOOTH",
+"60 114 OFFCURVE",
+"96 150 OFFCURVE",
+"140 150 CURVE SMOOTH",
+"184 150 OFFCURVE",
+"220 114 OFFCURVE",
+"220 70 CURVE",
+"170 101 LINE",
+"189 89 OFFCURVE",
+"191 72 OFFCURVE",
+"191 47 CURVE SMOOTH",
+"191 19 OFFCURVE",
+"160 -10 OFFCURVE",
+"130 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"193 150 OFFCURVE",
+"250 112 OFFCURVE",
+"250 13 CURVE SMOOTH",
+"250 -115 OFFCURVE",
+"175 -169 OFFCURVE",
+"109 -217 CURVE",
+"98 -196 LINE",
+"152 -159 OFFCURVE",
+"223 -96 OFFCURVE",
+"223 0 CURVE SMOOTH",
+"223 76 OFFCURVE",
+"182 107 OFFCURVE",
+"110 119 CURVE",
+"140 150 LINE"
+);
+}
+);
+width = 310;
+}
+);
+leftMetricsKey = "=period";
+rightMetricsKey = "=period";
+unicode = 002C;
+},
+{
+glyphname = period;
+lastChange = "2017-10-13 12:22:20 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"184 -10 OFFCURVE",
+"220 26 OFFCURVE",
+"220 70 CURVE SMOOTH",
+"220 114 OFFCURVE",
+"184 150 OFFCURVE",
+"140 150 CURVE SMOOTH",
+"96 150 OFFCURVE",
+"60 114 OFFCURVE",
+"60 70 CURVE SMOOTH",
+"60 26 OFFCURVE",
+"96 -10 OFFCURVE",
+"140 -10 CURVE SMOOTH"
+);
+}
+);
+width = 280;
+}
+);
+unicode = 002E;
+},
+{
+glyphname = semicolon;
+lastChange = "2017-10-13 12:20:19 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 003B;
+},
+{
+glyphname = space;
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 600;
+}
+);
+unicode = 0020;
+},
+{
+export = 0;
+glyphname = "_corner-bd";
+lastChange = "2017-10-12 12:40:09 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 98 LINE SMOOTH",
+"0 47 OFFCURVE",
+"5 25 OFFCURVE",
+"52 19 CURVE SMOOTH",
+"85 15 LINE SMOOTH",
+"87 15 OFFCURVE",
+"88 14 OFFCURVE",
+"88 12 CURVE SMOOTH",
+"88 0 LINE SMOOTH",
+"88 -2 OFFCURVE",
+"87 -3 OFFCURVE",
+"85 -3 CURVE SMOOTH",
+"45 -3 OFFCURVE",
+"4 0 OFFCURVE",
+"-36 0 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = "_corner-bg";
+lastChange = "2017-10-12 12:36:10 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 0;
+nodes = (
+"32 0 LINE SMOOTH",
+"-14 0 OFFCURVE",
+"-46 -3 OFFCURVE",
+"-85 -3 CURVE SMOOTH",
+"-87 -3 OFFCURVE",
+"-88 -2 OFFCURVE",
+"-88 0 CURVE SMOOTH",
+"-88 12 LINE SMOOTH",
+"-88 14 OFFCURVE",
+"-87 15 OFFCURVE",
+"-85 15 CURVE SMOOTH",
+"-52 19 LINE SMOOTH",
+"-5 25 OFFCURVE",
+"0 47 OFFCURVE",
+"0 98 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-jambage";
+lastChange = "2017-10-12 13:07:02 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"166 367 OFFCURVE",
+"236 453 OFFCURVE",
+"344 453 CURVE SMOOTH",
+"460 453 OFFCURVE",
+"486 396 OFFCURVE",
+"486 289 CURVE SMOOTH",
+"486 0 LINE",
+"450 0 LINE",
+"404 0 OFFCURVE",
+"372 -3 OFFCURVE",
+"333 -3 CURVE",
+"331 -3 OFFCURVE",
+"330 -2 OFFCURVE",
+"330 0 CURVE",
+"330 12 LINE",
+"330 14 OFFCURVE",
+"331 15 OFFCURVE",
+"333 15 CURVE",
+"366 19 LINE",
+"413 25 OFFCURVE",
+"418 47 OFFCURVE",
+"418 98 CURVE",
+"418 318 LINE SMOOTH",
+"418 393 OFFCURVE",
+"377 424 OFFCURVE",
+"324 424 CURVE SMOOTH",
+"248 424 OFFCURVE",
+"184 362 OFFCURVE",
+"184 266 CURVE",
+"166 271 LINE"
+);
+}
+);
+userData = {
+PartSelection = {
+Bold = 1;
+};
+};
+width = 600;
+},
+{
+associatedMasterId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+layerId = "0A006F23-EE7B-46D5-AD5F-5329B57B676C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"166 367 OFFCURVE",
+"236 453 OFFCURVE",
+"344 453 CURVE SMOOTH",
+"476 453 OFFCURVE",
+"506 396 OFFCURVE",
+"506 289 CURVE SMOOTH",
+"506 0 LINE",
+"450 0 LINE",
+"384 0 OFFCURVE",
+"352 -3 OFFCURVE",
+"313 -3 CURVE",
+"311 -3 OFFCURVE",
+"310 -2 OFFCURVE",
+"310 0 CURVE",
+"310 12 LINE",
+"310 14 OFFCURVE",
+"311 15 OFFCURVE",
+"313 15 CURVE",
+"346 19 LINE",
+"393 25 OFFCURVE",
+"398 47 OFFCURVE",
+"398 98 CURVE",
+"398 318 LINE SMOOTH",
+"398 379 OFFCURVE",
+"366 404 OFFCURVE",
+"324 404 CURVE SMOOTH",
+"248 404 OFFCURVE",
+"184 350 OFFCURVE",
+"184 266 CURVE",
+"166 271 LINE"
+);
+}
+);
+userData = {
+PartSelection = {
+Bold = 2;
+};
+};
+width = 600;
+}
+);
+partsSettings = (
+{
+name = Bold;
+bottomName = Low;
+bottomValue = 0;
+topName = High;
+topValue = 100;
+}
+);
+},
+{
+export = 0;
+glyphname = "_part-o";
+lastChange = "2017-10-13 09:18:30 +0000";
+layers = (
+{
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+paths = (
+{
+closed = 1;
+nodes = (
+"141 450 OFFCURVE",
+"50 354 OFFCURVE",
+"50 224 CURVE",
+"140 224 LINE",
+"140 364 OFFCURVE",
+"181 424 OFFCURVE",
+"269 424 CURVE",
+"269 450 LINE"
+);
+}
+);
+width = 518;
+}
+);
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"9372F035-DA38-4B54-966C-CEBA9B53DD02" = {
+HV = "90";
+nV = "70";
+oV = "80";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

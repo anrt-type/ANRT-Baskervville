@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave" format="1">
+  <advance width="695"/>
+  <unicode hex="00C8"/>
+  <outline>
+    <component base="E"/>
+    <component base="gravecomb.case" xOffset="247"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 11:54:23 +0000</string>
+    </dict>
+  </lib>
+</glyph>

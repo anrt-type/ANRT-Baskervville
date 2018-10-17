@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.lf" format="1">
+  <advance width="617"/>
+  <outline>
+    <contour>
+      <point x="308" y="-11" type="curve" smooth="yes"/>
+      <point x="469" y="-11"/>
+      <point x="572" y="136"/>
+      <point x="572" y="358" type="curve" smooth="yes"/>
+      <point x="572" y="578"/>
+      <point x="469" y="724"/>
+      <point x="308" y="724" type="curve" smooth="yes"/>
+      <point x="148" y="724"/>
+      <point x="45" y="578"/>
+      <point x="45" y="358" type="curve" smooth="yes"/>
+      <point x="45" y="136"/>
+      <point x="148" y="-11"/>
+    </contour>
+    <contour>
+      <point x="308" y="15" type="curve" smooth="yes"/>
+      <point x="175" y="15"/>
+      <point x="141" y="150"/>
+      <point x="141" y="358" type="curve" smooth="yes"/>
+      <point x="141" y="562"/>
+      <point x="175" y="699"/>
+      <point x="308" y="699" type="curve" smooth="yes"/>
+      <point x="443" y="699"/>
+      <point x="477" y="562"/>
+      <point x="477" y="358" type="curve" smooth="yes"/>
+      <point x="477" y="150"/>
+      <point x="443" y="15"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

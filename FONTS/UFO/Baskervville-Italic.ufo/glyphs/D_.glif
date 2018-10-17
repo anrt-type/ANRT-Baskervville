@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="1">
+  <advance width="789"/>
+  <unicode hex="0044"/>
+  <outline>
+    <contour>
+      <point x="-49" y="-3" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="285" y="0" type="line" smooth="yes"/>
+      <point x="454" y="0"/>
+      <point x="610" y="72"/>
+      <point x="704" y="190" type="curve" smooth="yes"/>
+      <point x="762" y="262"/>
+      <point x="796" y="353"/>
+      <point x="796" y="450" type="curve" smooth="yes"/>
+      <point x="796" y="623"/>
+      <point x="654" y="721"/>
+      <point x="441" y="713" type="curve" smooth="yes"/>
+      <point x="359" y="710" type="line"/>
+      <point x="358" y="710" type="line"/>
+      <point x="211" y="713" type="line"/>
+      <point x="202" y="688" type="line"/>
+      <point x="221" y="686" type="line" smooth="yes"/>
+      <point x="274" y="681"/>
+      <point x="293" y="673"/>
+      <point x="293" y="651" type="curve" smooth="yes"/>
+      <point x="293" y="643"/>
+      <point x="290" y="631"/>
+      <point x="285" y="617" type="curve" smooth="yes"/>
+      <point x="93" y="88" type="line" smooth="yes"/>
+      <point x="76" y="41"/>
+      <point x="58" y="31"/>
+      <point x="-19" y="24" type="curve" smooth="yes"/>
+      <point x="-40" y="22" type="line"/>
+    </contour>
+    <contour>
+      <point x="252" y="26" type="line" smooth="yes"/>
+      <point x="223" y="26"/>
+      <point x="177" y="25"/>
+      <point x="177" y="77" type="curve" smooth="yes"/>
+      <point x="177" y="91"/>
+      <point x="181" y="110"/>
+      <point x="189" y="133" type="curve" smooth="yes"/>
+      <point x="389" y="683" type="line"/>
+      <point x="424" y="684" type="line" smooth="yes"/>
+      <point x="636" y="689"/>
+      <point x="706" y="588"/>
+      <point x="706" y="453" type="curve" smooth="yes"/>
+      <point x="706" y="237"/>
+      <point x="531" y="26"/>
+      <point x="286" y="26" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="302" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="232" y="355" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="460" y="710" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 11:54:23 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

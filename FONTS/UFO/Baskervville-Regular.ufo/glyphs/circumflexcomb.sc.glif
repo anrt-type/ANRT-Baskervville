@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb.sc" format="1">
+  <advance width="310"/>
+  <outline>
+    <component base="circumflex" yOffset="240"/>
+    <contour>
+      <point x="156" y="710" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="155" y="908" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb.alt" format="1">
+  <advance width="182"/>
+  <outline>
+    <component base="caron.alt"/>
+    <contour>
+      <point x="78" y="436" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="58" y="436" type="move" name="_topright"/>
+    </contour>
+    <contour>
+      <point x="80" y="651" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

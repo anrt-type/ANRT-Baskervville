@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_partG" format="1">
+  <advance width="576"/>
+  <outline>
+    <contour>
+      <point x="116" y="254" type="curve"/>
+      <point x="191" y="254" type="line"/>
+      <point x="191" y="466"/>
+      <point x="271" y="667"/>
+      <point x="396" y="746" type="curve"/>
+      <point x="381" y="769" type="line"/>
+      <point x="245" y="688"/>
+      <point x="116" y="526"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

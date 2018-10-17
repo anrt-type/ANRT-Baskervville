@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordmasculine" format="1">
+  <advance width="399"/>
+  <unicode hex="00BA"/>
+  <outline>
+    <contour>
+      <point x="16" y="185" type="line"/>
+      <point x="368" y="185" type="line"/>
+      <point x="368" y="209" type="line"/>
+      <point x="16" y="209" type="line"/>
+    </contour>
+    <component base="o.sups"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 11:54:23 +0000</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

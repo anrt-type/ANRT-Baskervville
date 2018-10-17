@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
+  <advance width="442"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <component base="dotaccent" xScale="0.9" yScale="0.93" xOffset="-2" yOffset="61"/>
+    <component base="dotaccent" xScale="0.9" yScale="0.93" xOffset="188" yOffset="61"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-12 09:07:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

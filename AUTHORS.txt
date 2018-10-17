@@ -1,0 +1,14 @@
+# This is the official list of project authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS.txt file.
+# See the latter for an explanation.
+# 
+# Names should be added to this file as:
+# Name or Organization <email address>
+
+ANRT Promo 2017
+Alexis Faudot <alexis.faudot@laposte.net>
+Rémi Forte <forte.remi@gmail.com>
+Morgane Pierson <pierson.morgane@icloud.com>
+Rafael Ribas <rafaelribas@live.fr>
+Tanguy Vanlæys <vanlaeys.tanguy1@gmail.com>
+Rosalie Wagner <rose.wagner@free.fr>
