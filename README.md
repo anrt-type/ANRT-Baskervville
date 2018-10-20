@@ -17,7 +17,7 @@ ___
 _____
 ### Summary
 
-* [Documents](https://github.com/anrt-type/ANRT-Baskervville/tree/master/DOCUMENTS)
+* [Documents](https://github.com/anrt-type/ANRT-Baskervville/tree/master/DOCUMENTS) (charset & specimen)
 * [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/tree/master/WORKSHOP)
 * [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/FONTS/OTF)
 * [UFO files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/FONTS/UFO)
@@ -28,7 +28,7 @@ _____
 
 For this revival we used the sources from *La Notice historique de Berger-Levrault*, 1815.
 
-You can find other relevant sources [at this address](https://bitbucket.org/anrt_type/anrt-2017-baskervville/src/master/SOURCES/) but we still organizing recent discoveries which will be available soon. Contact us if you have any request.
+You can find other relevant sources [at this address](https://bitbucket.org/anrt_type/anrt-2017-baskervville/src/master/SOURCES/) but we are sstill organizing recent discoveries which will be available soon. Contact us if you have any request.
 
 Thanks to credit everything you use in this repository with the mention : **ANRT (Atelier National de Recherche typographique), Nancy.**
 
