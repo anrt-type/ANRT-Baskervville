@@ -1,4 +1,8 @@
-## Baskervville
+# Baskervville
+
+This is the repository of the production process of Jacob's Baskerwille revival made at the ANRT in 2017/2018.
+
+___
 
 **Organization:** [ANRT](https://anrt-nancy.fr/fr/presentation/) (Atelier National de Recherche typographique), Nancy.
 
@@ -17,6 +21,16 @@ _____
 * [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/tree/master/WORKSHOP)
 * [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/FONTS/OTF)
 * [UFO files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/FONTS/UFO)
+* [Sources](https://github.com/anrt-type/ANRT-Baskervville/tree/master/SOURCES)
+
+_____
+### Sources
+
+For this revival we used the sources from *La Notice historique de Berger-Levrault*, 1815.
+
+You can find other relevant sources [at this address](https://bitbucket.org/anrt_type/anrt-2017-baskervville/src/master/SOURCES/) but we still organizing recent discoveries which will be available soon. Contact us if you have any request.
+
+Thanks to credit everything you use in this repository with the mention : **ANRT (Atelier National de Recherche typographique), Nancy.**
 
 _____
 
