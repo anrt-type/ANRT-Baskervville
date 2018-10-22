@@ -2,12 +2,13 @@
 <glyph name="Delta" format="1">
   <advance width="620"/>
   <unicode hex="0394"/>
+  <unicode hex="03B4"/>
   <outline>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-16 10:23:19 +0000</string>
+      <string>2018-10-22 09:14:30 +0000</string>
     </dict>
   </lib>
 </glyph>

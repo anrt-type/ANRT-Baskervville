@@ -86,6 +86,8 @@
 	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
+	<key>trademark</key>
+	<string>Copyright (c) 2018 by ANRT (Atelier national de recherche typographique, Nancy). All rights reserved.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
