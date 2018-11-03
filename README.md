@@ -28,7 +28,7 @@ _____
 
 For this revival we used the sources from *La Notice historique de Berger-Levrault*, 1815.
 
-You can find other relevant sources [at this address](https://bitbucket.org/anrt_type/anrt-2017-baskervville/src/master/SOURCES/) but we are sstill organizing recent discoveries which will be available soon. Contact us if you have any request.
+You can find other relevant sources [at this address](https://bitbucket.org/anrt_type/anrt-2017-baskervville/src/master/SOURCES/) but we are still organizing recent discoveries which will be available soon. Contact us if you have any request.
 
 Thanks to credit everything you use in this repository with the mention : **ANRT (Atelier National de Recherche typographique), Nancy.**
 
@@ -37,7 +37,7 @@ _____
 ### The revival of a revival
  *Baskervville* is a revival of Jacob's revival of Baskerville's typeface. It was distributed by Berger-Levrault Foundry from 1815. The font Jacob produced was sold as a *"Caractères dans le genre Baskerwille"* i.e *"Baskerwille fonts alike"* — with a *w* instead of a *v*.
 
- The workshop aimed to digitalized Jacob's font in order to testify to his work which creates a transition between classic and modern styles.
+ The particularity of Jacob's Baskerwille is that the roman is very closed to Baskerville's typefaces while the italic is closer to Didot's typefaces. The workshop aimed to digitalized Jacob's font in order to testify to his work which creates a transition between transitional and modern styles.
 
  ![Source](https://bitbucket.org/anrt_type/anrt-2017-baskervville/raw/ab82f14fbb8f70936255ac3211b219d9a0243d8c/FONTS/Samples/Jpeg/181004baskerwille-source.jpg)
  Zoom in the *Notice historique 1878*, Imprimerie Berger Levrault, Strasbourg, 1878.
