@@ -12,10 +12,8 @@
 	<integer>-290</integer>
 	<key>familyName</key>
 	<string>Baskervville</string>
-	<key>note</key>
-	<string>sups : width 83% heigth 78%</string>
 	<key>openTypeHeadCreated</key>
-	<string>2018/10/04 14:23:28</string>
+	<string>2018/11/04 20:35:35</string>
 	<key>openTypeHheaAscender</key>
 	<integer>710</integer>
 	<key>openTypeHheaDescender</key>
@@ -23,11 +21,11 @@
 	<key>openTypeNameDesigner</key>
 	<string>ANRT</string>
 	<key>openTypeNameDesignerURL</key>
-	<string>http://anrt-nancy.fr</string>
+	<string>https://anrt-nancy.fr</string>
 	<key>openTypeNameManufacturer</key>
 	<string>ANRT</string>
 	<key>openTypeNameManufacturerURL</key>
-	<string>http://anrt-nancy.fr</string>
+	<string>https://anrt-nancy.fr</string>
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Baskervville</string>
 	<key>openTypeNamePreferredSubfamilyName</key>

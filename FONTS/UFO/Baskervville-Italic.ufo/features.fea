@@ -22,7 +22,6 @@ feature lnum;
 feature onum;
 feature case;
 feature calt;
-feature ccmp;
 feature subs;
 feature sinf;
 feature numr;
@@ -159,8 +158,11 @@ sub perthousand by perthousand.lf;
 
 feature liga {
 # automatic
+sub f f b by f_f_b.liga;
+sub f f h by f_f_h.liga;
 sub f f i by f_f_i.liga;
 sub f f j by f_f_j.liga;
+sub f f k by f_f_k.liga;
 sub f f l by f_f_l.liga;
 sub f b by f_b.liga;
 sub f f by f_f.liga;

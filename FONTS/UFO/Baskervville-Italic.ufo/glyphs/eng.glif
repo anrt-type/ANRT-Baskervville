@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eng" format="1">
-  <advance width="506"/>
+  <advance width="507"/>
   <unicode hex="014B"/>
   <outline>
     <contour>
-      <point x="119" y="-294" type="curve" smooth="yes"/>
-      <point x="206" y="-294"/>
-      <point x="255" y="-250"/>
-      <point x="300" y="-136" type="curve" smooth="yes"/>
+      <point x="120" y="-290" type="curve" smooth="yes"/>
+      <point x="207" y="-290"/>
+      <point x="259" y="-247"/>
+      <point x="301" y="-132" type="curve" smooth="yes"/>
       <point x="472" y="331" type="line" smooth="yes"/>
       <point x="479" y="351"/>
       <point x="483" y="370"/>
@@ -28,18 +28,18 @@
       <point x="415" y="381"/>
       <point x="413" y="370"/>
       <point x="408" y="356" type="curve" smooth="yes"/>
-      <point x="232" y="-131" type="line" smooth="yes"/>
-      <point x="201" y="-214"/>
-      <point x="172" y="-272"/>
-      <point x="137" y="-272" type="curve" smooth="yes"/>
-      <point x="93" y="-272"/>
-      <point x="116" y="-174"/>
-      <point x="57" y="-174" type="curve" smooth="yes"/>
-      <point x="29" y="-174"/>
-      <point x="8" y="-194"/>
-      <point x="8" y="-221" type="curve" smooth="yes"/>
-      <point x="8" y="-257"/>
-      <point x="37" y="-294"/>
+      <point x="233" y="-127" type="line" smooth="yes"/>
+      <point x="203" y="-210"/>
+      <point x="173" y="-268"/>
+      <point x="138" y="-268" type="curve" smooth="yes"/>
+      <point x="94" y="-268"/>
+      <point x="117" y="-170"/>
+      <point x="58" y="-170" type="curve" smooth="yes"/>
+      <point x="30" y="-170"/>
+      <point x="9" y="-190"/>
+      <point x="9" y="-217" type="curve" smooth="yes"/>
+      <point x="9" y="-253"/>
+      <point x="38" y="-290"/>
     </contour>
     <component base="_part.fut" xOffset="-9"/>
     <contour>
@@ -52,7 +52,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
+      <string>2018-11-02 14:54:19 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

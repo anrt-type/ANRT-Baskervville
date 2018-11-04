@@ -314,8 +314,8 @@
 	<string>ae.glif</string>
 	<key>agrave</key>
 	<string>agrave.glif</string>
-	<key>amacron</key>
-	<string>amacron.glif</string>
+	<key>amacroan</key>
+	<string>amacroan.glif</string>
 	<key>ampersand</key>
 	<string>ampersand.glif</string>
 	<key>aogonek</key>
@@ -496,10 +496,16 @@
 	<string>f_b.liga.glif</string>
 	<key>f_f.liga</key>
 	<string>f_f.liga.glif</string>
+	<key>f_f_b.liga</key>
+	<string>f_f_b.liga.glif</string>
+	<key>f_f_h.liga</key>
+	<string>f_f_h.liga.glif</string>
 	<key>f_f_i.liga</key>
 	<string>f_f_i.liga.glif</string>
 	<key>f_f_j.liga</key>
 	<string>f_f_j.liga.glif</string>
+	<key>f_f_k.liga</key>
+	<string>f_f_k.liga.glif</string>
 	<key>f_f_l.liga</key>
 	<string>f_f_l.liga.glif</string>
 	<key>f_h.liga</key>
@@ -988,8 +994,8 @@
 	<string>v.glif</string>
 	<key>w</key>
 	<string>w.glif</string>
-	<key>w.alt2</key>
-	<string>w.alt2.glif</string>
+	<key>w.alt</key>
+	<string>w.alt.glif</string>
 	<key>wacute</key>
 	<string>wacute.glif</string>
 	<key>wcircumflex</key>

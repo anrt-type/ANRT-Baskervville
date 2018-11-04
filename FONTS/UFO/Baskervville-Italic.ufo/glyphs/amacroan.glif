@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="amacron" format="1">
+<glyph name="amacroan" format="1">
   <advance width="533"/>
-  <unicode hex="0101"/>
   <outline>
     <component base="a"/>
     <component base="macroncomb" xOffset="65"/>
@@ -9,7 +8,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
+      <string>2018-11-04 19:49:39 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -418,7 +418,6 @@
 		<string>acircumflex</string>
 		<string>adieresis</string>
 		<string>agrave</string>
-		<string>amacron</string>
 		<string>aogonek</string>
 		<string>aring</string>
 		<string>atilde</string>
@@ -434,6 +433,7 @@
 		<string>uogonek</string>
 		<string>uring</string>
 		<string>jdotless.calt</string>
+		<string>amacroan</string>
 	</array>
 	<key>@MMK_L_v</key>
 	<array>
@@ -443,7 +443,7 @@
 		<string>wcircumflex</string>
 		<string>wdieresis</string>
 		<string>wgrave</string>
-		<string>w.alt2</string>
+		<string>w.alt</string>
 	</array>
 	<key>@MMK_L_x</key>
 	<array>
@@ -622,11 +622,11 @@
 		<string>acircumflex</string>
 		<string>adieresis</string>
 		<string>agrave</string>
-		<string>amacron</string>
 		<string>aogonek</string>
 		<string>aring</string>
 		<string>atilde</string>
 		<string>ae</string>
+		<string>amacroan</string>
 	</array>
 	<key>@MMK_R_dieresis</key>
 	<array>
@@ -904,7 +904,7 @@
 		<string>ycircumflex</string>
 		<string>ydieresis</string>
 		<string>ygrave</string>
-		<string>w.alt2</string>
+		<string>w.alt</string>
 	</array>
 	<key>@MMK_R_x</key>
 	<array>

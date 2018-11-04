@@ -4,10 +4,10 @@
   <unicode hex="0237"/>
   <outline>
     <contour>
-      <point x="-112" y="-294" type="curve" smooth="yes"/>
-      <point x="-25" y="-294"/>
-      <point x="28" y="-253"/>
-      <point x="66" y="-136" type="curve" smooth="yes"/>
+      <point x="-111" y="-290" type="curve" smooth="yes"/>
+      <point x="-24" y="-290"/>
+      <point x="29" y="-249"/>
+      <point x="67" y="-132" type="curve" smooth="yes"/>
       <point x="254" y="443" type="line"/>
       <point x="92" y="440" type="line"/>
       <point x="85" y="416" type="line"/>
@@ -15,20 +15,20 @@
       <point x="161" y="417"/>
       <point x="161" y="384" type="curve" smooth="yes"/>
       <point x="161" y="378"/>
-      <point x="160" y="370"/>
+      <point x="159" y="370"/>
       <point x="156" y="360" type="curve" smooth="yes"/>
-      <point x="-3" y="-131" type="line" smooth="yes"/>
-      <point x="-31" y="-218"/>
-      <point x="-58" y="-272"/>
-      <point x="-94" y="-272" type="curve" smooth="yes"/>
-      <point x="-138" y="-272"/>
-      <point x="-115" y="-174"/>
-      <point x="-174" y="-174" type="curve" smooth="yes"/>
-      <point x="-202" y="-174"/>
-      <point x="-223" y="-194"/>
-      <point x="-223" y="-221" type="curve" smooth="yes"/>
-      <point x="-223" y="-257"/>
-      <point x="-194" y="-294"/>
+      <point x="-2" y="-127" type="line" smooth="yes"/>
+      <point x="-30" y="-214"/>
+      <point x="-57" y="-268"/>
+      <point x="-93" y="-268" type="curve" smooth="yes"/>
+      <point x="-137" y="-268"/>
+      <point x="-114" y="-170"/>
+      <point x="-173" y="-170" type="curve" smooth="yes"/>
+      <point x="-201" y="-170"/>
+      <point x="-222" y="-190"/>
+      <point x="-222" y="-217" type="curve" smooth="yes"/>
+      <point x="-222" y="-253"/>
+      <point x="-193" y="-290"/>
     </contour>
     <contour>
       <point x="72" y="0" type="move" name="bottom"/>
@@ -40,7 +40,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
+      <string>2018-11-02 14:53:26 +0000</string>
     </dict>
   </lib>
 </glyph>
