@@ -17,18 +17,19 @@ ___
 _____
 ### Summary
 
-* [Documents](https://github.com/anrt-type/ANRT-Baskervville/tree/master/DOCUMENTS) (charset & specimen)
-* [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/tree/master/WORKSHOP)
-* [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/FONTS/OTF)
-* [UFO files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/FONTS/UFO)
-* [Sources](https://github.com/anrt-type/ANRT-Baskervville/tree/master/SOURCES)
+* [Proofs](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/proofs) (charset & specimen)
+* [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/workshop)
+* [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/fonts/OTF)
+* [UFO files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/2-build)
+* [Glyphs files files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/1-drawing)
+* [Resources](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/resources)
 
 _____
 ### Sources
 
 For this revival we used the sources from *La Notice historique de Berger-Levrault*, 1815.
 
-You can find other relevant sources [at this address](https://bitbucket.org/anrt_type/anrt-2017-baskervville/src/master/SOURCES/) but we are still organizing recent discoveries which will be available soon. Contact us if you have any request.
+We have a lot of other relevant resources but we are still organizing recent discoveries. Contact us if you have any request.
 
 Thanks to credit everything you use in this repository with the mention : **ANRT (Atelier National de Recherche typographique), Nancy.**
 
