@@ -19,9 +19,9 @@ _____
 
 * [Proofs](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/proofs) (charset & specimen)
 * [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/workshop)
-* [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/fonts/OTF)
+* [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/fonts/Baskervville_OTF)
 * [UFO files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/2-build)
-* [Glyphs files files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/1-drawing)
+* [Glyphs files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/1-drawing)
 * [Resources](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/resources)
 
 _____
