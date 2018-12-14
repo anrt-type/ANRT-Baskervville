@@ -29,7 +29,6 @@ feature c2sc;
 feature smcp;
 feature case;
 feature ordn;
-feature ccmp;
 } aalt;
 
 feature locl {

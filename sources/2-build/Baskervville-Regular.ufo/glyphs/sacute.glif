@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sacute" format="1">
-  <advance width="403"/>
+  <advance width="393"/>
   <unicode hex="015B"/>
   <outline>
     <component base="s"/>
@@ -9,7 +9,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:17 +0000</string>
+      <string>2018-12-14 11:00:17 +0000</string>
     </dict>
   </lib>
 </glyph>

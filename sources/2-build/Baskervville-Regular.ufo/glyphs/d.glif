@@ -4,47 +4,47 @@
   <unicode hex="0064"/>
   <outline>
     <contour>
-      <point x="248" y="-11" type="curve" smooth="yes"/>
+      <point x="248" y="-11" type="curve"/>
       <point x="316" y="-11"/>
       <point x="370" y="25"/>
       <point x="407" y="76" type="curve"/>
       <point x="393" y="93" type="line"/>
       <point x="362" y="53"/>
       <point x="319" y="19"/>
-      <point x="258" y="19" type="curve" smooth="yes"/>
+      <point x="258" y="19" type="curve"/>
       <point x="169" y="19"/>
       <point x="125" y="107"/>
-      <point x="125" y="223" type="curve" smooth="yes"/>
+      <point x="125" y="223" type="curve"/>
       <point x="125" y="337"/>
       <point x="169" y="424"/>
-      <point x="261" y="424" type="curve" smooth="yes"/>
+      <point x="261" y="424" type="curve"/>
       <point x="323" y="424"/>
       <point x="377" y="381"/>
       <point x="394" y="344" type="curve"/>
       <point x="403" y="378" type="line"/>
       <point x="376" y="415"/>
       <point x="319" y="454"/>
-      <point x="252" y="454" type="curve" smooth="yes"/>
+      <point x="252" y="454" type="curve"/>
       <point x="133" y="454"/>
       <point x="45" y="352"/>
-      <point x="45" y="223" type="curve" smooth="yes"/>
+      <point x="45" y="223" type="curve"/>
       <point x="45" y="92"/>
       <point x="133" y="-11"/>
     </contour>
     <contour>
+      <point x="395" y="70" type="line"/>
       <point x="409" y="-8" type="line"/>
       <point x="444" y="-1"/>
       <point x="469" y="0"/>
-      <point x="499" y="0" type="curve" smooth="yes"/>
+      <point x="499" y="0" type="curve"/>
       <point x="540" y="0" type="line"/>
       <point x="540" y="23" type="line"/>
       <point x="486" y="23"/>
       <point x="457" y="34"/>
-      <point x="457" y="109" type="curve" smooth="yes"/>
+      <point x="457" y="109" type="curve"/>
       <point x="457" y="634" type="line"/>
       <point x="387" y="634" type="line"/>
       <point x="387" y="83" type="line"/>
-      <point x="395" y="70" type="line"/>
     </contour>
     <component base="_part.bdc" xOffset="269" yOffset="277"/>
     <contour>
@@ -63,7 +63,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:17 +0000</string>
+      <string>2018-12-14 10:52:21 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>o</string>
     </dict>

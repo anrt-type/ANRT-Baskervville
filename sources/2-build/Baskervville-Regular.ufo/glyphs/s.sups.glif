@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="s.sups" format="1">
-  <advance width="326"/>
+  <advance width="316"/>
   <outline>
     <contour>
-      <point x="170" y="288" type="curve" smooth="yes"/>
+      <point x="170" y="288" type="curve"/>
       <point x="247" y="288"/>
       <point x="290" y="338"/>
-      <point x="290" y="392" type="curve" smooth="yes"/>
+      <point x="290" y="392" type="curve"/>
       <point x="290" y="442"/>
       <point x="263" y="473"/>
-      <point x="198" y="497" type="curve" smooth="yes"/>
+      <point x="198" y="497" type="curve"/>
       <point x="165" y="509" type="line" smooth="yes"/>
       <point x="123" y="524"/>
       <point x="98" y="543"/>
-      <point x="98" y="576" type="curve" smooth="yes"/>
+      <point x="98" y="576" type="curve"/>
       <point x="98" y="608"/>
       <point x="121" y="631"/>
-      <point x="156" y="631" type="curve" smooth="yes"/>
+      <point x="156" y="631" type="curve"/>
       <point x="200" y="631"/>
       <point x="230" y="596"/>
       <point x="242" y="543" type="curve"/>
@@ -26,29 +26,29 @@
       <point x="246" y="650" type="line"/>
       <point x="242" y="641"/>
       <point x="238" y="633"/>
-      <point x="232" y="633" type="curve" smooth="yes"/>
+      <point x="232" y="633" type="curve"/>
       <point x="227" y="633"/>
       <point x="220" y="637"/>
-      <point x="206" y="642" type="curve" smooth="yes"/>
+      <point x="206" y="642" type="curve"/>
       <point x="194" y="646"/>
       <point x="178" y="651"/>
-      <point x="159" y="651" type="curve" smooth="yes"/>
+      <point x="159" y="651" type="curve"/>
       <point x="95" y="651"/>
       <point x="45" y="608"/>
-      <point x="45" y="550" type="curve" smooth="yes"/>
+      <point x="45" y="550" type="curve"/>
       <point x="45" y="504"/>
       <point x="72" y="473"/>
-      <point x="135" y="450" type="curve" smooth="yes"/>
+      <point x="135" y="450" type="curve"/>
       <point x="165" y="440" type="line"/>
       <point x="211" y="422"/>
       <point x="239" y="402"/>
-      <point x="239" y="368" type="curve" smooth="yes"/>
+      <point x="239" y="368" type="curve"/>
       <point x="239" y="332"/>
       <point x="213" y="309"/>
-      <point x="170" y="309" type="curve" smooth="yes"/>
+      <point x="170" y="309" type="curve"/>
       <point x="110" y="309"/>
       <point x="80" y="350"/>
-      <point x="68" y="393" type="curve" smooth="yes"/>
+      <point x="68" y="393" type="curve"/>
       <point x="62" y="415" type="line"/>
       <point x="39" y="415" type="line"/>
       <point x="39" y="355" type="line"/>
@@ -56,10 +56,10 @@
       <point x="59" y="297" type="line"/>
       <point x="59" y="305"/>
       <point x="60" y="314"/>
-      <point x="66" y="314" type="curve" smooth="yes"/>
+      <point x="66" y="314" type="curve"/>
       <point x="72" y="314"/>
       <point x="80" y="307"/>
-      <point x="100" y="300" type="curve" smooth="yes"/>
+      <point x="100" y="300" type="curve"/>
       <point x="117" y="294"/>
       <point x="140" y="288"/>
     </contour>
@@ -67,7 +67,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:46 +0000</string>
+      <string>2018-12-14 11:10:38 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>=s-15</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

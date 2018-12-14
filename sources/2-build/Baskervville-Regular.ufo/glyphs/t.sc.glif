@@ -3,6 +3,7 @@
   <advance width="519"/>
   <outline>
     <contour>
+      <point x="127" y="20" type="line"/>
       <point x="127" y="-3" type="line"/>
       <point x="257" y="0" type="line"/>
       <point x="386" y="-3" type="line"/>
@@ -10,14 +11,13 @@
       <point x="369" y="22" type="line" smooth="yes"/>
       <point x="308" y="29"/>
       <point x="291" y="31"/>
-      <point x="291" y="121" type="curve" smooth="yes"/>
+      <point x="291" y="121" type="curve"/>
       <point x="291" y="447" type="line"/>
       <point x="219" y="447" type="line"/>
       <point x="219" y="121" type="line" smooth="yes"/>
       <point x="219" y="31"/>
       <point x="205" y="29"/>
-      <point x="144" y="22" type="curve" smooth="yes"/>
-      <point x="127" y="20" type="line"/>
+      <point x="144" y="22" type="curve"/>
     </contour>
     <contour>
       <point x="494" y="296" type="curve"/>
@@ -31,7 +31,7 @@
       <point x="24" y="297" type="line"/>
       <point x="61" y="393"/>
       <point x="77" y="431"/>
-      <point x="138" y="431" type="curve" smooth="yes"/>
+      <point x="138" y="431" type="curve"/>
       <point x="380" y="431" type="line" smooth="yes"/>
       <point x="448" y="431"/>
       <point x="467" y="392"/>
@@ -49,7 +49,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:46 +0000</string>
+      <string>2018-12-14 11:10:38 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>T</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

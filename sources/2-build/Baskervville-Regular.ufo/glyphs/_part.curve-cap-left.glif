@@ -7,14 +7,14 @@
       <point x="420" y="14" type="line"/>
       <point x="242" y="14"/>
       <point x="179" y="189"/>
-      <point x="179" y="353" type="curve" smooth="yes"/>
+      <point x="179" y="353" type="curve"/>
       <point x="179" y="517"/>
       <point x="242" y="696"/>
       <point x="420" y="696" type="curve"/>
       <point x="420" y="721" type="line"/>
       <point x="203" y="721"/>
       <point x="69" y="555"/>
-      <point x="69" y="353" type="curve" smooth="yes"/>
+      <point x="69" y="353" type="curve"/>
       <point x="69" y="151"/>
       <point x="203" y="-11"/>
     </contour>
@@ -24,7 +24,7 @@
       <key>com.schriftgestaltung.Glyphs.Export</key>
       <false/>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:46 +0000</string>
+      <string>2018-12-14 11:10:38 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -3,30 +3,30 @@
   <advance width="442"/>
   <outline>
     <contour>
-      <point x="221" y="288" type="curve" smooth="yes"/>
+      <point x="221" y="288" type="curve"/>
       <point x="328" y="288"/>
       <point x="412" y="369"/>
-      <point x="412" y="469" type="curve" smooth="yes"/>
+      <point x="412" y="469" type="curve"/>
       <point x="412" y="571"/>
       <point x="328" y="651"/>
-      <point x="221" y="651" type="curve" smooth="yes"/>
+      <point x="221" y="651" type="curve"/>
       <point x="114" y="651"/>
       <point x="30" y="571"/>
-      <point x="30" y="469" type="curve" smooth="yes"/>
+      <point x="30" y="469" type="curve"/>
       <point x="30" y="369"/>
       <point x="114" y="288"/>
     </contour>
     <contour>
-      <point x="221" y="312" type="curve" smooth="yes"/>
+      <point x="221" y="312" type="curve"/>
       <point x="136" y="312"/>
       <point x="103" y="380"/>
-      <point x="103" y="469" type="curve" smooth="yes"/>
+      <point x="103" y="469" type="curve"/>
       <point x="103" y="559"/>
       <point x="136" y="628"/>
-      <point x="221" y="628" type="curve" smooth="yes"/>
+      <point x="221" y="628" type="curve"/>
       <point x="307" y="628"/>
       <point x="340" y="559"/>
-      <point x="340" y="469" type="curve" smooth="yes"/>
+      <point x="340" y="469" type="curve"/>
       <point x="340" y="380"/>
       <point x="307" y="312"/>
     </contour>
@@ -43,7 +43,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:46 +0000</string>
+      <string>2018-12-14 11:10:38 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>=o-15</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

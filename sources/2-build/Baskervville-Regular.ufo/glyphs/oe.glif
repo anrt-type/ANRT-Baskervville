@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe" format="1">
-  <advance width="857"/>
+  <advance width="852"/>
   <unicode hex="0153"/>
   <outline>
     <component base="o"/>
@@ -26,7 +26,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:17 +0000</string>
+      <string>2018-12-14 10:57:15 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>o</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

@@ -4,10 +4,10 @@
   <unicode hex="0048"/>
   <outline>
     <contour>
+      <point x="198" y="384" type="line"/>
       <point x="198" y="352" type="line"/>
       <point x="640" y="352" type="line"/>
       <point x="640" y="384" type="line"/>
-      <point x="198" y="384" type="line"/>
     </contour>
     <component base="I" xOffset="466"/>
     <component base="I"/>
@@ -27,7 +27,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:17 +0000</string>
+      <string>2018-12-14 10:52:21 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>I</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

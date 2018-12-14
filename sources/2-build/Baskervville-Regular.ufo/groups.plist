@@ -365,15 +365,6 @@
 	<array>
 		<string>d</string>
 		<string>dcroat</string>
-		<string>i</string>
-		<string>iacute</string>
-		<string>icaron</string>
-		<string>icircumflex</string>
-		<string>idotaccent</string>
-		<string>igrave</string>
-		<string>imacron</string>
-		<string>iogonek</string>
-		<string>j</string>
 		<string>l</string>
 		<string>lacute</string>
 		<string>lcommaaccent</string>
@@ -389,8 +380,6 @@
 	<array>
 		<string>h</string>
 		<string>hbar</string>
-		<string>idotless</string>
-		<string>jdotless</string>
 		<string>m</string>
 		<string>n</string>
 		<string>nacute</string>
@@ -586,6 +575,21 @@
 	<key>@MMK_L_three.lf</key>
 	<array>
 		<string>three.lf</string>
+	</array>
+	<key>@MMK_L_u</key>
+	<array>
+		<string>i</string>
+		<string>idotless</string>
+		<string>iacute</string>
+		<string>icaron</string>
+		<string>icircumflex</string>
+		<string>idieresis</string>
+		<string>idotaccent</string>
+		<string>igrave</string>
+		<string>imacron</string>
+		<string>iogonek</string>
+		<string>j</string>
+		<string>jdotless</string>
 	</array>
 	<key>@MMK_L_v</key>
 	<array>
@@ -969,15 +973,6 @@
 		<string>f</string>
 		<string>h</string>
 		<string>hbar</string>
-		<string>i</string>
-		<string>iacute</string>
-		<string>icaron</string>
-		<string>icircumflex</string>
-		<string>idotaccent</string>
-		<string>igrave</string>
-		<string>imacron</string>
-		<string>iogonek</string>
-		<string>j</string>
 		<string>k</string>
 		<string>kcommaaccent</string>
 		<string>l</string>
@@ -989,7 +984,17 @@
 	</array>
 	<key>@MMK_R_n</key>
 	<array>
+		<string>i</string>
 		<string>idotless</string>
+		<string>iacute</string>
+		<string>icaron</string>
+		<string>icircumflex</string>
+		<string>idieresis</string>
+		<string>idotaccent</string>
+		<string>igrave</string>
+		<string>imacron</string>
+		<string>iogonek</string>
+		<string>j</string>
 		<string>jdotless</string>
 		<string>m</string>
 		<string>n</string>

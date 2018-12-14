@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccaron" format="1">
-  <advance width="475"/>
+  <advance width="470"/>
   <unicode hex="010D"/>
   <outline>
     <component base="c"/>
@@ -9,7 +9,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:17 +0000</string>
+      <string>2018-12-14 10:57:10 +0000</string>
     </dict>
   </lib>
 </glyph>

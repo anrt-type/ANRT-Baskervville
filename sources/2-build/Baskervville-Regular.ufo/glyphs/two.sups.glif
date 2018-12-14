@@ -3,6 +3,7 @@
   <advance width="348"/>
   <outline>
     <contour>
+      <point x="35" y="320" type="line"/>
       <point x="35" y="297" type="line"/>
       <point x="306" y="297" type="line"/>
       <point x="306" y="314" type="line"/>
@@ -10,47 +11,46 @@
       <point x="287" y="400" type="line"/>
       <point x="274" y="364"/>
       <point x="267" y="358"/>
-      <point x="215" y="357" type="curve" smooth="yes"/>
+      <point x="215" y="357" type="curve"/>
       <point x="80" y="355" type="line"/>
       <point x="76" y="327" type="line"/>
       <point x="186" y="424" type="line" smooth="yes"/>
       <point x="257" y="487"/>
       <point x="305" y="535"/>
-      <point x="305" y="595" type="curve" smooth="yes"/>
+      <point x="305" y="595" type="curve"/>
       <point x="305" y="669"/>
       <point x="252" y="717"/>
-      <point x="170" y="717" type="curve" smooth="yes"/>
+      <point x="170" y="717" type="curve"/>
       <point x="81" y="717"/>
       <point x="30" y="656"/>
-      <point x="30" y="606" type="curve" smooth="yes"/>
+      <point x="30" y="606" type="curve"/>
       <point x="30" y="572"/>
       <point x="45" y="546"/>
-      <point x="79" y="546" type="curve" smooth="yes"/>
+      <point x="79" y="546" type="curve"/>
       <point x="100" y="546"/>
       <point x="115" y="560"/>
-      <point x="115" y="578" type="curve" smooth="yes"/>
+      <point x="115" y="578" type="curve"/>
       <point x="115" y="598"/>
       <point x="104" y="608"/>
-      <point x="93" y="614" type="curve" smooth="yes"/>
+      <point x="93" y="614" type="curve"/>
       <point x="84" y="619"/>
       <point x="76" y="620"/>
-      <point x="76" y="636" type="curve" smooth="yes"/>
+      <point x="76" y="636" type="curve"/>
       <point x="76" y="668"/>
       <point x="109" y="691"/>
-      <point x="150" y="691" type="curve" smooth="yes"/>
+      <point x="150" y="691" type="curve"/>
       <point x="205" y="691"/>
       <point x="231" y="651"/>
-      <point x="231" y="590" type="curve" smooth="yes"/>
+      <point x="231" y="590" type="curve"/>
       <point x="231" y="535"/>
       <point x="208" y="491"/>
       <point x="153" y="434" type="curve"/>
-      <point x="35" y="320" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:46 +0000</string>
+      <string>2018-12-14 11:10:38 +0000</string>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

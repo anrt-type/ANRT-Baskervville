@@ -3,10 +3,10 @@
   <advance width="824"/>
   <outline>
     <contour>
+      <point x="126" y="548" type="line"/>
       <point x="126" y="522" type="line"/>
       <point x="691" y="522" type="line"/>
       <point x="691" y="548" type="line"/>
-      <point x="126" y="548" type="line"/>
     </contour>
     <contour>
       <point x="410" y="537" type="move" name="_center"/>
@@ -15,7 +15,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:46 +0000</string>
+      <string>2018-12-14 11:10:38 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
