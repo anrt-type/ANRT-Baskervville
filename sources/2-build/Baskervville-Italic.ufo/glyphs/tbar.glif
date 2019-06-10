@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tbar" format="1">
-  <advance width="308"/>
-  <unicode hex="0167"/>
-  <outline>
-    <component base="t"/>
-    <component base="strokeshortcomb" xOffset="-119" yOffset="-311"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="tbar" format="2">
+	<advance width="308"/>
+	<unicode hex="0167"/>
+	<outline>
+		<component base="t"/>
+		<component base="strokeshortcomb" xOffset="226" yOffset="-311"/>
+	</outline>
 </glyph>

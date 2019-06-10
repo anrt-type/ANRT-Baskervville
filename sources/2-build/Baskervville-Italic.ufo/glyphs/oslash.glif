@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oslash" format="1">
-  <advance width="514"/>
-  <unicode hex="00F8"/>
-  <outline>
-    <component base="o"/>
-    <component base="slashshortcomb" xOffset="81"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="oslash" format="2">
+	<advance width="514"/>
+	<unicode hex="00F8"/>
+	<outline>
+		<component base="o"/>
+		<component base="slashshortcomb" xOffset="453"/>
+	</outline>
 </glyph>

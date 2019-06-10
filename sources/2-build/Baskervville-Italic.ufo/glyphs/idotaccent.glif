@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="idotaccent" format="1">
-  <advance width="279"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="-12"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-    </dict>
-  </lib>
+<glyph name="idotaccent" format="2">
+	<advance width="279"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="dotaccentcomb" xOffset="204"/>
+	</outline>
 </glyph>

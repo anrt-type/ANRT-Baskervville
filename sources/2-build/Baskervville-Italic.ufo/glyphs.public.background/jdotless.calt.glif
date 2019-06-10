@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless.calt" format="2">
+	<advance width="278"/>
+	<outline>
+		<contour>
+			<point x="-25" y="-177" type="move"/>
+			<point x="-51" y="-249"/>
+			<point x="-87" y="-268"/>
+			<point x="-113" y="-268" type="curve"/>
+			<point x="-139" y="-268"/>
+			<point x="-148" y="-255"/>
+			<point x="-148" y="-217" type="curve"/>
+			<point x="-148" y="-188"/>
+			<point x="-158" y="-167"/>
+			<point x="-189" y="-167" type="curve"/>
+			<point x="-222" y="-167"/>
+			<point x="-235" y="-193"/>
+			<point x="-235" y="-220" type="curve"/>
+			<point x="-235" y="-255"/>
+			<point x="-204" y="-290"/>
+			<point x="-131" y="-290" type="curve"/>
+			<point x="-45" y="-290"/>
+			<point x="20" y="-251"/>
+			<point x="68" y="-118" type="curve"/>
+		</contour>
+		<component base="i" xOffset="8"/>
+	</outline>
+</glyph>

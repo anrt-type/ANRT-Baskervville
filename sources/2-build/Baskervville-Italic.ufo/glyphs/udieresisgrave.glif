@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="udieresisgrave" format="1">
-  <advance width="533"/>
-  <unicode hex="01DC"/>
-  <outline>
-    <component base="u"/>
-    <component base="dieresiscomb" xOffset="28"/>
-    <component base="gravecomb" xOffset="80" yOffset="145"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="udieresisgrave" format="2">
+	<advance width="533"/>
+	<unicode hex="01DC"/>
+	<outline>
+		<component base="u"/>
+		<component base="dieresiscomb" xOffset="428"/>
+		<component base="gravecomb" xOffset="356" yOffset="145"/>
+	</outline>
 </glyph>

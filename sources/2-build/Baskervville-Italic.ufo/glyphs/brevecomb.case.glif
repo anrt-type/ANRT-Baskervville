@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevecomb.case" format="1">
-  <advance width="299"/>
-  <outline>
-    <component base="breve" xOffset="102" yOffset="252"/>
-    <contour>
-      <point x="346" y="710" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="393" y="908" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="brevecomb.case" format="2">
+	<advance width="0"/>
+	<anchor x="94" y="908" name="top"/>
+	<anchor x="47" y="710" name="_top"/>
+	<outline>
+		<component base="breve" xOffset="-197" yOffset="252"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

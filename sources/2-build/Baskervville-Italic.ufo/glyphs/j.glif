@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="j" format="1">
-  <advance width="270"/>
-  <unicode hex="006A"/>
-  <outline>
-    <component base="jdotless"/>
-    <component base="dotaccentcomb" xOffset="3"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-02 15:13:46 +0000</string>
-    </dict>
-  </lib>
+<glyph name="j" format="2">
+	<advance width="270"/>
+	<unicode hex="006A"/>
+	<outline>
+		<component base="jdotless"/>
+		<component base="dotaccentcomb" xOffset="219"/>
+	</outline>
 </glyph>

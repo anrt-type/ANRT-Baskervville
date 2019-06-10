@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="emdash.case" format="1">
-  <advance width="736"/>
-  <outline>
-    <component base="emdash" xOffset="39" yOffset="106"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>emdash</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>emdash</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="emdash.case" format="2">
+	<advance width="736"/>
+	<outline>
+		<component base="emdash" xOffset="39" yOffset="106"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>emdash</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>emdash</string>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

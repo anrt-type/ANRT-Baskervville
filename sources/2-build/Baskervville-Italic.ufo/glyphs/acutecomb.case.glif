@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutecomb.case" format="1">
-  <advance width="201"/>
-  <outline>
-    <contour>
-      <point x="269" y="760" type="line"/>
-      <point x="281" y="760" type="line"/>
-      <point x="410" y="940" type="line"/>
-      <point x="329" y="940" type="line"/>
-    </contour>
-    <contour>
-      <point x="272" y="710" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="316" y="710" type="move" name="_topright"/>
-    </contour>
-    <contour>
-      <point x="355" y="908" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="acutecomb.case" format="2">
+	<advance width="0"/>
+	<anchor x="115" y="710" name="_topright"/>
+	<anchor x="154" y="908" name="top"/>
+	<anchor x="71" y="710" name="_top"/>
+	<outline>
+		<contour>
+			<point x="128" y="940" type="line"/>
+			<point x="68" y="760" type="line"/>
+			<point x="80" y="760" type="line"/>
+			<point x="209" y="940" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

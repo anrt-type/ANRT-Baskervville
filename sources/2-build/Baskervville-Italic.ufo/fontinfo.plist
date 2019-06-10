@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
@@ -12,8 +12,27 @@
 	<integer>-290</integer>
 	<key>familyName</key>
 	<string>Baskervville</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>181</integer>
+			<key>y</key>
+			<integer>908</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>359</integer>
+			<key>y</key>
+			<integer>717</integer>
+		</dict>
+	</array>
 	<key>italicAngle</key>
-	<real>-20</real>
+	<real>-20.0</real>
 	<key>openTypeHeadCreated</key>
 	<string>2018/11/04 20:35:33</string>
 	<key>openTypeHheaAscender</key>
@@ -33,8 +52,7 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Italic</string>
 	<key>openTypeOS2Type</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>710</integer>
 	<key>openTypeOS2TypoDescender</key>

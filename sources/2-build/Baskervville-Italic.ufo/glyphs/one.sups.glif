@@ -1,49 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="one.sups" format="1">
-  <advance width="240"/>
-  <outline>
-    <contour>
-      <point x="55" y="295" type="line"/>
-      <point x="161" y="297" type="line"/>
-      <point x="262" y="295" type="line"/>
-      <point x="270" y="317" type="line"/>
-      <point x="251" y="318" type="line" smooth="yes"/>
-      <point x="223" y="319"/>
-      <point x="210" y="322"/>
-      <point x="210" y="338" type="curve" smooth="yes"/>
-      <point x="210" y="346"/>
-      <point x="215" y="361"/>
-      <point x="222" y="380" type="curve" smooth="yes"/>
-      <point x="344" y="716" type="line"/>
-      <point x="309" y="716" type="line"/>
-      <point x="251" y="695"/>
-      <point x="244" y="694"/>
-      <point x="197" y="690" type="curve"/>
-      <point x="188" y="667" type="line"/>
-      <point x="218" y="665" type="line" smooth="yes"/>
-      <point x="242" y="663"/>
-      <point x="252" y="659"/>
-      <point x="252" y="644" type="curve" smooth="yes"/>
-      <point x="252" y="638"/>
-      <point x="249" y="629"/>
-      <point x="245" y="618" type="curve" smooth="yes"/>
-      <point x="159" y="380" type="line" smooth="yes"/>
-      <point x="140" y="327"/>
-      <point x="132" y="320"/>
-      <point x="84" y="318" type="curve" smooth="yes"/>
-      <point x="63" y="317" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=one-15</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=one-15</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
+<glyph name="one.sups" format="2">
+	<advance width="240"/>
+	<outline>
+		<contour>
+			<point x="63" y="317" type="line"/>
+			<point x="55" y="295" type="line"/>
+			<point x="161" y="297" type="line"/>
+			<point x="262" y="295" type="line"/>
+			<point x="270" y="317" type="line"/>
+			<point x="251" y="318" type="line" smooth="yes"/>
+			<point x="223" y="319"/>
+			<point x="210" y="322"/>
+			<point x="210" y="338" type="curve"/>
+			<point x="210" y="346"/>
+			<point x="215" y="361"/>
+			<point x="222" y="380" type="curve"/>
+			<point x="344" y="716" type="line"/>
+			<point x="309" y="716" type="line"/>
+			<point x="251" y="695"/>
+			<point x="244" y="694"/>
+			<point x="197" y="690" type="curve"/>
+			<point x="188" y="667" type="line"/>
+			<point x="218" y="665" type="line" smooth="yes"/>
+			<point x="242" y="663"/>
+			<point x="252" y="659"/>
+			<point x="252" y="644" type="curve"/>
+			<point x="252" y="638"/>
+			<point x="249" y="629"/>
+			<point x="245" y="618" type="curve"/>
+			<point x="159" y="380" type="line" smooth="yes"/>
+			<point x="140" y="327"/>
+			<point x="132" y="320"/>
+			<point x="84" y="318" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=one-15</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=one-15</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
 </glyph>

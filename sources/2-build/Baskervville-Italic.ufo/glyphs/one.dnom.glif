@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="one.dnom" format="1">
-  <advance width="240"/>
-  <outline>
-    <component base="one.sups" xOffset="-108" yOffset="-297"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>one.sups</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>one.sups</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
+<glyph name="one.dnom" format="2">
+	<advance width="240"/>
+	<outline>
+		<component base="one.sups" xOffset="-108" yOffset="-297"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one.sups</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>one.sups</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
 </glyph>

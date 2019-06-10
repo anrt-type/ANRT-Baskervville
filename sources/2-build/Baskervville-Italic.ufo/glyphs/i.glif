@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="i" format="1">
-  <advance width="279"/>
-  <unicode hex="0069"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="-12"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="i" format="2">
+	<advance width="279"/>
+	<unicode hex="0069"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="dotaccentcomb" xOffset="204"/>
+	</outline>
 </glyph>

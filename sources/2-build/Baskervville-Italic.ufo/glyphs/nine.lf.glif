@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nine.lf" format="1">
-  <advance width="569"/>
-  <outline>
-    <component base="six.lf" xScale="-1" yScale="-1" xOffset="674" yOffset="713"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-    </dict>
-  </lib>
+<glyph name="nine.lf" format="2">
+	<advance width="569"/>
+	<outline>
+		<component base="six.lf" xScale="-1" yScale="-1" xOffset="674" yOffset="713"/>
+	</outline>
 </glyph>

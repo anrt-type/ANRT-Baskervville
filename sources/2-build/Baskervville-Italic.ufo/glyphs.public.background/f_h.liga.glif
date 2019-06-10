@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_h.liga" format="2">
+	<advance width="856"/>
+	<outline>
+		<component base="f" xOffset="3"/>
+	</outline>
+</glyph>

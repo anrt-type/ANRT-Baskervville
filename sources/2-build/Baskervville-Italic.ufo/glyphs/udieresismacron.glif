@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="udieresismacron" format="1">
-  <advance width="533"/>
-  <unicode hex="01D6"/>
-  <outline>
-    <component base="u"/>
-    <component base="dieresiscomb" xOffset="28"/>
-    <component base="macroncomb" xOffset="97" yOffset="154"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>macroncomb</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-      <key>public.markColor</key>
-      <string>0,0.2,0.88,1</string>
-    </dict>
-  </lib>
+<glyph name="udieresismacron" format="2">
+	<advance width="533"/>
+	<unicode hex="01D6"/>
+	<outline>
+		<component base="u"/>
+		<component base="dieresiscomb" xOffset="428"/>
+		<component base="macroncomb" xOffset="419" yOffset="154"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>macroncomb</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
 </glyph>

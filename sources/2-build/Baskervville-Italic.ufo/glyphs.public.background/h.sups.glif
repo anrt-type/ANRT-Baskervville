@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="h.sups" format="2">
+	<advance width="446"/>
+	<outline>
+		<component base="h" xScale="0.84" yScale="0.78" xOffset="98" yOffset="300"/>
+	</outline>
+</glyph>

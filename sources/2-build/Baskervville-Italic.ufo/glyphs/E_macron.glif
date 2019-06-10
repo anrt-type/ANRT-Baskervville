@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Emacron" format="1">
-  <advance width="695"/>
-  <unicode hex="0112"/>
-  <outline>
-    <component base="E"/>
-    <component base="macroncomb.case" xOffset="173"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Emacron" format="2">
+	<advance width="695"/>
+	<unicode hex="0112"/>
+	<outline>
+		<component base="E"/>
+		<component base="macroncomb.case" xOffset="480"/>
+	</outline>
 </glyph>

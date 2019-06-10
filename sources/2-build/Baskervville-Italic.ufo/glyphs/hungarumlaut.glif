@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hungarumlaut" format="1">
-  <advance width="348"/>
-  <unicode hex="02DD"/>
-  <outline>
-    <component base="acute"/>
-    <component base="acute" xOffset="130"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="hungarumlaut" format="2">
+	<advance width="348"/>
+	<unicode hex="02DD"/>
+	<outline>
+		<component base="acute"/>
+		<component base="acute" xOffset="130"/>
+	</outline>
 </glyph>

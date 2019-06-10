@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thorn" format="2">
+	<advance width="527"/>
+	<anchor x="99" y="0" name="bottom"/>
+	<anchor x="283" y="710" name="top"/>
+	<anchor x="278" y="440" name="topright"/>
+	<anchor x="200" y="398" name="center"/>
+	<outline>
+	</outline>
+</glyph>

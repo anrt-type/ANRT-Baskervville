@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_part.sortie.2" format="1">
-  <advance width="554"/>
-  <outline>
-    <contour>
-      <point x="384" y="-14" type="curve" smooth="yes"/>
-      <point x="434" y="-14"/>
-      <point x="466" y="21"/>
-      <point x="524" y="89" type="curve"/>
-      <point x="506" y="105" type="line"/>
-      <point x="464" y="55"/>
-      <point x="433" y="19"/>
-      <point x="403" y="19" type="curve" smooth="yes"/>
-      <point x="394" y="19"/>
-      <point x="387" y="24"/>
-      <point x="387" y="38" type="curve" smooth="yes"/>
-      <point x="387" y="46"/>
-      <point x="389" y="56"/>
-      <point x="394" y="69" type="curve" smooth="yes"/>
-      <point x="405" y="99" type="line"/>
-      <point x="345" y="131" type="line"/>
-      <point x="331" y="94" type="line" smooth="yes"/>
-      <point x="323" y="74"/>
-      <point x="320" y="57"/>
-      <point x="320" y="43" type="curve" smooth="yes"/>
-      <point x="320" y="5"/>
-      <point x="344" y="-14"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-    </dict>
-  </lib>
+<glyph name="_part.sortie.2" format="2">
+	<advance width="554"/>
+	<outline>
+		<contour>
+			<point x="384" y="-14" type="curve"/>
+			<point x="434" y="-14"/>
+			<point x="466" y="21"/>
+			<point x="524" y="89" type="curve"/>
+			<point x="506" y="105" type="line"/>
+			<point x="464" y="55"/>
+			<point x="433" y="19"/>
+			<point x="403" y="19" type="curve"/>
+			<point x="394" y="19"/>
+			<point x="387" y="24"/>
+			<point x="387" y="38" type="curve"/>
+			<point x="387" y="46"/>
+			<point x="389" y="56"/>
+			<point x="394" y="69" type="curve"/>
+			<point x="405" y="99" type="line"/>
+			<point x="345" y="131" type="line"/>
+			<point x="331" y="94" type="line" smooth="yes"/>
+			<point x="323" y="74"/>
+			<point x="320" y="57"/>
+			<point x="320" y="43" type="curve"/>
+			<point x="320" y="5"/>
+			<point x="344" y="-14"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
 </glyph>

@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Amacron" format="1">
-  <advance width="662"/>
-  <unicode hex="0100"/>
-  <unicode hex="0101"/>
-  <outline>
-    <component base="A"/>
-    <component base="macroncomb.case" xOffset="184"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Amacron" format="2">
+	<advance width="662"/>
+	<unicode hex="0100"/>
+	<unicode hex="0101"/>
+	<outline>
+		<component base="A"/>
+		<component base="macroncomb.case" xOffset="491"/>
+	</outline>
 </glyph>

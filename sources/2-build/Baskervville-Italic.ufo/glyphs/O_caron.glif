@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ocaron" format="1">
-  <advance width="778"/>
-  <unicode hex="01D1"/>
-  <outline>
-    <component base="O"/>
-    <component base="caroncomb.case" xOffset="234"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Ocaron" format="2">
+	<advance width="778"/>
+	<unicode hex="01D1"/>
+	<outline>
+		<component base="O"/>
+		<component base="caroncomb.case" xOffset="531"/>
+	</outline>
 </glyph>

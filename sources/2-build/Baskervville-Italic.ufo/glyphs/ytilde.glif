@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ytilde" format="1">
-  <advance width="481"/>
-  <unicode hex="1EF9"/>
-  <outline>
-    <component base="y"/>
-    <component base="tildecomb" xOffset="13"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-      <key>public.markColor</key>
-      <string>0,0.2,0.88,1</string>
-    </dict>
-  </lib>
+<glyph name="ytilde" format="2">
+	<advance width="481"/>
+	<unicode hex="1EF9"/>
+	<outline>
+		<component base="y"/>
+		<component base="tildecomb" xOffset="406"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
 </glyph>

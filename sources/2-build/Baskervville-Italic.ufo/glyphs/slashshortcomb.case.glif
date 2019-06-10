@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slashshortcomb.case" format="1">
-  <advance width="332"/>
-  <outline>
-    <contour>
-      <point x="75" y="340" type="line"/>
-      <point x="433" y="501" type="line"/>
-      <point x="418" y="528" type="line"/>
-      <point x="57" y="368" type="line"/>
-    </contour>
-    <contour>
-      <point x="244" y="433" type="move" name="_center"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="slashshortcomb.case" format="2">
+	<advance width="0"/>
+	<anchor x="-88" y="433" name="_center"/>
+	<outline>
+		<contour>
+			<point x="-275" y="368" type="line"/>
+			<point x="-257" y="340" type="line"/>
+			<point x="101" y="501" type="line"/>
+			<point x="86" y="528" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

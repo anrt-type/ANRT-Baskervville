@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ogonekcomb.case" format="1">
-  <advance width="298"/>
-  <outline>
-    <component base="ogonek"/>
-    <contour>
-      <point x="34" y="0" type="move" name="_ogonek"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="ogonekcomb.case" format="2">
+	<advance width="0"/>
+	<anchor x="-264" y="0" name="_ogonek"/>
+	<outline>
+		<component base="ogonek" xOffset="-298"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

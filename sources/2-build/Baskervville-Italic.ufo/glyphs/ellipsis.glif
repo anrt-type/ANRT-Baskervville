@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ellipsis" format="1">
-  <advance width="860"/>
-  <unicode hex="2026"/>
-  <outline>
-    <component base="period" xOffset="308"/>
-    <component base="period" xOffset="615"/>
-    <component base="period"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>period</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>period</string>
-    </dict>
-  </lib>
+<glyph name="ellipsis" format="2">
+	<advance width="860"/>
+	<unicode hex="2026"/>
+	<guideline x="206" y="62" angle="270"/>
+	<guideline x="60" y="62" angle="270"/>
+	<guideline x="368" y="62" angle="270"/>
+	<guideline x="514" y="62" angle="270"/>
+	<guideline x="675" y="62" angle="270"/>
+	<guideline x="821" y="62" angle="270"/>
+	<guideline x="441" y="138" angle="0"/>
+	<guideline x="441" y="-14" angle="0"/>
+	<outline>
+		<component base="period" xOffset="308"/>
+		<component base="period" xOffset="615"/>
+		<component base="period"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>period</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>period</string>
+		</dict>
+	</lib>
 </glyph>

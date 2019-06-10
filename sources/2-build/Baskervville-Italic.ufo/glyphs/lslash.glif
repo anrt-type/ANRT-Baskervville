@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lslash" format="1">
-  <advance width="265"/>
-  <unicode hex="0142"/>
-  <outline>
-    <component base="l"/>
-    <component base="slashshortcomb.case" xOffset="-53" yOffset="-35"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="lslash" format="2">
+	<advance width="265"/>
+	<unicode hex="0142"/>
+	<outline>
+		<component base="l"/>
+		<component base="slashshortcomb.case" xOffset="279" yOffset="-35"/>
+	</outline>
 </glyph>

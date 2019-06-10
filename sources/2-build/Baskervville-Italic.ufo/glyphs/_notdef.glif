@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name=".notdef" format="1">
-  <advance width="870"/>
-  <outline>
-    <contour>
-      <point x="9" y="0" type="line"/>
-      <point x="719" y="0" type="line"/>
-      <point x="950" y="710" type="line"/>
-      <point x="240" y="710" type="line"/>
-    </contour>
-    <contour>
-      <point x="72" y="30" type="line"/>
-      <point x="475" y="336" type="line"/>
-      <point x="682" y="30" type="line"/>
-    </contour>
-    <contour>
-      <point x="59" y="58" type="line"/>
-      <point x="254" y="663" type="line"/>
-      <point x="459" y="360" type="line"/>
-    </contour>
-    <contour>
-      <point x="705" y="49" type="line"/>
-      <point x="500" y="354" type="line"/>
-      <point x="902" y="658" type="line"/>
-    </contour>
-    <contour>
-      <point x="483" y="379" type="line"/>
-      <point x="280" y="680" type="line"/>
-      <point x="881" y="680" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0,0.2,0.88,1</string>
-    </dict>
-  </lib>
+<glyph name=".notdef" format="2">
+	<advance width="870"/>
+	<outline>
+		<contour>
+			<point x="240" y="710" type="line"/>
+			<point x="9" y="0" type="line"/>
+			<point x="719" y="0" type="line"/>
+			<point x="950" y="710" type="line"/>
+		</contour>
+		<contour>
+			<point x="682" y="30" type="line"/>
+			<point x="72" y="30" type="line"/>
+			<point x="475" y="336" type="line"/>
+		</contour>
+		<contour>
+			<point x="459" y="360" type="line"/>
+			<point x="59" y="58" type="line"/>
+			<point x="254" y="663" type="line"/>
+		</contour>
+		<contour>
+			<point x="902" y="658" type="line"/>
+			<point x="705" y="49" type="line"/>
+			<point x="500" y="354" type="line"/>
+		</contour>
+		<contour>
+			<point x="881" y="680" type="line"/>
+			<point x="483" y="379" type="line"/>
+			<point x="280" y="680" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
 </glyph>

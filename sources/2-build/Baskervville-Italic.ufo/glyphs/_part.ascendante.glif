@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_part.ascendante" format="1">
-  <advance width="308"/>
-  <outline>
-    <contour>
-      <point x="44" y="0" type="line"/>
-      <point x="116" y="0" type="line"/>
-      <point x="369" y="702" type="line"/>
-      <point x="303" y="702" type="line"/>
-    </contour>
-    <component base="_part.attaque.asc"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-    </dict>
-  </lib>
+<glyph name="_part.ascendante" format="2">
+	<advance width="308"/>
+	<guideline x="172" y="351" angle="69.9645"/>
+	<outline>
+		<contour>
+			<point x="303" y="702" type="line"/>
+			<point x="44" y="0" type="line"/>
+			<point x="116" y="0" type="line"/>
+			<point x="369" y="702" type="line"/>
+		</contour>
+		<component base="_part.attaque.asc"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
 </glyph>

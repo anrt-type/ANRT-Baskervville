@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="amacroan" format="1">
-  <advance width="533"/>
-  <outline>
-    <component base="a"/>
-    <component base="macroncomb" xOffset="65"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-    </dict>
-  </lib>
+<glyph name="amacroan" format="2">
+	<advance width="533"/>
+	<outline>
+		<component base="a"/>
+		<component base="macroncomb" xOffset="387"/>
+	</outline>
 </glyph>

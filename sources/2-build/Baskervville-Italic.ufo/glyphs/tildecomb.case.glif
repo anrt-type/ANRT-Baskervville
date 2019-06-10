@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildecomb.case" format="1">
-  <advance width="394"/>
-  <outline>
-    <component base="tilde" xOffset="91" yOffset="248"/>
-    <contour>
-      <point x="396" y="710" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="468" y="910" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="tildecomb.case" format="2">
+	<advance width="0"/>
+	<anchor x="74" y="910" name="top"/>
+	<anchor x="2" y="710" name="_top"/>
+	<outline>
+		<component base="tilde" xOffset="-303" yOffset="248"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

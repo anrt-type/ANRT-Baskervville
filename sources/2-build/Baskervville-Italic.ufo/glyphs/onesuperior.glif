@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onesuperior" format="1">
-  <advance width="240"/>
-  <unicode hex="00B9"/>
-  <outline>
-    <component base="one.sups"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>one</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>one</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
+<glyph name="onesuperior" format="2">
+	<advance width="240"/>
+	<unicode hex="00B9"/>
+	<outline>
+		<component base="one.sups"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>one</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
 </glyph>

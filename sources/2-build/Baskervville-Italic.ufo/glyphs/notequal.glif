@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="notequal" format="1">
-  <advance width="600"/>
-  <unicode hex="2260"/>
-  <outline>
-    <contour>
-      <point x="83" y="120" type="line"/>
-      <point x="128" y="120" type="line"/>
-      <point x="524" y="483" type="line"/>
-      <point x="480" y="483" type="line"/>
-    </contour>
-    <component base="equal"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-      <key>public.markColor</key>
-      <string>0,0.2,0.88,1</string>
-    </dict>
-  </lib>
+<glyph name="notequal" format="2">
+	<advance width="600"/>
+	<unicode hex="2260"/>
+	<outline>
+		<contour>
+			<point x="480" y="483" type="line"/>
+			<point x="83" y="120" type="line"/>
+			<point x="128" y="120" type="line"/>
+			<point x="524" y="483" type="line"/>
+		</contour>
+		<component base="equal"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
 </glyph>

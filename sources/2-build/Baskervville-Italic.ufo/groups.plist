@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>@MMK_L_A</key>
+	<key>public.kern1.A</key>
 	<array>
 		<string>A</string>
 		<string>Aacute</string>
@@ -15,22 +15,22 @@
 		<string>Aring</string>
 		<string>Atilde</string>
 	</array>
-	<key>@MMK_L_B</key>
+	<key>public.kern1.B</key>
 	<array>
 		<string>B</string>
 	</array>
-	<key>@MMK_L_C</key>
+	<key>public.kern1.C</key>
 	<array>
 		<string>C</string>
 	</array>
-	<key>@MMK_L_D</key>
+	<key>public.kern1.D</key>
 	<array>
 		<string>Eth</string>
 		<string>Dcaron</string>
 		<string>Dcroat</string>
 		<string>P</string>
 	</array>
-	<key>@MMK_L_E</key>
+	<key>public.kern1.E</key>
 	<array>
 		<string>AE</string>
 		<string>E</string>
@@ -44,19 +44,19 @@
 		<string>Eogonek</string>
 		<string>OE</string>
 	</array>
-	<key>@MMK_L_F</key>
+	<key>public.kern1.F</key>
 	<array>
 		<string>F</string>
 		<string>Fhook</string>
 	</array>
-	<key>@MMK_L_G</key>
+	<key>public.kern1.G</key>
 	<array>
 		<string>G</string>
 		<string>Gbreve</string>
 		<string>Gcommaaccent</string>
 		<string>Gdotaccent</string>
 	</array>
-	<key>@MMK_L_I</key>
+	<key>public.kern1.I</key>
 	<array>
 		<string>H</string>
 		<string>Hbar</string>
@@ -74,11 +74,11 @@
 		<string>Zcaron</string>
 		<string>Zdotaccent</string>
 	</array>
-	<key>@MMK_L_K</key>
+	<key>public.kern1.K</key>
 	<array>
 		<string>K</string>
 	</array>
-	<key>@MMK_L_L</key>
+	<key>public.kern1.L</key>
 	<array>
 		<string>L</string>
 		<string>Lacute</string>
@@ -86,7 +86,7 @@
 		<string>Lcommaaccent</string>
 		<string>Lslash</string>
 	</array>
-	<key>@MMK_L_N</key>
+	<key>public.kern1.N</key>
 	<array>
 		<string>N</string>
 		<string>Nacute</string>
@@ -95,7 +95,7 @@
 		<string>Eng</string>
 		<string>Ntilde</string>
 	</array>
-	<key>@MMK_L_O</key>
+	<key>public.kern1.O</key>
 	<array>
 		<string>Cacute</string>
 		<string>Ccaron</string>
@@ -114,11 +114,11 @@
 		<string>Q</string>
 		<string>eth</string>
 	</array>
-	<key>@MMK_L_R</key>
+	<key>public.kern1.R</key>
 	<array>
 		<string>R</string>
 	</array>
-	<key>@MMK_L_S</key>
+	<key>public.kern1.S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -126,7 +126,7 @@
 		<string>Scedilla</string>
 		<string>Scommaaccent</string>
 	</array>
-	<key>@MMK_L_T</key>
+	<key>public.kern1.T</key>
 	<array>
 		<string>T</string>
 		<string>Tbar</string>
@@ -134,7 +134,7 @@
 		<string>Tcedilla</string>
 		<string>Tcommaaccent</string>
 	</array>
-	<key>@MMK_L_U</key>
+	<key>public.kern1.U</key>
 	<array>
 		<string>J</string>
 		<string>U</string>
@@ -147,7 +147,7 @@
 		<string>Uogonek</string>
 		<string>Uring</string>
 	</array>
-	<key>@MMK_L_V</key>
+	<key>public.kern1.V</key>
 	<array>
 		<string>V</string>
 		<string>W</string>
@@ -160,47 +160,47 @@
 		<string>Ydieresis</string>
 		<string>Ygrave</string>
 	</array>
-	<key>@MMK_L_X</key>
+	<key>public.kern1.X</key>
 	<array>
 		<string>X</string>
 	</array>
-	<key>@MMK_L_Y</key>
+	<key>public.kern1.Y</key>
 	<array>
 		<string>Y</string>
 	</array>
-	<key>@MMK_L_b</key>
+	<key>public.kern1.b</key>
 	<array>
 		<string>b</string>
 	</array>
-	<key>@MMK_L_e</key>
+	<key>public.kern1.e</key>
 	<array>
 		<string>ae</string>
 	</array>
-	<key>@MMK_L_f</key>
+	<key>public.kern1.f</key>
 	<array>
 		<string>f</string>
 		<string>f.calt</string>
 	</array>
-	<key>@MMK_L_four.lf</key>
+	<key>public.kern1.four.lf</key>
 	<array>
 		<string>four</string>
 		<string>four.lf</string>
 	</array>
-	<key>@MMK_L_g</key>
+	<key>public.kern1.g</key>
 	<array>
 		<string>g</string>
 		<string>gbreve</string>
 		<string>gcommaaccent</string>
 		<string>gdotaccent</string>
 	</array>
-	<key>@MMK_L_guillemets</key>
+	<key>public.kern1.guillemets</key>
 	<array>
 		<string>guillemetleft</string>
 		<string>guillemetright</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
 	</array>
-	<key>@MMK_L_hyphen</key>
+	<key>public.kern1.hyphen</key>
 	<array>
 		<string>periodcentered</string>
 		<string>bullet</string>
@@ -219,17 +219,17 @@
 		<string>guilsinglright.case</string>
 		<string>minus</string>
 	</array>
-	<key>@MMK_L_j</key>
+	<key>public.kern1.j</key>
 	<array>
 		<string>j</string>
 		<string>jdotless</string>
 	</array>
-	<key>@MMK_L_k</key>
+	<key>public.kern1.k</key>
 	<array>
 		<string>k</string>
 		<string>kcommaaccent</string>
 	</array>
-	<key>@MMK_L_l</key>
+	<key>public.kern1.l</key>
 	<array>
 		<string>d</string>
 		<string>dcaron</string>
@@ -246,7 +246,7 @@
 		<string>lslash</string>
 		<string>j.calt</string>
 	</array>
-	<key>@MMK_L_n</key>
+	<key>public.kern1.n</key>
 	<array>
 		<string>h</string>
 		<string>hbar</string>
@@ -258,7 +258,7 @@
 		<string>eng</string>
 		<string>ntilde</string>
 	</array>
-	<key>@MMK_L_o</key>
+	<key>public.kern1.o</key>
 	<array>
 		<string>c</string>
 		<string>cacute</string>
@@ -287,15 +287,15 @@
 		<string>zero</string>
 		<string>three</string>
 	</array>
-	<key>@MMK_L_one</key>
+	<key>public.kern1.one</key>
 	<array>
 		<string>one</string>
 	</array>
-	<key>@MMK_L_one.lf</key>
+	<key>public.kern1.one.lf</key>
 	<array>
 		<string>one.lf</string>
 	</array>
-	<key>@MMK_L_parent</key>
+	<key>public.kern1.parent</key>
 	<array>
 		<string>parenleft</string>
 		<string>parenright</string>
@@ -304,7 +304,7 @@
 		<string>bracketleft</string>
 		<string>bracketright</string>
 	</array>
-	<key>@MMK_L_period</key>
+	<key>public.kern1.period</key>
 	<array>
 		<string>period</string>
 		<string>comma</string>
@@ -313,11 +313,11 @@
 		<string>quotesinglbase</string>
 		<string>quotedblbase</string>
 	</array>
-	<key>@MMK_L_q</key>
+	<key>public.kern1.q</key>
 	<array>
 		<string>q.calt</string>
 	</array>
-	<key>@MMK_L_quote</key>
+	<key>public.kern1.quote</key>
 	<array>
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
@@ -326,14 +326,14 @@
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 	</array>
-	<key>@MMK_L_r</key>
+	<key>public.kern1.r</key>
 	<array>
 		<string>r</string>
 		<string>racute</string>
 		<string>rcaron</string>
 		<string>rcommaaccent</string>
 	</array>
-	<key>@MMK_L_s</key>
+	<key>public.kern1.s</key>
 	<array>
 		<string>s</string>
 		<string>sacute</string>
@@ -341,26 +341,26 @@
 		<string>scedilla</string>
 		<string>scommaaccent</string>
 	</array>
-	<key>@MMK_L_seven</key>
+	<key>public.kern1.seven</key>
 	<array>
 		<string>seven</string>
 	</array>
-	<key>@MMK_L_seven.lf</key>
+	<key>public.kern1.seven.lf</key>
 	<array>
 		<string>seven.lf</string>
 	</array>
-	<key>@MMK_L_six.lf</key>
+	<key>public.kern1.six.lf</key>
 	<array>
 		<string>five</string>
 		<string>six</string>
 		<string>five.lf</string>
 		<string>six.lf</string>
 	</array>
-	<key>@MMK_L_slash</key>
+	<key>public.kern1.slash</key>
 	<array>
 		<string>fraction</string>
 	</array>
-	<key>@MMK_L_sups</key>
+	<key>public.kern1.sups</key>
 	<array>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
@@ -398,7 +398,7 @@
 		<string>nine.sups</string>
 		<string>asterisk</string>
 	</array>
-	<key>@MMK_L_t</key>
+	<key>public.kern1.t</key>
 	<array>
 		<string>t</string>
 		<string>tbar</string>
@@ -406,11 +406,11 @@
 		<string>tcedilla</string>
 		<string>tcommaaccent</string>
 	</array>
-	<key>@MMK_L_three.lf</key>
+	<key>public.kern1.three.lf</key>
 	<array>
 		<string>three.lf</string>
 	</array>
-	<key>@MMK_L_u</key>
+	<key>public.kern1.u</key>
 	<array>
 		<string>a</string>
 		<string>aacute</string>
@@ -435,7 +435,7 @@
 		<string>jdotless.calt</string>
 		<string>amacroan</string>
 	</array>
-	<key>@MMK_L_v</key>
+	<key>public.kern1.v</key>
 	<array>
 		<string>v</string>
 		<string>w</string>
@@ -445,11 +445,11 @@
 		<string>wgrave</string>
 		<string>w.alt</string>
 	</array>
-	<key>@MMK_L_x</key>
+	<key>public.kern1.x</key>
 	<array>
 		<string>x</string>
 	</array>
-	<key>@MMK_L_y</key>
+	<key>public.kern1.y</key>
 	<array>
 		<string>y</string>
 		<string>yacute</string>
@@ -457,14 +457,14 @@
 		<string>ydieresis</string>
 		<string>ygrave</string>
 	</array>
-	<key>@MMK_L_z</key>
+	<key>public.kern1.z</key>
 	<array>
 		<string>z</string>
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
 	</array>
-	<key>@MMK_L_zero.lf</key>
+	<key>public.kern1.zero.lf</key>
 	<array>
 		<string>eight</string>
 		<string>nine</string>
@@ -473,7 +473,7 @@
 		<string>eight.lf</string>
 		<string>nine.lf</string>
 	</array>
-	<key>@MMK_R_A</key>
+	<key>public.kern2.A</key>
 	<array>
 		<string>A</string>
 		<string>Aacute</string>
@@ -487,7 +487,7 @@
 		<string>Atilde</string>
 		<string>AE</string>
 	</array>
-	<key>@MMK_R_I</key>
+	<key>public.kern2.I</key>
 	<array>
 		<string>B</string>
 		<string>D</string>
@@ -538,15 +538,15 @@
 		<string>Zcaron</string>
 		<string>Zdotaccent</string>
 	</array>
-	<key>@MMK_R_J</key>
+	<key>public.kern2.J</key>
 	<array>
 		<string>J</string>
 	</array>
-	<key>@MMK_R_M</key>
+	<key>public.kern2.M</key>
 	<array>
 		<string>M</string>
 	</array>
-	<key>@MMK_R_O</key>
+	<key>public.kern2.O</key>
 	<array>
 		<string>C</string>
 		<string>Cacute</string>
@@ -569,7 +569,7 @@
 		<string>OE</string>
 		<string>Q</string>
 	</array>
-	<key>@MMK_R_S</key>
+	<key>public.kern2.S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -577,7 +577,7 @@
 		<string>Scedilla</string>
 		<string>Scommaaccent</string>
 	</array>
-	<key>@MMK_R_T</key>
+	<key>public.kern2.T</key>
 	<array>
 		<string>T</string>
 		<string>Tbar</string>
@@ -585,7 +585,7 @@
 		<string>Tcedilla</string>
 		<string>Tcommaaccent</string>
 	</array>
-	<key>@MMK_R_U</key>
+	<key>public.kern2.U</key>
 	<array>
 		<string>U</string>
 		<string>Uacute</string>
@@ -597,7 +597,7 @@
 		<string>Uogonek</string>
 		<string>Uring</string>
 	</array>
-	<key>@MMK_R_V</key>
+	<key>public.kern2.V</key>
 	<array>
 		<string>V</string>
 		<string>W</string>
@@ -606,7 +606,7 @@
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
 	</array>
-	<key>@MMK_R_Y</key>
+	<key>public.kern2.Y</key>
 	<array>
 		<string>Y</string>
 		<string>Yacute</string>
@@ -614,7 +614,7 @@
 		<string>Ydieresis</string>
 		<string>Ygrave</string>
 	</array>
-	<key>@MMK_R_a</key>
+	<key>public.kern2.a</key>
 	<array>
 		<string>a</string>
 		<string>aacute</string>
@@ -628,44 +628,44 @@
 		<string>ae</string>
 		<string>amacroan</string>
 	</array>
-	<key>@MMK_R_dieresis</key>
+	<key>public.kern2.dieresis</key>
 	<array>
 		<string>idieresis</string>
 	</array>
-	<key>@MMK_R_f</key>
+	<key>public.kern2.f</key>
 	<array>
 		<string>f</string>
 		<string>j</string>
 	</array>
-	<key>@MMK_R_five.lf</key>
+	<key>public.kern2.five.lf</key>
 	<array>
 		<string>five</string>
 		<string>five.lf</string>
 	</array>
-	<key>@MMK_R_four.dnom</key>
+	<key>public.kern2.four.dnom</key>
 	<array>
 		<string>four.dnom</string>
 	</array>
-	<key>@MMK_R_four.lf</key>
+	<key>public.kern2.four.lf</key>
 	<array>
 		<string>four</string>
 		<string>four.lf</string>
 	</array>
-	<key>@MMK_R_g</key>
+	<key>public.kern2.g</key>
 	<array>
 		<string>g</string>
 		<string>gbreve</string>
 		<string>gcommaaccent</string>
 		<string>gdotaccent</string>
 	</array>
-	<key>@MMK_R_guillemets</key>
+	<key>public.kern2.guillemets</key>
 	<array>
 		<string>guillemetleft</string>
 		<string>guillemetright</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
 	</array>
-	<key>@MMK_R_hyphen</key>
+	<key>public.kern2.hyphen</key>
 	<array>
 		<string>periodcentered</string>
 		<string>bullet</string>
@@ -686,14 +686,14 @@
 		<string>minus</string>
 		<string>logicalnot</string>
 	</array>
-	<key>@MMK_R_j</key>
+	<key>public.kern2.j</key>
 	<array>
 		<string>jdotless</string>
 		<string>f.calt</string>
 		<string>j.calt</string>
 		<string>jdotless.calt</string>
 	</array>
-	<key>@MMK_R_l</key>
+	<key>public.kern2.l</key>
 	<array>
 		<string>b</string>
 		<string>h</string>
@@ -711,7 +711,7 @@
 		<string>ldot</string>
 		<string>lslash</string>
 	</array>
-	<key>@MMK_R_n</key>
+	<key>public.kern2.n</key>
 	<array>
 		<string>idotless</string>
 		<string>m</string>
@@ -735,12 +735,12 @@
 		<string>uring</string>
 		<string>one</string>
 	</array>
-	<key>@MMK_R_nine.lf</key>
+	<key>public.kern2.nine.lf</key>
 	<array>
 		<string>nine</string>
 		<string>nine.lf</string>
 	</array>
-	<key>@MMK_R_o</key>
+	<key>public.kern2.o</key>
 	<array>
 		<string>c</string>
 		<string>cacute</string>
@@ -775,15 +775,15 @@
 		<string>two</string>
 		<string>three</string>
 	</array>
-	<key>@MMK_R_one.lf</key>
+	<key>public.kern2.one.lf</key>
 	<array>
 		<string>one.lf</string>
 	</array>
-	<key>@MMK_R_p</key>
+	<key>public.kern2.p</key>
 	<array>
 		<string>p</string>
 	</array>
-	<key>@MMK_R_parent</key>
+	<key>public.kern2.parent</key>
 	<array>
 		<string>parenleft</string>
 		<string>parenright</string>
@@ -792,7 +792,7 @@
 		<string>bracketleft</string>
 		<string>bracketright</string>
 	</array>
-	<key>@MMK_R_period</key>
+	<key>public.kern2.period</key>
 	<array>
 		<string>period</string>
 		<string>comma</string>
@@ -801,11 +801,11 @@
 		<string>quotesinglbase</string>
 		<string>quotedblbase</string>
 	</array>
-	<key>@MMK_R_question</key>
+	<key>public.kern2.question</key>
 	<array>
 		<string>question</string>
 	</array>
-	<key>@MMK_R_quote</key>
+	<key>public.kern2.quote</key>
 	<array>
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
@@ -814,7 +814,7 @@
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 	</array>
-	<key>@MMK_R_s</key>
+	<key>public.kern2.s</key>
 	<array>
 		<string>s</string>
 		<string>sacute</string>
@@ -822,19 +822,19 @@
 		<string>scedilla</string>
 		<string>scommaaccent</string>
 	</array>
-	<key>@MMK_R_seven</key>
+	<key>public.kern2.seven</key>
 	<array>
 		<string>seven</string>
 	</array>
-	<key>@MMK_R_seven.lf</key>
+	<key>public.kern2.seven.lf</key>
 	<array>
 		<string>seven.lf</string>
 	</array>
-	<key>@MMK_R_slash</key>
+	<key>public.kern2.slash</key>
 	<array>
 		<string>fraction</string>
 	</array>
-	<key>@MMK_R_sups</key>
+	<key>public.kern2.sups</key>
 	<array>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
@@ -872,7 +872,7 @@
 		<string>nine.sups</string>
 		<string>asterisk</string>
 	</array>
-	<key>@MMK_R_t</key>
+	<key>public.kern2.t</key>
 	<array>
 		<string>t</string>
 		<string>tbar</string>
@@ -880,19 +880,19 @@
 		<string>tcedilla</string>
 		<string>tcommaaccent</string>
 	</array>
-	<key>@MMK_R_three.lf</key>
+	<key>public.kern2.three.lf</key>
 	<array>
 		<string>three.lf</string>
 	</array>
-	<key>@MMK_R_two.lf</key>
+	<key>public.kern2.two.lf</key>
 	<array>
 		<string>two.lf</string>
 	</array>
-	<key>@MMK_R_u</key>
+	<key>public.kern2.u</key>
 	<array>
 		<string>u</string>
 	</array>
-	<key>@MMK_R_v</key>
+	<key>public.kern2.v</key>
 	<array>
 		<string>v</string>
 		<string>w</string>
@@ -906,22 +906,22 @@
 		<string>ygrave</string>
 		<string>w.alt</string>
 	</array>
-	<key>@MMK_R_x</key>
+	<key>public.kern2.x</key>
 	<array>
 		<string>x</string>
 	</array>
-	<key>@MMK_R_y</key>
+	<key>public.kern2.y</key>
 	<array>
 		<string>y</string>
 	</array>
-	<key>@MMK_R_z</key>
+	<key>public.kern2.z</key>
 	<array>
 		<string>z</string>
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
 	</array>
-	<key>@MMK_R_zero.lf</key>
+	<key>public.kern2.zero.lf</key>
 	<array>
 		<string>six</string>
 		<string>eight</string>

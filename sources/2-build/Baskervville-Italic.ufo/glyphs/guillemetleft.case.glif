@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="guillemetleft.case" format="1">
-  <advance width="438"/>
-  <outline>
-    <component base="guilsinglleft" xOffset="45" yOffset="124"/>
-    <component base="guilsinglleft" xOffset="210" yOffset="124"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>guilsinglleft</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>guilsinglleft</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="guillemetleft.case" format="2">
+	<advance width="438"/>
+	<outline>
+		<component base="guilsinglleft" xOffset="45" yOffset="124"/>
+		<component base="guilsinglleft" xOffset="210" yOffset="124"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>guilsinglleft</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>guilsinglleft</string>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acircumflex" format="1">
-  <advance width="533"/>
-  <unicode hex="00E2"/>
-  <outline>
-    <component base="a"/>
-    <component base="circumflexcomb" xOffset="83"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-22 09:14:30 +0000</string>
-    </dict>
-  </lib>
+<glyph name="acircumflex" format="2">
+	<advance width="533"/>
+	<unicode hex="00E2"/>
+	<outline>
+		<component base="a"/>
+		<component base="circumflexcomb" xOffset="370"/>
+	</outline>
 </glyph>

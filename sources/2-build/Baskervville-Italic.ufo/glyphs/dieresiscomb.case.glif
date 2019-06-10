@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresiscomb.case" format="1">
-  <advance width="398"/>
-  <outline>
-    <component base="dieresis" xOffset="89" yOffset="249"/>
-    <contour>
-      <point x="409" y="710" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="427" y="856" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>dieresis</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-04 19:49:39 +0000</string>
-      <key>public.markColor</key>
-      <string>0.06,0.6,0.98,1</string>
-    </dict>
-  </lib>
+<glyph name="dieresiscomb.case" format="2">
+	<advance width="0"/>
+	<anchor x="29" y="856" name="top"/>
+	<anchor x="11" y="710" name="_top"/>
+	<outline>
+		<component base="dieresis" xOffset="-309" yOffset="249"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>dieresis</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
 </glyph>
