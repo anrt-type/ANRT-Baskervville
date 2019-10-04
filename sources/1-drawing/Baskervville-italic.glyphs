@@ -55337,12 +55337,6 @@ unicode = 0000;
 );
 instances = (
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--default-script=latn --windows-compatibility";
-}
-);
 instanceInterpolations = {
 "9372F035-DA38-4B54-966C-CEBA9B53DD02" = 1;
 };
