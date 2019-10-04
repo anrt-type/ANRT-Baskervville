@@ -55706,7 +55706,7 @@ y = 0;
 };
 };
 };
-manufacturer = "ANRT ";
+manufacturer = ANRT;
 manufacturerURL = "https://anrt-nancy.fr";
 unitsPerEm = 1000;
 userData = {
