@@ -47070,6 +47070,23 @@ rightMetricsKey = three;
 unicode = 00B3;
 },
 {
+glyphname = foursuperior;
+layers = (
+{
+components = (
+{
+name = four.sups;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 324;
+}
+);
+leftMetricsKey = four;
+rightMetricsKey = four;
+unicode = 2074;
+},
+{
 color = 9;
 glyphname = zero.sups;
 layers = (
@@ -54707,6 +54724,21 @@ width = 662;
 }
 );
 unicode = 00A5;
+},
+{
+glyphname = divisionslash;
+layers = (
+{
+components = (
+{
+name = fraction;
+}
+);
+layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
+width = 291;
+}
+);
+unicode = 2215;
 },
 {
 glyphname = plus;
