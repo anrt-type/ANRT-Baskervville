@@ -1,4 +1,4 @@
-Copyright 2018 Baskervville project authors (https://anrt-nancy.fr/en/presentation-en/#contact)
+Copyright 2018 Baskervville project authors (thomas.huot-marchand@anrt-type.fr)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
