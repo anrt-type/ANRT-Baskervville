@@ -45,7 +45,7 @@ _____
 
 The sources showed obvious mistakes due to the difficulty of producing and printing types in the 19th century. We didn't want to parody an historical typeface which would have reproduced irregularities from the paper, the ink nor the machine. So we tried to be true to what we thought were Jacob's purposes while using contemporary tools. However, we wanted to be able to use the font and for that matter we corrected some letter-shapes and proportions. We also had to guess the design of missing letters.
 
-We kept that unusual *w*, which is basically twice a *v*, and make it the identity of Jacob's font, since the mistake was already made. But is it ? Jacob's Baskerwille is a strange double of Baskerville's typefaces; a "clone" which looks *alike* but which is not as achieved as its master. So we found interesting that elementary duplication of the letter *v* — which signals, in a way, the counterfeiting.
+We kept that unusual *w*, which is basically twice a *v*, and make it the identity of Jacob's font. Jacob's Baskerwille is a strange double of Baskerville's typefaces; a "clone" which looks *alike* but which is not as achieved as its master. So we found interesting that elementary duplication of the letter *v* — which signals, in a way, the counterfeiting.
 
  ![Specimen](https://bitbucket.org/anrt_type/anrt-2017-baskervville/raw/5f2c38712d25cf34956adfac2857e7e9c96d9217/FONTS/Samples/Jpeg/181012baskervville.jpg)
  *Sample text of the Baskervville typeface* (ANRT Nancy 2018).
