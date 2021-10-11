@@ -14,20 +14,19 @@ ___
 
 **Workshop:** From 2017.10.12 to 2017.10.20.
 
-**Font production:** Rosalie Wagner, from 2017.11 to 2019.03.
+**Development and production:** Rosalie Wagner
 
 _____
-### Summary
+### Repository
 
-* [Proofs](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/proofs) (charset & specimen)
-* [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/workshop)
-* [OTF files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/fonts/Baskervville_OTF)
-* [UFO files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/2-build)
-* [Glyphs files](https://github.com/anrt-type/ANRT-Baskervville/tree/master/sources/1-drawing)
-* [Resources](https://github.com/anrt-type/ANRT-Baskervville/tree/master/documents/resources)
+* [Charset & specimen](documents/proofs)
+* [Workshop process](https://github.com/anrt-type/ANRT-Baskervville/documents/workshop)
+* [Fonts files](fonts/)
+* [Glyphs sources](sources/)
+* [Resources](documents/resources)
 
 _____
-### Sources
+### Resources
 
 For this revival we used the sources from *La Notice historique de Berger-Levrault*, 1815.
 
@@ -42,16 +41,25 @@ _____
 
 The particularity of Jacob's Baskerwille is that the roman is very closed to Baskerville's typefaces while the italic is closer to Didot's typefaces. The workshop aimed to digitalized Jacob's font in order to testify to his work which creates a transition between transitional and modern styles.
 
-![Source](https://bitbucket.org/anrt_type/anrt-2017-baskervville/raw/ab82f14fbb8f70936255ac3211b219d9a0243d8c/FONTS/Samples/Jpeg/181004baskerwille-source.jpg)
- Zoom in the *Notice historique 1878*, Imprimerie Berger Levrault, Strasbourg, 1878.
+![Source](./documents/resources/specimen-couverture.jpg)
+*Épreuves de la fonderie de F.G. Levrault*, Imprimerie Berger Levrault, Strasbourg, 1815.
 
-The sources showed obvious mistakes due to the difficulty of producing and printing types in the 19th century. We didn't want to parody an historical typeface which would have reproduced irregularities from the paper, the ink nor the machine. So we tried to be true to what we thought were Jacob's purposes while using contemporary tools. However, we wanted to be able to use the font and for that matter we corrected some letter-shapes and proportions. We also had to guess the design of missing letters.
+The sources showed obvious inaccuracies due to the difficulty of producing and printing types in the 19th century. We didn't want to parody an historical typeface which would have reproduced irregularities from the paper, the ink nor the machine. So we tried to be true to what we thought were Jacob's purposess while using contemporary tools. However, we wanted to be able to use the font and for that matter we corrected some letter-shapes and proportions. We also had to guess the design of missing letters.
 
-We kept that unusual *w*, which is basically twice a *v*, and make it the identity of Jacob's font. Jacob's Baskerwille is a strange double of Baskerville's typefaces; a "clone" which looks *alike* but which is not as achieved as its master. So we found interesting that elementary duplication of the letter *v* — which signals, in a way, the counterfeiting.
+We kept that unusual *w*, which is twice a *v*, and made it the identity of Jacob's font. Jacob's Baskerwille is a strange double of Baskerville's typefaces; a "clone" which looks *alike* but which is not as achieved as its predecessor. This elementary duplication of the letter *v* signals, in a way, the counterfeiting.
 
-![Specimen](https://bitbucket.org/anrt_type/anrt-2017-baskervville/raw/5f2c38712d25cf34956adfac2857e7e9c96d9217/FONTS/Samples/Jpeg/181012baskervville.jpg)
-*Sample text of the Baskervville typeface* (ANRT Nancy 2018).
+![Specimen](./documents/proofs/sample.jpg)
+*Comparison betwen Jacob's Baskerwille and ANRT's Baskervville* (ANRT Nancy 2018).
 
+_____
+### Build the font
+
+1. Clone Baskervville's repository
+2. Create a virtual environement
+3. Activate the environment
+4. Install `gftools` in the venv
+5. Go to the `sources` dir of your lcoal clone: `cd path/to/repo/sources`
+6. run `gftools builder Baskervville.glyphs Baskervville-Italic.glyphs`
 _____
 This font is collaborative and there is still much to do: you are welcome to download it, use it, and make comments. Feel free to pull requests and suggest improvement !
 _____
