@@ -6,9 +6,10 @@
 # Name or Organization <email address>
 
 ANRT Promo 2017
-Alexis Faudot <alexis.faudot@laposte.net>
-Rémi Forte <forte.remi@gmail.com>
-Morgane Pierson <pierson.morgane@icloud.com>
-Rafael Ribas <rafaelribas@live.fr>
-Tanguy Vanlæys <vanlaeys.tanguy1@gmail.com>
-Rosalie Wagner <rose.wagner@free.fr>
+Alexis Faudot
+Rémi Forte
+Morgane Pierson
+Rafael Ribas
+Tanguy Vanlæys
+Rosalie Wagner
+Thomas Huot-Marchand
