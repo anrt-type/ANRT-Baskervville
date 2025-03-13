@@ -1,6 +1,9 @@
 {
 .appVersion = "3402";
 .formatVersion = 3;
+DisplayStrings = (
+"égales"
+);
 axes = (
 {
 name = Weight;
@@ -9779,7 +9782,7 @@ color = 6;
 glyphname = a;
 kernLeft = a;
 kernRight = a;
-lastChange = "2025-03-13 18:12:23 +0000";
+lastChange = "2025-03-13 19:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -19295,8 +19298,8 @@ metricRight = i;
 color = 10;
 glyphname = f_f_j.liga;
 kernLeft = f;
-kernRight = l;
-lastChange = "2025-03-13 17:52:25 +0000";
+kernRight = j;
+lastChange = "2025-03-13 18:56:06 +0000";
 layers = (
 {
 layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
@@ -19310,7 +19313,7 @@ ref = f_j.liga;
 ref = _f;
 }
 );
-width = 821;
+width = 832;
 },
 {
 layerId = m002;
@@ -19675,8 +19678,8 @@ metricRight = h;
 color = 6;
 glyphname = f_j.liga;
 kernLeft = f;
-kernRight = l;
-lastChange = "2025-03-13 17:52:25 +0000";
+kernRight = j;
+lastChange = "2025-03-13 18:56:11 +0000";
 layers = (
 {
 layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
@@ -19768,7 +19771,7 @@ nodes = (
 );
 }
 );
-width = 541;
+width = 552;
 },
 {
 layerId = m002;
@@ -51239,7 +51242,7 @@ unicode = 771;
 {
 color = 6;
 glyphname = macroncomb;
-lastChange = "2025-03-13 17:52:25 +0000";
+lastChange = "2025-03-13 18:58:07 +0000";
 layers = (
 {
 anchors = (
@@ -51257,10 +51260,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(277,595,l),
-(277,635,l),
-(50,635,l),
-(50,595,l)
+(277,575,l),
+(277,615,l),
+(50,615,l),
+(50,575,l)
 );
 }
 );
@@ -51282,10 +51285,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(297,575,l),
-(297,655,l),
-(30,655,l),
-(30,575,l)
+(297,555,l),
+(297,635,l),
+(30,635,l),
+(30,555,l)
 );
 }
 );
@@ -55139,6 +55142,7 @@ exclam = 60;
 question = 70;
 };
 "@MMK_L_g" = {
+"@MMK_R_a" = -20;
 "@MMK_R_guillemets" = -20;
 "@MMK_R_hyphen" = -30;
 "@MMK_R_o" = -20;
@@ -55686,6 +55690,7 @@ backslash = 90;
 exclam = 70;
 };
 "@MMK_L_g" = {
+"@MMK_R_a" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_parent" = -20;
 "@MMK_R_period" = -70;
