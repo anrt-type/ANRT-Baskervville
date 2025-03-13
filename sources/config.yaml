@@ -1,5 +1,6 @@
 sources:
     - Baskervville.glyphs
     - Baskervville-Italic.glyphs
-buildVariable: false
 familyName: Baskervville
+autohintOTF: false
+buildSmallCap: false
