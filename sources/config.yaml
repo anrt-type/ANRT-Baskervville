@@ -3,4 +3,4 @@ sources:
     - Baskervville-Italic.glyphs
 familyName: Baskervville
 autohintOTF: false
-buildSmallCap: false
+buildSmallCap: true
