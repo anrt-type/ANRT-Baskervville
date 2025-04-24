@@ -1,5 +1,5 @@
 {
-.appVersion = "3402";
+.appVersion = "3413";
 .formatVersion = 3;
 axes = (
 {
@@ -44205,6 +44205,10 @@ value = ANRT;
 {
 key = manufacturerURL;
 value = "https://anrt-nancy.fr";
+},
+{
+key = vendorID;
+value = ANRT;
 }
 );
 stems = (
