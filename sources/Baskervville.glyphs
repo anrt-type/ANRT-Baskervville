@@ -1,5 +1,5 @@
 {
-.appVersion = "3414";
+.appVersion = "3424";
 .formatVersion = 3;
 axes = (
 {
@@ -44339,7 +44339,7 @@ color = 10;
 glyphname = quotedblleft.sc;
 kernLeft = quote;
 kernRight = quote;
-lastChange = "2025-03-13 17:52:25 +0000";
+lastChange = "2025-08-19 15:22:40 +0000";
 layers = (
 {
 layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
@@ -44357,7 +44357,7 @@ layerId = m002;
 shapes = (
 {
 angle = 180;
-pos = (440,705);
+pos = (458,705);
 ref = quotedblright.sc;
 }
 );
@@ -44419,7 +44419,7 @@ color = 10;
 glyphname = quoteleft.sc;
 kernLeft = quote;
 kernRight = quote;
-lastChange = "2025-03-13 17:52:25 +0000";
+lastChange = "2025-08-19 15:22:38 +0000";
 layers = (
 {
 layerId = "9372F035-DA38-4B54-966C-CEBA9B53DD02";
@@ -44437,7 +44437,7 @@ layerId = m002;
 shapes = (
 {
 angle = 180;
-pos = (247,705);
+pos = (265,705);
 ref = quoteright.sc;
 }
 );
