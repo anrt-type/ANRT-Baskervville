@@ -43646,9 +43646,6 @@ y.sups = 0;
 questiondown = {
 "@MMK_R_j" = 70;
 };
-seven.tf = {
-eight.tf = -20;
-};
 sevensuperior = {
 eightsuperior = -20;
 foursuperior = -40;
