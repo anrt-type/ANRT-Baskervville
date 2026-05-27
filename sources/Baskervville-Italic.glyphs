@@ -1,9 +1,6 @@
 {
-.appVersion = "3414";
+.appVersion = "3526";
 .formatVersion = 3;
-DisplayStrings = (
-"‚"
-);
 axes = (
 {
 name = Weight;
@@ -20112,7 +20109,7 @@ nodes = (
 );
 }
 );
-width = 551;
+width = 557;
 },
 {
 layerId = m002;
@@ -44175,7 +44172,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = ANRT;
+value = "Alexis Faudot, Rémi Forte, Morgane Pierson, Rafael Ribas, Tanguy Vanlaeys, Rosalie Wagner, Thomas Huot-Marchand";
 }
 );
 },
