@@ -1,9 +1,6 @@
 {
 .appVersion = "3528";
 .formatVersion = 3;
-DisplayStrings = (
-"/u.sc/aring.sc/aacute.sc AÅǺÚ/ringcomb.case Ů/ringcomb.sc/uring.sc"
-);
 axes = (
 {
 name = Weight;
@@ -391,7 +388,7 @@ sub Agrave by agrave.sc;
 sub Amacron by amacron.sc;
 sub Aogonek by aogonek.sc;
 sub Aring by aring.sc;
-sub Aringacute by Aringacute.sc;
+sub Aringacute by aringacute.sc;
 sub Atilde by atilde.sc;
 sub AE by ae.sc;
 sub B by b.sc;
@@ -414,7 +411,6 @@ sub Egrave by egrave.sc;
 sub Emacron by emacron.sc;
 sub Eogonek by eogonek.sc;
 sub F by f.sc;
-sub Fhook by Fhook.sc;
 sub G by g.sc;
 sub Gbreve by gbreve.sc;
 sub Gcommaaccent by gcommaaccent.sc;
@@ -483,10 +479,10 @@ sub Ubreve by ubreve.sc;
 sub Ucaron by ucaron.sc;
 sub Ucircumflex by ucircumflex.sc;
 sub Udieresis by udieresis.sc;
-sub Udieresisacute by Udieresisacute.sc;
-sub Udieresiscaron by Udieresiscaron.sc;
-sub Udieresisgrave by Udieresisgrave.sc;
-sub Udieresismacron by Udieresismacron.sc;
+sub Udieresisacute by udieresisacute.sc;
+sub Udieresiscaron by udieresiscaron.sc;
+sub Udieresisgrave by udieresisgrave.sc;
+sub Udieresismacron by udieresismacron.sc;
 sub Ugrave by ugrave.sc;
 sub Uhungarumlaut by uhungarumlaut.sc;
 sub Umacron by umacron.sc;
@@ -570,6 +566,7 @@ sub agrave by agrave.sc;
 sub amacron by amacron.sc;
 sub aogonek by aogonek.sc;
 sub aring by aring.sc;
+sub aringacute by aringacute.sc;
 sub atilde by atilde.sc;
 sub ae by ae.sc;
 sub b by b.sc;
@@ -661,6 +658,10 @@ sub ubreve by ubreve.sc;
 sub ucaron by ucaron.sc;
 sub ucircumflex by ucircumflex.sc;
 sub udieresis by udieresis.sc;
+sub udieresisacute by udieresisacute.sc;
+sub udieresiscaron by udieresiscaron.sc;
+sub udieresisgrave by udieresisgrave.sc;
+sub udieresismacron by udieresismacron.sc;
 sub ugrave by ugrave.sc;
 sub uhungarumlaut by uhungarumlaut.sc;
 sub umacron by umacron.sc;
