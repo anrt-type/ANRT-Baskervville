@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url("old-Baskervville-Italic-VariableFont_wght.ttf");
+    font-family: "old font";
+    font-weight: 400 700;
+    
+    font-style: italic;
+}
+	  
+
+	  
+	    @font-face{
+    src: url("new-Baskervville-Italic%5Bwght%5D.ttf");
+    font-family: "new font";
+    font-weight: 400 700;
+    
+    font-style: italic;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400_0{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400.0;
+}
+	  
+
+	  
+	    .new-wght-400_0{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400.0;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+      <div class="box">
+        <div class="box-title">New encoded glyphs</div>
+        <div class="box-text old-wght-400_0" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word">
+    <div class="tooltip">
+        ſ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER LONG S<br>
+            unicode: U+017F
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400_0" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ĳ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LIGATURE IJ<br>
+            unicode: U+0133<br>
+            changed pixels: 6.76%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        *<br>
+        <span class="tooltiptext">
+            name: ASTERISK<br>
+            unicode: U+002A<br>
+            changed pixels: 4.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǻ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE<br>
+            unicode: U+01FA<br>
+            changed pixels: 1.84%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Å<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER A WITH RING ABOVE<br>
+            unicode: U+00C5<br>
+            changed pixels: 1.64%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ů<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER U WITH RING ABOVE<br>
+            unicode: U+016E<br>
+            changed pixels: 1.42%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400_0" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings:  'tnum' 1 " lang="None">
+    <div class="tooltip">
+        0123456789<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=339, pos=(0, 0, 560, 0)<br>gid=340, pos=(0, 0, 560, 0)<br>gid=341, pos=(0, 0, 560, 0)<br>gid=342, pos=(0, 0, 560, 0)<br>gid=343, pos=(0, 0, 560, 0)<br>gid=344, pos=(0, 0, 560, 0)<br>gid=345, pos=(0, 0, 560, 0)<br>gid=346, pos=(0, 0, 540, 0)<br>gid=347, pos=(0, 0, 560, 0)<br>gid=348, pos=(0, 0, 560, 0)<br>
+            feats=('tnum',)
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=349, pos=(0, 0, 560, 0)<br>gid=350, pos=(0, 0, 560, 0)<br>gid=351, pos=(0, 0, 560, 0)<br>gid=352, pos=(0, 0, 560, 0)<br>gid=353, pos=(0, 0, 560, 0)<br>gid=354, pos=(0, 0, 560, 0)<br>gid=355, pos=(0, 0, 560, 0)<br>gid=356, pos=(0, 0, 560, 0)<br>gid=357, pos=(0, 0, 560, 0)<br>gid=358, pos=(0, 0, 560, 0)<br>
+            feats=('tnum',)
+        </div>
+        <div>
+            changed pixels: 2.22%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Latin words</div>
+        <div class="box-text old-wght-400_0" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Cfjflorida<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=15, pos=(0, 0, 694, 0)<br>gid=284, pos=(0, 0, 551, 0)<br>gid=288, pos=(0, 0, 588, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=15, pos=(0, 0, 694, 0)<br>gid=285, pos=(0, 0, 597, 0)<br>gid=289, pos=(0, 0, 588, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 7.48%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Fąfara<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 590, 0)<br>gid=145, pos=(0, 0, 536, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 590, 0)<br>gid=145, pos=(0, 0, 566, 0)<br>gid=269, pos=(0, 0, 342, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 5.75%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Afšhin<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=226, pos=(0, 0, 360, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=169, pos=(0, 0, 350, 0)<br>gid=226, pos=(0, 0, 360, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 5.71%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Chìfēng<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=15, pos=(0, 0, 694, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=185, pos=(0, 0, 278, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=167, pos=(0, 0, 418, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=15, pos=(0, 0, 694, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=185, pos=(0, 0, 298, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=167, pos=(0, 0, 418, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 5.65%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        vĳf<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=251, pos=(0, 0, 483, 0)<br>gid=188, pos=(0, 0, 548, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=252, pos=(0, 0, 483, 0)<br>gid=188, pos=(0, 0, 568, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 5.62%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Aïfa<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=183, pos=(0, 0, 278, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=183, pos=(0, 0, 298, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 4.93%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Ahojfilm<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=189, pos=(0, 0, 270, 0)<br>gid=287, pos=(0, 0, 571, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=199, pos=(0, 0, 774, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=189, pos=(0, 0, 310, 0)<br>gid=288, pos=(0, 0, 571, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=199, pos=(0, 0, 774, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 4.89%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Qǐfú<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=81, pos=(0, 0, 775, 0)<br>gid=181, pos=(0, 0, 278, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=236, pos=(0, 0, 539, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=81, pos=(0, 0, 775, 0)<br>gid=181, pos=(0, 0, 298, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=237, pos=(0, 0, 539, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 4.74%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        AEdificavit<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=24, pos=(0, 0, 688, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=287, pos=(0, 0, 571, 0)<br>gid=151, pos=(0, 0, 439, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=251, pos=(0, 0, 483, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=230, pos=(0, 0, 308, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=24, pos=(0, 0, 688, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=177, pos=(0, 0, 298, 0)<br>gid=288, pos=(0, 0, 571, 0)<br>gid=151, pos=(0, 0, 439, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=252, pos=(0, 0, 483, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=231, pos=(0, 0, 308, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 4.70%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Boľkovce<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=14, pos=(0, 0, 658, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=195, pos=(0, 0, 374, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=251, pos=(0, 0, 483, 0)<br>gid=151, pos=(0, 0, 439, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=14, pos=(0, 0, 658, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=195, pos=(0, 0, 354, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=252, pos=(0, 0, 483, 0)<br>gid=151, pos=(0, 0, 439, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 4.61%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Acuíferos<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=151, pos=(0, 0, 429, 0)<br>gid=235, pos=(0, 0, 539, 0)<br>gid=180, pos=(0, 0, 278, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=224, pos=(0, 0, 363, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=151, pos=(0, 0, 429, 0)<br>gid=236, pos=(0, 0, 539, 0)<br>gid=180, pos=(0, 0, 298, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=224, pos=(0, 0, 363, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 4.35%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Aafjorden<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=284, pos=(0, 0, 551, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=285, pos=(0, 0, 557, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 3.88%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        fǐ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=169, pos=(0, 0, 360, 0)<br>gid=181, pos=(0, 0, 278, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=169, pos=(0, 0, 390, 0)<br>gid=181, pos=(0, 0, 278, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 3.74%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Baťka<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=14, pos=(0, 0, 658, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=232, pos=(0, 0, 308, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=14, pos=(0, 0, 658, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=233, pos=(0, 0, 338, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 3.69%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Boldogkőújfalu<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=14, pos=(0, 0, 658, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=212, pos=(0, 0, 504, 0)<br>gid=236, pos=(0, 0, 539, 0)<br>gid=189, pos=(0, 0, 270, 0)<br>gid=272, pos=(0, 0, 270, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=235, pos=(0, 0, 539, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=14, pos=(0, 0, 658, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=212, pos=(0, 0, 504, 0)<br>gid=237, pos=(0, 0, 539, 0)<br>gid=189, pos=(0, 0, 310, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=236, pos=(0, 0, 539, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 3.51%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Laďka<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=55, pos=(0, 0, 639, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=157, pos=(0, 0, 660, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=55, pos=(0, 0, 639, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=157, pos=(0, 0, 640, 0)<br>gid=191, pos=(0, 0, 501, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 3.34%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Afīfī<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=169, pos=(0, 0, 430, 0)<br>gid=186, pos=(0, 0, 278, 0)<br>gid=169, pos=(0, 0, 430, 0)<br>gid=186, pos=(0, 0, 278, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=169, pos=(0, 0, 430, 0)<br>gid=186, pos=(0, 0, 298, 0)<br>gid=169, pos=(0, 0, 430, 0)<br>gid=186, pos=(0, 0, 278, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 3.31%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Chalîfe<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=15, pos=(0, 0, 694, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=182, pos=(0, 0, 278, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=15, pos=(0, 0, 694, 0)<br>gid=174, pos=(0, 0, 526, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=193, pos=(0, 0, 264, 0)<br>gid=182, pos=(0, 0, 298, 0)<br>gid=169, pos=(0, 0, 330, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 2.66%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Azerbaĳan<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=264, pos=(0, 0, 488, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=150, pos=(0, 0, 498, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=188, pos=(0, 0, 548, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=265, pos=(0, 0, 488, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=150, pos=(0, 0, 498, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=188, pos=(0, 0, 528, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 2.65%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Autobîografîya<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=235, pos=(0, 0, 539, 0)<br>gid=230, pos=(0, 0, 308, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=150, pos=(0, 0, 498, 0)<br>gid=182, pos=(0, 0, 278, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=169, pos=(0, 0, 360, 0)<br>gid=182, pos=(0, 0, 278, 0)<br>gid=258, pos=(0, 0, 483, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=236, pos=(0, 0, 539, 0)<br>gid=231, pos=(0, 0, 308, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=150, pos=(0, 0, 498, 0)<br>gid=182, pos=(0, 0, 278, 0)<br>gid=206, pos=(0, 0, 514, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=169, pos=(0, 0, 410, 0)<br>gid=182, pos=(0, 0, 278, 0)<br>gid=259, pos=(0, 0, 483, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 2.11%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Dgfs<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=20, pos=(0, 0, 808, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=268, pos=(0, 0, 342, 0)<br>gid=224, pos=(0, 0, 363, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=20, pos=(0, 0, 808, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=269, pos=(0, 0, 322, 0)<br>gid=224, pos=(0, 0, 363, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.47%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        AAVandegrift<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=1, pos=(0, 0, 562, 0)<br>gid=113, pos=(0, 0, 626, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=177, pos=(0, 0, 278, 0)<br>gid=286, pos=(0, 0, 618, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1, pos=(0, 0, 662, 0)<br>gid=1, pos=(0, 0, 562, 0)<br>gid=113, pos=(0, 0, 626, 0)<br>gid=137, pos=(0, 0, 536, 0)<br>gid=200, pos=(0, 0, 532, 0)<br>gid=156, pos=(0, 0, 550, 0)<br>gid=160, pos=(0, 0, 418, 0)<br>gid=170, pos=(0, 0, 534, 0)<br>gid=220, pos=(0, 0, 394, 0)<br>gid=177, pos=(0, 0, 298, 0)<br>gid=287, pos=(0, 0, 618, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.28%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ÅŮåů<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=10, pos=(0, 0, 602, 0)<br>gid=111, pos=(0, 0, 733, 0)<br>gid=146, pos=(0, 0, 536, 0)<br>gid=249, pos=(0, 0, 539, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=10, pos=(0, 0, 602, 0)<br>gid=111, pos=(0, 0, 733, 0)<br>gid=146, pos=(0, 0, 536, 0)<br>gid=250, pos=(0, 0, 539, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.03%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400_0" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"gvar": {"offsetToSharedTuples": [1118, 1138], "glyphCount": [548, 558], "offsetToGlyphVariationData": [1120, 1140]}, "hhea": {"minLeftSideBearing": [-269, -265], "numberOfHMetrics": [548, 558]}, "post": {"extraNames": {"error": ["There are 208 changes, check manually!", ""]}}, "HVAR": {"table": {"VarStore": {"VarData": {"0": {"Item": {"89": {"0": [85, 86]}, "90": {"0": [86, 87]}, "91": {"0": [87, 89]}, "92": {"0": [89, 90]}, "93": {"0": [90, 92]}, "94": {"0": [92, 95]}, "95": {"0": [95, 99]}, "96": {"0": [99, 102]}, "97": {"0": [102, 110]}, "98": {"0": [110, 112]}, "99": {"0": [112, 114]}}}}}, "AdvWidthMap": {"mapping": {"longs_h.liga": [null, 98], "ij": [55, 73], "f_k.liga": [98, 97], "j.fina": [41, null], "Wdieresis": [91, 90], "longs_f.liga": [null, 84], "f_b.liga": [94, 93], "ae": [99, 98], "m": [96, 95], "f_t.liga": [90, 89], "longs.calt": [null, 41], "longs_b.liga": [null, 93], "f_j.liga": [89, 85], "florin": [95, 94], "Wgrave": [91, 90], "W": [91, 90], "t_t": [97, 96], "longs_i.liga": [null, 86], "Wcircumflex": [91, 90], "longs_l.liga": [null, 88], "longs_t.liga": [null, 99], "Wacute": [91, 90], "f_h.liga": [99, 98], "longs_j.liga": [null, 85], "ldot": [99, 98], "longs_longs.liga": [null, 84], "AE": [93, 92], "longs_k.liga": [null, 97], "longs": [null, 49], "germandbls": [92, 91]}}}}, "hmtx": {"metrics": {"longs_h.liga": {"0": [null, 845], "1": [null, -222]}, "ij": {"0": [548, 528]}, "j.fina": {"0": [270, null], "1": [-269, null]}, "longs_f.liga": {"0": [null, 624], "1": [null, -222]}, "endash.case": {"1": [87, 82]}, "longs.calt": {"0": [null, 342], "1": [null, -233]}, "longs_b.liga": {"0": [null, 840], "1": [null, -222]}, "underscore": {"1": [-34, -39]}, "f_j.liga": {"0": [551, 557]}, "longs_i.liga": {"0": [null, 571], "1": [null, -222]}, "longs_l.liga": {"0": [null, 588], "1": [null, -222]}, "longs_t.liga": {"0": [null, 592], "1": [null, -222]}, "asterisk": {"0": [459, 499], "1": [108, 128]}, "endash": {"1": [64, 59]}, "longs_j.liga": {"0": [null, 557], "1": [null, -222]}, "longs_longs.liga": {"0": [null, 624], "1": [null, -222]}, "uni030A.case": {"1": [225, 234]}, "longs_k.liga": {"0": [null, 820], "1": [null, -222]}, "longs": {"0": [null, 330], "1": [null, -222]}}}, "head": {"modified": [3828159095, 3864444247], "checkSumAdjustment": [3588776806, 2720398347], "fontRevision": [1.100006103515625, 1.1020050048828125], "xMin": [-269, -265]}, "name": {"265/3/1/1033": ["SemiBold Italic", "Baskervville-Italic"], "271/3/1/1033": ["SemiBold", "Baskervville-BoldItalic"], "273/3/1/1033": [null, "Medium"], "264/3/1/1033": ["Baskervville-MediumItalic", "Italic"], "275/3/1/1033": [null, "Bold"], "262/3/1/1033": ["Baskervville-Italic", "Alt ae"], "270/3/1/1033": ["Medium", "Bold Italic"], "269/3/1/1033": ["Regular", "Baskervville-SemiBoldItalic"], "259/3/1/1033": ["Alt ampersand", null], "267/3/1/1033": ["Bold Italic", "Baskervville-MediumItalic"], "274/3/1/1033": [null, "SemiBold"], "257/3/1/1033": ["Alt Y", null], "266/3/1/1033": ["Baskervville-SemiBoldItalic", "Medium Italic"], "9/3/1/1033": ["ANRT", "Alexis Faudot, R\u00e9mi Forte, Morgane Pierson, Rafael Ribas, Tanguy Vanlaeys, Rosalie Wagner, Thomas Huot-Marchand"], "261/3/1/1033": ["Italic", "Alt Y"], "263/3/1/1033": ["Medium Italic", "Alt ampersand"], "258/3/1/1033": ["Alt ae", null], "256/3/1/1033": ["Alt J", "Weight"], "5/3/1/1033": ["Version 1.100", "Version 1.102"], "268/3/1/1033": ["Baskervville-BoldItalic", "SemiBold Italic"], "260/3/1/1033": ["Weight", "Alt J"], "3/3/1/1033": ["1.100;NONE;Baskervville-Italic", "1.102;ANRT;Baskervville-Italic"], "272/3/1/1033": ["Bold", "Regular"]}, "maxp": {"numGlyphs": [548, 558]}, "cmap": {"0x017F": [null, "longs"]}, "glyf": {"_reverseGlyphOrder": {"error": ["There are 329 changes, check manually!", ""]}, "glyphs": {"longs_h.liga": {"Contour: 0": {"Node: 0": {"x": [null, 674], "y": [null, -14], "on": [null, 1]}, "Node: 1": {"x": [null, 590], "y": [null, -14], "on": [null, 0]}, "Node: 2": {"x": [null, 634], "y": [null, 110], "on": [null, 1]}, "Node: 3": {"x": [null, 721], "y": [null, 356], "on": [null, 1]}, "Node: 4": {"x": [null, 733], "y": [null, 390], "on": [null, 0]}, "Node: 5": {"x": [null, 715], "y": [null, 429], "on": [null, 0]}, "Node: 6": {"x": [null, 688], "y": [null, 429], "on": [null, 1]}, "Node: 7": {"x": [null, 664], "y": [null, 429], "on": [null, 0]}, "Node: 8": {"x": [null, 604], "y": [null, 398], "on": [null, 0]}, "Node: 9": {"x": [null, 547], "y": [null, 347], "on": [null, 0]}, "Node: 10": {"x": [null, 502], "y": [null, 287], "on": [null, 0]}, "Node: 11": {"x": [null, 492], "y": [null, 257], "on": [null, 1]}, "Node: 12": {"x": [null, 408], "y": [null, 0], "on": [null, 1]}, "Node: 13": {"x": [null, 336], "y": [null, -1], "on": [null, 1]}, "Node: 14": {"x": [null, 554], "y": [null, 668], "on": [null, 1]}, "Node: 15": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 16": {"x": [null, 510], "y": [null, 313], "on": [null, 1]}, "Node: 17": {"x": [null, 508], "y": [null, 327], "on": [null, 1]}, "Node: 18": {"x": [null, 538], "y": [null, 369], "on": [null, 0]}, "Node: 19": {"x": [null, 604], "y": [null, 425], "on": [null, 0]}, "Node: 20": {"x": [null, 675], "y": [null, 454], "on": [null, 0]}, "Node: 21": {"x": [null, 712], "y": [null, 454], "on": [null, 1]}, "Node: 22": {"x": [null, 768], "y": [null, 454], "on": [null, 0]}, "Node: 23": {"x": [null, 806], "y": [null, 389], "on": [null, 0]}, "Node: 24": {"x": [null, 785], "y": [null, 331], "on": [null, 1]}, "Node: 25": {"x": [null, 695], "y": [null, 80], "on": [null, 1]}, "Node: 26": {"x": [null, 685], "y": [null, 52], "on": [null, 0]}, "Node: 27": {"x": [null, 688], "y": [null, 19], "on": [null, 0]}, "Node: 28": {"x": [null, 703], "y": [null, 19], "on": [null, 1]}, "Node: 29": {"x": [null, 719], "y": [null, 19], "on": [null, 0]}, "Node: 30": {"x": [null, 762], "y": [null, 55], "on": [null, 0]}, "Node: 31": {"x": [null, 779], "y": [null, 84], "on": [null, 1]}, "Node: 32": {"x": [null, 797], "y": [null, 72], "on": [null, 1]}, "Node: 33": {"x": [null, 745], "y": [null, -14], "on": [null, 0]}}, "Contour: 1": {"Node: 34": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 35": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 36": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 37": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 38": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 39": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 40": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 41": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 42": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 43": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 44": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 45": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 46": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 47": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 48": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 49": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 50": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 51": {"x": [null, 213], "y": [null, 520], "on": [null, 1]}, "Node: 52": {"x": [null, 248], "y": [null, 627], "on": [null, 0]}, "Node: 53": {"x": [null, 369], "y": [null, 724], "on": [null, 0]}, "Node: 54": {"x": [null, 460], "y": [null, 724], "on": [null, 1]}, "Node: 55": {"x": [null, 514], "y": [null, 724], "on": [null, 0]}, "Node: 56": {"x": [null, 600], "y": [null, 694], "on": [null, 0]}, "Node: 57": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 58": {"x": [null, 574], "y": [null, 582], "on": [null, 1]}, "Node: 59": {"x": [null, 567], "y": [null, 637], "on": [null, 0]}, "Node: 60": {"x": [null, 505], "y": [null, 699], "on": [null, 0]}, "Node: 61": {"x": [null, 458], "y": [null, 699], "on": [null, 1]}, "Node: 62": {"x": [null, 400], "y": [null, 699], "on": [null, 0]}, "Node: 63": {"x": [null, 312], "y": [null, 601], "on": [null, 0]}, "Node: 64": {"x": [null, 280], "y": [null, 504], "on": [null, 1]}, "Node: 65": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 66": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 67": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}}, "ij": {"Component 3: uni0307": {"x": [294, 274]}, "Component 2: uni0237": {"x": [278, 258]}}, "quotedblleft": {"Contour: 1": {"Node: 27": {"x": [335, null], "y": [724, null], "on": [1, null]}, "Node: 28": {"x": [339, null], "y": [703, null], "on": [1, null]}, "Node: 29": {"x": [266, null], "y": [686, null], "on": [0, null]}, "Node: 30": {"x": [178, null], "y": [596, null], "on": [0, null]}, "Node: 31": {"x": [178, null], "y": [540, null], "on": [1, null]}, "Node: 32": {"x": [178, null], "y": [495, null], "on": [0, null]}, "Node: 33": {"x": [216, null], "y": [481, null], "on": [1, null]}, "Node: 34": {"x": [186, null], "y": [483, null], "on": [1, null]}, "Node: 35": {"x": [215, null], "y": [504, null], "on": [1, null]}, "Node: 36": {"x": [215, null], "y": [489, null], "on": [1, null]}, "Node: 37": {"x": [198, null], "y": [496, null], "on": [0, null]}, "Node: 38": {"x": [198, null], "y": [517, null], "on": [1, null]}, "Node: 39": {"x": [198, null], "y": [535, null], "on": [0, null]}, "Node: 40": {"x": [224, null], "y": [559, null], "on": [0, null]}, "Node: 41": {"x": [243, null], "y": [559, null], "on": [1, null]}, "Node: 42": {"x": [267, null], "y": [559, null], "on": [0, null]}, "Node: 43": {"x": [297, null], "y": [526, null], "on": [0, null]}, "Node: 44": {"x": [297, null], "y": [500, null], "on": [1, null]}, "Node: 45": {"x": [297, null], "y": [475, null], "on": [0, null]}, "Node: 46": {"x": [261, null], "y": [441, null], "on": [0, null]}, "Node: 47": {"x": [234, null], "y": [441, null], "on": [1, null]}, "Node: 48": {"x": [198, null], "y": [441, null], "on": [0, null]}, "Node: 49": {"x": [153, null], "y": [496, null], "on": [0, null]}, "Node: 50": {"x": [153, null], "y": [539, null], "on": [1, null]}, "Node: 51": {"x": [153, null], "y": [583, null], "on": [0, null]}, "Node: 52": {"x": [200, null], "y": [659, null], "on": [0, null]}, "Node: 53": {"x": [282, null], "y": [714, null], "on": [0, null]}}, "Component 0: quoteleft": {"glyphName": [null, "quoteleft"], "x": [null, 213], "y": [null, 0]}, "Component 1: quoteleft": {"glyphName": [null, "quoteleft"], "x": [null, 0], "y": [null, 0]}, "Contour: 0": {"Node: 0": {"x": [548, null], "y": [724, null], "on": [1, null]}, "Node: 1": {"x": [552, null], "y": [703, null], "on": [1, null]}, "Node: 2": {"x": [479, null], "y": [686, null], "on": [0, null]}, "Node: 3": {"x": [391, null], "y": [596, null], "on": [0, null]}, "Node: 4": {"x": [391, null], "y": [540, null], "on": [1, null]}, "Node: 5": {"x": [391, null], "y": [495, null], "on": [0, null]}, "Node: 6": {"x": [429, null], "y": [481, null], "on": [1, null]}, "Node: 7": {"x": [399, null], "y": [483, null], "on": [1, null]}, "Node: 8": {"x": [428, null], "y": [504, null], "on": [1, null]}, "Node: 9": {"x": [428, null], "y": [489, null], "on": [1, null]}, "Node: 10": {"x": [411, null], "y": [496, null], "on": [0, null]}, "Node: 11": {"x": [411, null], "y": [517, null], "on": [1, null]}, "Node: 12": {"x": [411, null], "y": [535, null], "on": [0, null]}, "Node: 13": {"x": [437, null], "y": [559, null], "on": [0, null]}, "Node: 14": {"x": [456, null], "y": [559, null], "on": [1, null]}, "Node: 15": {"x": [480, null], "y": [559, null], "on": [0, null]}, "Node: 16": {"x": [510, null], "y": [526, null], "on": [0, null]}, "Node: 17": {"x": [510, null], "y": [500, null], "on": [1, null]}, "Node: 18": {"x": [510, null], "y": [475, null], "on": [0, null]}, "Node: 19": {"x": [474, null], "y": [441, null], "on": [0, null]}, "Node: 20": {"x": [447, null], "y": [441, null], "on": [1, null]}, "Node: 21": {"x": [411, null], "y": [441, null], "on": [0, null]}, "Node: 22": {"x": [366, null], "y": [496, null], "on": [0, null]}, "Node: 23": {"x": [366, null], "y": [539, null], "on": [1, null]}, "Node: 24": {"x": [366, null], "y": [583, null], "on": [0, null]}, "Node: 25": {"x": [413, null], "y": [659, null], "on": [0, null]}, "Node: 26": {"x": [495, null], "y": [714, null], "on": [0, null]}}}, "nine.dnom": {"Contour: 1": {"Node: 37": {"x": [227, null], "y": [390, null], "on": [1, null]}, "Node: 38": {"x": [196, null], "y": [390, null], "on": [0, null]}, "Node: 39": {"x": [146, null], "y": [340, null], "on": [0, null]}, "Node: 40": {"x": [116, null], "y": [269, null], "on": [0, null]}, "Node: 41": {"x": [116, null], "y": [239, null], "on": [1, null]}, "Node: 42": {"x": [116, null], "y": [216, null], "on": [0, null]}, "Node: 43": {"x": [142, null], "y": [186, null], "on": [0, null]}, "Node: 44": {"x": [167, null], "y": [186, null], "on": [1, null]}, "Node: 45": {"x": [191, null], "y": [186, null], "on": [0, null]}, "Node: 46": {"x": [232, null], "y": [216, null], "on": [0, null]}, "Node: 47": {"x": [262, null], "y": [262, null], "on": [0, null]}, "Node: 48": {"x": [279, null], "y": [314, null], "on": [0, null]}, "Node: 49": {"x": [279, null], "y": [336, null], "on": [1, null]}, "Node: 50": {"x": [279, null], "y": [359, null], "on": [0, null]}, "Node: 51": {"x": [253, null], "y": [390, null], "on": [0, null]}}, "Component 0: uni2079": {"glyphName": [null, "uni2079"], "x": [null, -116], "y": [null, -356]}, "Contour: 0": {"Node: 0": {"x": [230, null], "y": [413, null], "on": [1, null]}, "Node: 1": {"x": [287, null], "y": [413, null], "on": [0, null]}, "Node: 2": {"x": [334, null], "y": [348, null], "on": [0, null]}, "Node: 3": {"x": [334, null], "y": [301, null], "on": [1, null]}, "Node: 4": {"x": [334, null], "y": [240, null], "on": [0, null]}, "Node: 5": {"x": [292, null], "y": [128, null], "on": [0, null]}, "Node: 6": {"x": [218, null], "y": [42, null], "on": [0, null]}, "Node: 7": {"x": [124, null], "y": [-8, null], "on": [0, null]}, "Node: 8": {"x": [71, null], "y": [-8, null], "on": [1, null]}, "Node: 9": {"x": [34, null], "y": [-8, null], "on": [0, null]}, "Node: 10": {"x": [-15, null], "y": [20, null], "on": [0, null]}, "Node: 11": {"x": [-15, null], "y": [45, null], "on": [1, null]}, "Node: 12": {"x": [-15, null], "y": [61, null], "on": [0, null]}, "Node: 13": {"x": [7, null], "y": [87, null], "on": [0, null]}, "Node: 14": {"x": [27, null], "y": [87, null], "on": [1, null]}, "Node: 15": {"x": [39, null], "y": [87, null], "on": [0, null]}, "Node: 16": {"x": [61, null], "y": [73, null], "on": [0, null]}, "Node: 17": {"x": [61, null], "y": [59, null], "on": [1, null]}, "Node: 18": {"x": [61, null], "y": [52, null], "on": [0, null]}, "Node: 19": {"x": [58, null], "y": [41, null], "on": [0, null]}, "Node: 20": {"x": [58, null], "y": [34, null], "on": [1, null]}, "Node: 21": {"x": [58, null], "y": [15, null], "on": [0, null]}, "Node: 22": {"x": [88, null], "y": [15, null], "on": [1, null]}, "Node: 23": {"x": [126, null], "y": [15, null], "on": [0, null]}, "Node: 24": {"x": [185, null], "y": [71, null], "on": [0, null]}, "Node: 25": {"x": [232, null], "y": [166, null], "on": [0, null]}, "Node: 26": {"x": [250, null], "y": [222, null], "on": [1, null]}, "Node: 27": {"x": [275, null], "y": [233, null], "on": [1, null]}, "Node: 28": {"x": [247, null], "y": [196, null], "on": [0, null]}, "Node: 29": {"x": [177, null], "y": [160, null], "on": [0, null]}, "Node: 30": {"x": [142, null], "y": [160, null], "on": [1, null]}, "Node: 31": {"x": [96, null], "y": [160, null], "on": [0, null]}, "Node: 32": {"x": [43, null], "y": [210, null], "on": [0, null]}, "Node: 33": {"x": [43, null], "y": [250, null], "on": [1, null]}, "Node: 34": {"x": [43, null], "y": [292, null], "on": [0, null]}, "Node: 35": {"x": [93, null], "y": [366, null], "on": [0, null]}, "Node: 36": {"x": [178, null], "y": [413, null], "on": [0, null]}}}, "j.fina": {"Contour: 0": {"Node: 0": {"x": [-110, null], "y": [-290, null], "on": [1, null]}, "Node: 1": {"x": [-175, null], "y": [-290, null], "on": [0, null]}, "Node: 2": {"x": [-264, null], "y": [-237, null], "on": [0, null]}, "Node: 3": {"x": [-269, null], "y": [-195, null], "on": [1, null]}, "Node: 4": {"x": [-220, null], "y": [-139, null], "on": [1, null]}, "Node: 5": {"x": [-203, null], "y": [-208, null], "on": [0, null]}, "Node: 6": {"x": [-154, null], "y": [-268, null], "on": [0, null]}, "Node: 7": {"x": [-116, null], "y": [-268, null], "on": [1, null]}, "Node: 8": {"x": [-90, null], "y": [-268, null], "on": [0, null]}, "Node: 9": {"x": [-53, null], "y": [-243, null], "on": [0, null]}, "Node: 10": {"x": [-21, null], "y": [-181, null], "on": [0, null]}, "Node: 11": {"x": [-3, null], "y": [-127, null], "on": [1, null]}, "Node: 12": {"x": [152, null], "y": [344, null], "on": [1, null]}, "Node: 13": {"x": [166, null], "y": [386, null], "on": [0, null]}, "Node: 14": {"x": [150, null], "y": [416, null], "on": [0, null]}, "Node: 15": {"x": [114, null], "y": [416, null], "on": [1, null]}, "Node: 16": {"x": [85, null], "y": [416, null], "on": [1, null]}, "Node: 17": {"x": [92, null], "y": [440, null], "on": [1, null]}, "Node: 18": {"x": [254, null], "y": [443, null], "on": [1, null]}, "Node: 19": {"x": [69, null], "y": [-127, null], "on": [1, null]}, "Node: 20": {"x": [40, null], "y": [-217, null], "on": [0, null]}, "Node: 21": {"x": [-41, null], "y": [-290, null], "on": [0, null]}}, "Contour: 1": {"Node: 22": {"x": [246, null], "y": [561, null], "on": [1, null]}, "Node: 23": {"x": [222, null], "y": [561, null], "on": [0, null]}, "Node: 24": {"x": [191, null], "y": [593, null], "on": [0, null]}, "Node: 25": {"x": [191, null], "y": [615, null], "on": [1, null]}, "Node: 26": {"x": [191, null], "y": [636, null], "on": [0, null]}, "Node: 27": {"x": [222, null], "y": [668, null], "on": [0, null]}, "Node: 28": {"x": [246, null], "y": [668, null], "on": [1, null]}, "Node: 29": {"x": [267, null], "y": [668, null], "on": [0, null]}, "Node: 30": {"x": [298, null], "y": [636, null], "on": [0, null]}, "Node: 31": {"x": [298, null], "y": [615, null], "on": [1, null]}, "Node: 32": {"x": [298, null], "y": [593, null], "on": [0, null]}, "Node: 33": {"x": [267, null], "y": [561, null], "on": [0, null]}}}, "nine.numr": {"Contour: 1": {"Node: 37": {"x": [326, null], "y": [695, null], "on": [1, null]}, "Node: 38": {"x": [295, null], "y": [695, null], "on": [0, null]}, "Node: 39": {"x": [245, null], "y": [645, null], "on": [0, null]}, "Node: 40": {"x": [215, null], "y": [574, null], "on": [0, null]}, "Node: 41": {"x": [215, null], "y": [544, null], "on": [1, null]}, "Node: 42": {"x": [215, null], "y": [521, null], "on": [0, null]}, "Node: 43": {"x": [241, null], "y": [491, null], "on": [0, null]}, "Node: 44": {"x": [266, null], "y": [491, null], "on": [1, null]}, "Node: 45": {"x": [290, null], "y": [491, null], "on": [0, null]}, "Node: 46": {"x": [331, null], "y": [521, null], "on": [0, null]}, "Node: 47": {"x": [361, null], "y": [567, null], "on": [0, null]}, "Node: 48": {"x": [378, null], "y": [619, null], "on": [0, null]}, "Node: 49": {"x": [378, null], "y": [641, null], "on": [1, null]}, "Node: 50": {"x": [378, null], "y": [664, null], "on": [0, null]}, "Node: 51": {"x": [352, null], "y": [695, null], "on": [0, null]}}, "Component 0: uni2079": {"glyphName": [null, "uni2079"], "x": [null, -17], "y": [null, -51]}, "Contour: 0": {"Node: 0": {"x": [329, null], "y": [718, null], "on": [1, null]}, "Node: 1": {"x": [386, null], "y": [718, null], "on": [0, null]}, "Node: 2": {"x": [433, null], "y": [653, null], "on": [0, null]}, "Node: 3": {"x": [433, null], "y": [606, null], "on": [1, null]}, "Node: 4": {"x": [433, null], "y": [545, null], "on": [0, null]}, "Node: 5": {"x": [391, null], "y": [433, null], "on": [0, null]}, "Node: 6": {"x": [317, null], "y": [347, null], "on": [0, null]}, "Node: 7": {"x": [223, null], "y": [297, null], "on": [0, null]}, "Node: 8": {"x": [170, null], "y": [297, null], "on": [1, null]}, "Node: 9": {"x": [133, null], "y": [297, null], "on": [0, null]}, "Node: 10": {"x": [84, null], "y": [325, null], "on": [0, null]}, "Node: 11": {"x": [84, null], "y": [350, null], "on": [1, null]}, "Node: 12": {"x": [84, null], "y": [366, null], "on": [0, null]}, "Node: 13": {"x": [106, null], "y": [392, null], "on": [0, null]}, "Node: 14": {"x": [126, null], "y": [392, null], "on": [1, null]}, "Node: 15": {"x": [138, null], "y": [392, null], "on": [0, null]}, "Node: 16": {"x": [160, null], "y": [378, null], "on": [0, null]}, "Node: 17": {"x": [160, null], "y": [364, null], "on": [1, null]}, "Node: 18": {"x": [160, null], "y": [357, null], "on": [0, null]}, "Node: 19": {"x": [157, null], "y": [346, null], "on": [0, null]}, "Node: 20": {"x": [157, null], "y": [339, null], "on": [1, null]}, "Node: 21": {"x": [157, null], "y": [320, null], "on": [0, null]}, "Node: 22": {"x": [187, null], "y": [320, null], "on": [1, null]}, "Node: 23": {"x": [225, null], "y": [320, null], "on": [0, null]}, "Node: 24": {"x": [284, null], "y": [376, null], "on": [0, null]}, "Node: 25": {"x": [331, null], "y": [471, null], "on": [0, null]}, "Node: 26": {"x": [349, null], "y": [527, null], "on": [1, null]}, "Node: 27": {"x": [374, null], "y": [538, null], "on": [1, null]}, "Node: 28": {"x": [346, null], "y": [501, null], "on": [0, null]}, "Node: 29": {"x": [276, null], "y": [465, null], "on": [0, null]}, "Node: 30": {"x": [241, null], "y": [465, null], "on": [1, null]}, "Node: 31": {"x": [195, null], "y": [465, null], "on": [0, null]}, "Node: 32": {"x": [142, null], "y": [515, null], "on": [0, null]}, "Node: 33": {"x": [142, null], "y": [555, null], "on": [1, null]}, "Node: 34": {"x": [142, null], "y": [597, null], "on": [0, null]}, "Node: 35": {"x": [192, null], "y": [671, null], "on": [0, null]}, "Node: 36": {"x": [277, null], "y": [718, null], "on": [0, null]}}}, "longs_f.liga": {"Contour: 0": {"Node: 0": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 3": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 4": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 5": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 6": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 7": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 8": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 9": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 10": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 11": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 12": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 13": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 14": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 15": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 16": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 17": {"x": [null, 204], "y": [null, 490], "on": [null, 1]}, "Node: 18": {"x": [null, 242], "y": [null, 603], "on": [null, 0]}, "Node: 19": {"x": [null, 358], "y": [null, 694], "on": [null, 0]}, "Node: 20": {"x": [null, 440], "y": [null, 694], "on": [null, 1]}, "Node: 21": {"x": [null, 486], "y": [null, 694], "on": [null, 0]}, "Node: 22": {"x": [null, 568], "y": [null, 661], "on": [null, 0]}, "Node: 23": {"x": [null, 592], "y": [null, 629], "on": [null, 1]}, "Node: 24": {"x": [null, 527], "y": [null, 552], "on": [null, 1]}, "Node: 25": {"x": [null, 527], "y": [null, 610], "on": [null, 0]}, "Node: 26": {"x": [null, 478], "y": [null, 669], "on": [null, 0]}, "Node: 27": {"x": [null, 434], "y": [null, 669], "on": [null, 1]}, "Node: 28": {"x": [null, 388], "y": [null, 669], "on": [null, 0]}, "Node: 29": {"x": [null, 308], "y": [null, 590], "on": [null, 0]}, "Node: 30": {"x": [null, 285], "y": [null, 518], "on": [null, 1]}, "Node: 31": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 32": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 33": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}, "Contour: 1": {"Node: 34": {"x": [null, 181], "y": [null, -290], "on": [null, 1]}, "Node: 35": {"x": [null, 114], "y": [null, -290], "on": [null, 0]}, "Node: 36": {"x": [null, 27], "y": [null, -235], "on": [null, 0]}, "Node: 37": {"x": [null, 14], "y": [null, -186], "on": [null, 1]}, "Node: 38": {"x": [null, 67], "y": [null, -139], "on": [null, 1]}, "Node: 39": {"x": [null, 81], "y": [null, -206], "on": [null, 0]}, "Node: 40": {"x": [null, 133], "y": [null, -268], "on": [null, 0]}, "Node: 41": {"x": [null, 176], "y": [null, -268], "on": [null, 1]}, "Node: 42": {"x": [null, 217], "y": [null, -268], "on": [null, 0]}, "Node: 43": {"x": [null, 269], "y": [null, -207], "on": [null, 0]}, "Node: 44": {"x": [null, 295], "y": [null, -127], "on": [null, 1]}, "Node: 45": {"x": [null, 516], "y": [null, 552], "on": [null, 1]}, "Node: 46": {"x": [null, 544], "y": [null, 638], "on": [null, 0]}, "Node: 47": {"x": [null, 644], "y": [null, 724], "on": [null, 0]}, "Node: 48": {"x": [null, 716], "y": [null, 724], "on": [null, 1]}, "Node: 49": {"x": [null, 766], "y": [null, 724], "on": [null, 0]}, "Node: 50": {"x": [null, 822], "y": [null, 686], "on": [null, 0]}, "Node: 51": {"x": [null, 822], "y": [null, 652], "on": [null, 1]}, "Node: 52": {"x": [null, 822], "y": [null, 629], "on": [null, 0]}, "Node: 53": {"x": [null, 796], "y": [null, 601], "on": [null, 0]}, "Node: 54": {"x": [null, 775], "y": [null, 601], "on": [null, 1]}, "Node: 55": {"x": [null, 756], "y": [null, 601], "on": [null, 0]}, "Node: 56": {"x": [null, 735], "y": [null, 626], "on": [null, 0]}, "Node: 57": {"x": [null, 735], "y": [null, 651], "on": [null, 1]}, "Node: 58": {"x": [null, 735], "y": [null, 679], "on": [null, 0]}, "Node: 59": {"x": [null, 720], "y": [null, 702], "on": [null, 0]}, "Node: 60": {"x": [null, 701], "y": [null, 702], "on": [null, 1]}, "Node: 61": {"x": [null, 682], "y": [null, 702], "on": [null, 0]}, "Node: 62": {"x": [null, 647], "y": [null, 680], "on": [null, 0]}, "Node: 63": {"x": [null, 619], "y": [null, 640], "on": [null, 0]}, "Node: 64": {"x": [null, 609], "y": [null, 611], "on": [null, 1]}, "Node: 65": {"x": [null, 367], "y": [null, -127], "on": [null, 1]}, "Node: 66": {"x": [null, 338], "y": [null, -216], "on": [null, 0]}, "Node: 67": {"x": [null, 254], "y": [null, -290], "on": [null, 0]}}, "Contour: 2": {"Node: 68": {"x": [null, 483], "y": [null, 416], "on": [null, 1]}, "Node: 69": {"x": [null, 385], "y": [null, 416], "on": [null, 1]}, "Node: 70": {"x": [null, 393], "y": [null, 440], "on": [null, 1]}, "Node: 71": {"x": [null, 491], "y": [null, 440], "on": [null, 1]}}, "Contour: 3": {"Node: 72": {"x": [null, 543], "y": [null, 440], "on": [null, 1]}, "Node: 73": {"x": [null, 660], "y": [null, 440], "on": [null, 1]}, "Node: 74": {"x": [null, 652], "y": [null, 416], "on": [null, 1]}, "Node: 75": {"x": [null, 535], "y": [null, 416], "on": [null, 1]}}}, "Aringacute": {"Component 2: acutecomb.case": {"x": [282, 288], "y": [156, 150]}, "Component 1: uni030A.case": {"x": [214, 211], "y": [0, -56]}}, "uni01D5": {"Component 2: uni0304.case": {"x": [248, 283], "y": [157, 180]}}, "longs.calt": {"Contour: 0": {"Node: 0": {"x": [null, -105], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -147], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -210], "y": [null, -268], "on": [null, 0]}, "Node: 3": {"x": [null, -233], "y": [null, -249], "on": [null, 1]}, "Node: 4": {"x": [null, -188], "y": [null, -215], "on": [null, 1]}, "Node: 5": {"x": [null, -161], "y": [null, -268], "on": [null, 0]}, "Node: 6": {"x": [null, -109], "y": [null, -268], "on": [null, 1]}, "Node: 7": {"x": [null, -67], "y": [null, -268], "on": [null, 0]}, "Node: 8": {"x": [null, -12], "y": [null, -205], "on": [null, 0]}, "Node: 9": {"x": [null, 13], "y": [null, -127], "on": [null, 1]}, "Node: 10": {"x": [null, 234], "y": [null, 552], "on": [null, 1]}, "Node: 11": {"x": [null, 262], "y": [null, 638], "on": [null, 0]}, "Node: 12": {"x": [null, 362], "y": [null, 724], "on": [null, 0]}, "Node: 13": {"x": [null, 434], "y": [null, 724], "on": [null, 1]}, "Node: 14": {"x": [null, 482], "y": [null, 724], "on": [null, 0]}, "Node: 15": {"x": [null, 540], "y": [null, 687], "on": [null, 0]}, "Node: 16": {"x": [null, 540], "y": [null, 652], "on": [null, 1]}, "Node: 17": {"x": [null, 540], "y": [null, 630], "on": [null, 0]}, "Node: 18": {"x": [null, 516], "y": [null, 601], "on": [null, 0]}, "Node: 19": {"x": [null, 493], "y": [null, 601], "on": [null, 1]}, "Node: 20": {"x": [null, 474], "y": [null, 601], "on": [null, 0]}, "Node: 21": {"x": [null, 453], "y": [null, 626], "on": [null, 0]}, "Node: 22": {"x": [null, 453], "y": [null, 651], "on": [null, 1]}, "Node: 23": {"x": [null, 453], "y": [null, 679], "on": [null, 0]}, "Node: 24": {"x": [null, 438], "y": [null, 702], "on": [null, 0]}, "Node: 25": {"x": [null, 419], "y": [null, 702], "on": [null, 1]}, "Node: 26": {"x": [null, 400], "y": [null, 702], "on": [null, 0]}, "Node: 27": {"x": [null, 365], "y": [null, 681], "on": [null, 0]}, "Node: 28": {"x": [null, 337], "y": [null, 640], "on": [null, 0]}, "Node: 29": {"x": [null, 327], "y": [null, 611], "on": [null, 1]}, "Node: 30": {"x": [null, 85], "y": [null, -127], "on": [null, 1]}, "Node: 31": {"x": [null, 57], "y": [null, -214], "on": [null, 0]}, "Node: 32": {"x": [null, -30], "y": [null, -290], "on": [null, 0]}}}, "longs_b.liga": {"Contour: 0": {"Node: 0": {"x": [null, 517], "y": [null, -14], "on": [null, 1]}, "Node: 1": {"x": [null, 429], "y": [null, -14], "on": [null, 0]}, "Node: 2": {"x": [null, 375], "y": [null, 112], "on": [null, 0]}, "Node: 3": {"x": [null, 414], "y": [null, 233], "on": [null, 1]}, "Node: 4": {"x": [null, 550], "y": [null, 658], "on": [null, 1]}, "Node: 5": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 6": {"x": [null, 520], "y": [null, 343], "on": [null, 1]}, "Node: 7": {"x": [null, 516], "y": [null, 351], "on": [null, 1]}, "Node: 8": {"x": [null, 545], "y": [null, 398], "on": [null, 0]}, "Node: 9": {"x": [null, 633], "y": [null, 454], "on": [null, 0]}, "Node: 10": {"x": [null, 679], "y": [null, 454], "on": [null, 1]}, "Node: 11": {"x": [null, 718], "y": [null, 454], "on": [null, 0]}, "Node: 12": {"x": [null, 775], "y": [null, 420], "on": [null, 0]}, "Node: 13": {"x": [null, 806], "y": [null, 353], "on": [null, 0]}, "Node: 14": {"x": [null, 806], "y": [null, 304], "on": [null, 1]}, "Node: 15": {"x": [null, 806], "y": [null, 244], "on": [null, 0]}, "Node: 16": {"x": [null, 760], "y": [null, 131], "on": [null, 0]}, "Node: 17": {"x": [null, 679], "y": [null, 40], "on": [null, 0]}, "Node: 18": {"x": [null, 575], "y": [null, -14], "on": [null, 0]}}, "Contour: 1": {"Node: 19": {"x": [null, 524], "y": [null, 8], "on": [null, 1]}, "Node: 20": {"x": [null, 561], "y": [null, 8], "on": [null, 0]}, "Node: 21": {"x": [null, 634], "y": [null, 63], "on": [null, 0]}, "Node: 22": {"x": [null, 695], "y": [null, 154], "on": [null, 0]}, "Node: 23": {"x": [null, 732], "y": [null, 264], "on": [null, 0]}, "Node: 24": {"x": [null, 732], "y": [null, 319], "on": [null, 1]}, "Node: 25": {"x": [null, 732], "y": [null, 371], "on": [null, 0]}, "Node: 26": {"x": [null, 697], "y": [null, 426], "on": [null, 0]}, "Node: 27": {"x": [null, 663], "y": [null, 426], "on": [null, 1]}, "Node: 28": {"x": [null, 633], "y": [null, 426], "on": [null, 0]}, "Node: 29": {"x": [null, 568], "y": [null, 385], "on": [null, 0]}, "Node: 30": {"x": [null, 514], "y": [null, 316], "on": [null, 0]}, "Node: 31": {"x": [null, 499], "y": [null, 274], "on": [null, 1]}, "Node: 32": {"x": [null, 480], "y": [null, 221], "on": [null, 1]}, "Node: 33": {"x": [null, 446], "y": [null, 127], "on": [null, 0]}, "Node: 34": {"x": [null, 471], "y": [null, 8], "on": [null, 0]}}, "Contour: 2": {"Node: 35": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 36": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 37": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 38": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 39": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 40": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 41": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 42": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 43": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 44": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 45": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 46": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 47": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 48": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 49": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 50": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 51": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 52": {"x": [null, 213], "y": [null, 520], "on": [null, 1]}, "Node: 53": {"x": [null, 248], "y": [null, 627], "on": [null, 0]}, "Node: 54": {"x": [null, 369], "y": [null, 724], "on": [null, 0]}, "Node: 55": {"x": [null, 460], "y": [null, 724], "on": [null, 1]}, "Node: 56": {"x": [null, 514], "y": [null, 724], "on": [null, 0]}, "Node: 57": {"x": [null, 600], "y": [null, 694], "on": [null, 0]}, "Node: 58": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 59": {"x": [null, 574], "y": [null, 582], "on": [null, 1]}, "Node: 60": {"x": [null, 567], "y": [null, 637], "on": [null, 0]}, "Node: 61": {"x": [null, 505], "y": [null, 699], "on": [null, 0]}, "Node: 62": {"x": [null, 458], "y": [null, 699], "on": [null, 1]}, "Node: 63": {"x": [null, 400], "y": [null, 699], "on": [null, 0]}, "Node: 64": {"x": [null, 312], "y": [null, 601], "on": [null, 0]}, "Node: 65": {"x": [null, 280], "y": [null, 504], "on": [null, 1]}, "Node: 66": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 67": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 68": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}}, "uni2079": {"Contour: 1": {"Node: 39": {"y": [696, 695]}}}, "longs_i.liga": {"Contour: 0": {"Node: 0": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 3": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 4": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 5": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 6": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 7": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 8": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 9": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 10": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 11": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 12": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 13": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 14": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 15": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 16": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 17": {"x": [null, 222], "y": [null, 551], "on": [null, 1]}, "Node: 18": {"x": [null, 279], "y": [null, 724], "on": [null, 0]}, "Node: 19": {"x": [null, 449], "y": [null, 724], "on": [null, 1]}, "Node: 20": {"x": [null, 515], "y": [null, 724], "on": [null, 0]}, "Node: 21": {"x": [null, 599], "y": [null, 677], "on": [null, 0]}, "Node: 22": {"x": [null, 599], "y": [null, 639], "on": [null, 1]}, "Node: 23": {"x": [null, 599], "y": [null, 615], "on": [null, 0]}, "Node: 24": {"x": [null, 566], "y": [null, 582], "on": [null, 0]}, "Node: 25": {"x": [null, 540], "y": [null, 582], "on": [null, 1]}, "Node: 26": {"x": [null, 518], "y": [null, 582], "on": [null, 0]}, "Node: 27": {"x": [null, 493], "y": [null, 610], "on": [null, 0]}, "Node: 28": {"x": [null, 493], "y": [null, 633], "on": [null, 1]}, "Node: 29": {"x": [null, 493], "y": [null, 670], "on": [null, 0]}, "Node: 30": {"x": [null, 468], "y": [null, 702], "on": [null, 0]}, "Node: 31": {"x": [null, 439], "y": [null, 702], "on": [null, 1]}, "Node: 32": {"x": [null, 394], "y": [null, 702], "on": [null, 0]}, "Node: 33": {"x": [null, 321], "y": [null, 633], "on": [null, 0]}, "Node: 34": {"x": [null, 301], "y": [null, 572], "on": [null, 1]}, "Node: 35": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 36": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 37": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}, "Contour: 1": {"Node: 38": {"x": [null, 392], "y": [null, -14], "on": [null, 1]}, "Node: 39": {"x": [null, 350], "y": [null, -14], "on": [null, 0]}, "Node: 40": {"x": [null, 329], "y": [null, 52], "on": [null, 0]}, "Node: 41": {"x": [null, 351], "y": [null, 113], "on": [null, 1]}, "Node: 42": {"x": [null, 437], "y": [null, 344], "on": [null, 1]}, "Node: 43": {"x": [null, 452], "y": [null, 385], "on": [null, 0]}, "Node: 44": {"x": [null, 436], "y": [null, 416], "on": [null, 0]}, "Node: 45": {"x": [null, 399], "y": [null, 416], "on": [null, 1]}, "Node: 46": {"x": [null, 370], "y": [null, 416], "on": [null, 1]}, "Node: 47": {"x": [null, 377], "y": [null, 440], "on": [null, 1]}, "Node: 48": {"x": [null, 539], "y": [null, 443], "on": [null, 1]}, "Node: 49": {"x": [null, 413], "y": [null, 85], "on": [null, 1]}, "Node: 50": {"x": [null, 391], "y": [null, 19], "on": [null, 0]}, "Node: 51": {"x": [null, 419], "y": [null, 19], "on": [null, 1]}, "Node: 52": {"x": [null, 436], "y": [null, 19], "on": [null, 0]}, "Node: 53": {"x": [null, 479], "y": [null, 56], "on": [null, 0]}, "Node: 54": {"x": [null, 496], "y": [null, 87], "on": [null, 1]}, "Node: 55": {"x": [null, 514], "y": [null, 75], "on": [null, 1]}, "Node: 56": {"x": [null, 462], "y": [null, -14], "on": [null, 0]}}}, "guillemotright.case": {"Contour: 1": {"Node: 14": {"x": [159, null], "y": [529, null], "on": [1, null]}, "Node: 15": {"x": [207, null], "y": [508, null], "on": [0, null]}, "Node: 16": {"x": [258, null], "y": [442, null], "on": [0, null]}, "Node: 17": {"x": [258, null], "y": [401, null], "on": [1, null]}, "Node: 18": {"x": [258, null], "y": [360, null], "on": [0, null]}, "Node: 19": {"x": [210, null], "y": [278, null], "on": [0, null]}, "Node: 20": {"x": [123, null], "y": [206, null], "on": [0, null]}, "Node: 21": {"x": [65, null], "y": [181, null], "on": [1, null]}, "Node: 22": {"x": [52, null], "y": [203, null], "on": [1, null]}, "Node: 23": {"x": [117, null], "y": [238, null], "on": [0, null]}, "Node: 24": {"x": [191, null], "y": [341, null], "on": [0, null]}, "Node: 25": {"x": [191, null], "y": [396, null], "on": [1, null]}, "Node: 26": {"x": [191, null], "y": [458, null], "on": [0, null]}, "Node: 27": {"x": [144, null], "y": [508, null], "on": [1, null]}}, "Component 0: guillemotright": {"glyphName": [null, "guillemotright"], "x": [null, 43], "y": [null, 132]}, "Contour: 0": {"Node: 0": {"x": [322, null], "y": [529, null], "on": [1, null]}, "Node: 1": {"x": [370, null], "y": [508, null], "on": [0, null]}, "Node: 2": {"x": [421, null], "y": [442, null], "on": [0, null]}, "Node: 3": {"x": [421, null], "y": [401, null], "on": [1, null]}, "Node: 4": {"x": [421, null], "y": [360, null], "on": [0, null]}, "Node: 5": {"x": [373, null], "y": [278, null], "on": [0, null]}, "Node: 6": {"x": [286, null], "y": [206, null], "on": [0, null]}, "Node: 7": {"x": [228, null], "y": [181, null], "on": [1, null]}, "Node: 8": {"x": [215, null], "y": [203, null], "on": [1, null]}, "Node: 9": {"x": [280, null], "y": [238, null], "on": [0, null]}, "Node: 10": {"x": [354, null], "y": [341, null], "on": [0, null]}, "Node: 11": {"x": [354, null], "y": [396, null], "on": [1, null]}, "Node: 12": {"x": [354, null], "y": [458, null], "on": [0, null]}, "Node: 13": {"x": [307, null], "y": [508, null], "on": [1, null]}}}, "longs_l.liga": {"Contour: 0": {"Node: 0": {"x": [null, 412], "y": [null, -14], "on": [null, 1]}, "Node: 1": {"x": [null, 371], "y": [null, -14], "on": [null, 0]}, "Node: 2": {"x": [null, 352], "y": [null, 49], "on": [null, 0]}, "Node: 3": {"x": [null, 373], "y": [null, 113], "on": [null, 1]}, "Node: 4": {"x": [null, 554], "y": [null, 668], "on": [null, 1]}, "Node: 5": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 6": {"x": [null, 435], "y": [null, 85], "on": [null, 1]}, "Node: 7": {"x": [null, 413], "y": [null, 19], "on": [null, 0]}, "Node: 8": {"x": [null, 441], "y": [null, 19], "on": [null, 1]}, "Node: 9": {"x": [null, 458], "y": [null, 19], "on": [null, 0]}, "Node: 10": {"x": [null, 501], "y": [null, 56], "on": [null, 0]}, "Node: 11": {"x": [null, 518], "y": [null, 87], "on": [null, 1]}, "Node: 12": {"x": [null, 536], "y": [null, 75], "on": [null, 1]}, "Node: 13": {"x": [null, 485], "y": [null, -14], "on": [null, 0]}}, "Contour: 1": {"Node: 14": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 15": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 16": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 17": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 18": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 19": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 20": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 21": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 22": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 23": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 24": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 25": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 26": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 27": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 28": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 29": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 30": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 31": {"x": [null, 213], "y": [null, 520], "on": [null, 1]}, "Node: 32": {"x": [null, 248], "y": [null, 627], "on": [null, 0]}, "Node: 33": {"x": [null, 369], "y": [null, 724], "on": [null, 0]}, "Node: 34": {"x": [null, 460], "y": [null, 724], "on": [null, 1]}, "Node: 35": {"x": [null, 514], "y": [null, 724], "on": [null, 0]}, "Node: 36": {"x": [null, 600], "y": [null, 694], "on": [null, 0]}, "Node: 37": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 38": {"x": [null, 574], "y": [null, 582], "on": [null, 1]}, "Node: 39": {"x": [null, 567], "y": [null, 637], "on": [null, 0]}, "Node: 40": {"x": [null, 505], "y": [null, 699], "on": [null, 0]}, "Node: 41": {"x": [null, 458], "y": [null, 699], "on": [null, 1]}, "Node: 42": {"x": [null, 400], "y": [null, 699], "on": [null, 0]}, "Node: 43": {"x": [null, 312], "y": [null, 601], "on": [null, 0]}, "Node: 44": {"x": [null, 280], "y": [null, 504], "on": [null, 1]}, "Node: 45": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 46": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 47": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}}, "longs_t.liga": {"Contour: 0": {"Node: 0": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 3": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 4": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 5": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 6": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 7": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 8": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 9": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 10": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 11": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 12": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 13": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 14": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 15": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 16": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 17": {"x": [null, 213], "y": [null, 520], "on": [null, 1]}, "Node: 18": {"x": [null, 248], "y": [null, 627], "on": [null, 0]}, "Node: 19": {"x": [null, 369], "y": [null, 724], "on": [null, 0]}, "Node: 20": {"x": [null, 460], "y": [null, 724], "on": [null, 1]}, "Node: 21": {"x": [null, 496], "y": [null, 724], "on": [null, 0]}, "Node: 22": {"x": [null, 558], "y": [null, 704], "on": [null, 0]}, "Node: 23": {"x": [null, 599], "y": [null, 681], "on": [null, 0]}, "Node: 24": {"x": [null, 604], "y": [null, 675], "on": [null, 1]}, "Node: 25": {"x": [null, 527], "y": [null, 440], "on": [null, 1]}, "Node: 26": {"x": [null, 611], "y": [null, 440], "on": [null, 1]}, "Node: 27": {"x": [null, 603], "y": [null, 416], "on": [null, 1]}, "Node: 28": {"x": [null, 519], "y": [null, 416], "on": [null, 1]}, "Node: 29": {"x": [null, 409], "y": [null, 82], "on": [null, 1]}, "Node: 30": {"x": [null, 399], "y": [null, 53], "on": [null, 0]}, "Node: 31": {"x": [null, 406], "y": [null, 19], "on": [null, 0]}, "Node: 32": {"x": [null, 424], "y": [null, 19], "on": [null, 1]}, "Node: 33": {"x": [null, 442], "y": [null, 19], "on": [null, 0]}, "Node: 34": {"x": [null, 485], "y": [null, 55], "on": [null, 0]}, "Node: 35": {"x": [null, 502], "y": [null, 84], "on": [null, 1]}, "Node: 36": {"x": [null, 520], "y": [null, 72], "on": [null, 1]}, "Node: 37": {"x": [null, 496], "y": [null, 32], "on": [null, 0]}, "Node: 38": {"x": [null, 426], "y": [null, -14], "on": [null, 0]}, "Node: 39": {"x": [null, 389], "y": [null, -14], "on": [null, 1]}, "Node: 40": {"x": [null, 347], "y": [null, -14], "on": [null, 0]}, "Node: 41": {"x": [null, 328], "y": [null, 52], "on": [null, 0]}, "Node: 42": {"x": [null, 347], "y": [null, 110], "on": [null, 1]}, "Node: 43": {"x": [null, 448], "y": [null, 416], "on": [null, 1]}, "Node: 44": {"x": [null, 377], "y": [null, 416], "on": [null, 1]}, "Node: 45": {"x": [null, 385], "y": [null, 440], "on": [null, 1]}, "Node: 46": {"x": [null, 456], "y": [null, 440], "on": [null, 1]}, "Node: 47": {"x": [null, 532], "y": [null, 672], "on": [null, 1]}, "Node: 48": {"x": [null, 517], "y": [null, 686], "on": [null, 0]}, "Node: 49": {"x": [null, 480], "y": [null, 699], "on": [null, 0]}, "Node: 50": {"x": [null, 458], "y": [null, 699], "on": [null, 1]}, "Node: 51": {"x": [null, 400], "y": [null, 699], "on": [null, 0]}, "Node: 52": {"x": [null, 312], "y": [null, 601], "on": [null, 0]}, "Node: 53": {"x": [null, 280], "y": [null, 504], "on": [null, 1]}, "Node: 54": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 55": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 56": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}}, "uni2089": {"Contour: 1": {"Node: 37": {"x": [163, null], "y": [191, null], "on": [1, null]}, "Node: 38": {"x": [132, null], "y": [191, null], "on": [0, null]}, "Node: 39": {"x": [82, null], "y": [141, null], "on": [0, null]}, "Node: 40": {"x": [52, null], "y": [70, null], "on": [0, null]}, "Node: 41": {"x": [52, null], "y": [40, null], "on": [1, null]}, "Node: 42": {"x": [52, null], "y": [17, null], "on": [0, null]}, "Node: 43": {"x": [78, null], "y": [-13, null], "on": [0, null]}, "Node: 44": {"x": [103, null], "y": [-13, null], "on": [1, null]}, "Node: 45": {"x": [127, null], "y": [-13, null], "on": [0, null]}, "Node: 46": {"x": [168, null], "y": [17, null], "on": [0, null]}, "Node: 47": {"x": [198, null], "y": [63, null], "on": [0, null]}, "Node: 48": {"x": [215, null], "y": [115, null], "on": [0, null]}, "Node: 49": {"x": [215, null], "y": [137, null], "on": [1, null]}, "Node: 50": {"x": [215, null], "y": [160, null], "on": [0, null]}, "Node: 51": {"x": [189, null], "y": [191, null], "on": [0, null]}}, "Component 0: uni2079": {"glyphName": [null, "uni2079"], "x": [null, -180], "y": [null, -555]}, "Contour: 0": {"Node: 0": {"x": [166, null], "y": [214, null], "on": [1, null]}, "Node: 1": {"x": [223, null], "y": [214, null], "on": [0, null]}, "Node: 2": {"x": [270, null], "y": [149, null], "on": [0, null]}, "Node: 3": {"x": [270, null], "y": [102, null], "on": [1, null]}, "Node: 4": {"x": [270, null], "y": [41, null], "on": [0, null]}, "Node: 5": {"x": [228, null], "y": [-71, null], "on": [0, null]}, "Node: 6": {"x": [154, null], "y": [-157, null], "on": [0, null]}, "Node: 7": {"x": [60, null], "y": [-207, null], "on": [0, null]}, "Node: 8": {"x": [7, null], "y": [-207, null], "on": [1, null]}, "Node: 9": {"x": [-30, null], "y": [-207, null], "on": [0, null]}, "Node: 10": {"x": [-79, null], "y": [-179, null], "on": [0, null]}, "Node: 11": {"x": [-79, null], "y": [-154, null], "on": [1, null]}, "Node: 12": {"x": [-79, null], "y": [-138, null], "on": [0, null]}, "Node: 13": {"x": [-57, null], "y": [-112, null], "on": [0, null]}, "Node: 14": {"x": [-37, null], "y": [-112, null], "on": [1, null]}, "Node: 15": {"x": [-25, null], "y": [-112, null], "on": [0, null]}, "Node: 16": {"x": [-3, null], "y": [-126, null], "on": [0, null]}, "Node: 17": {"x": [-3, null], "y": [-140, null], "on": [1, null]}, "Node: 18": {"x": [-3, null], "y": [-147, null], "on": [0, null]}, "Node: 19": {"x": [-6, null], "y": [-158, null], "on": [0, null]}, "Node: 20": {"x": [-6, null], "y": [-165, null], "on": [1, null]}, "Node: 21": {"x": [-6, null], "y": [-184, null], "on": [0, null]}, "Node: 22": {"x": [24, null], "y": [-184, null], "on": [1, null]}, "Node: 23": {"x": [62, null], "y": [-184, null], "on": [0, null]}, "Node: 24": {"x": [121, null], "y": [-128, null], "on": [0, null]}, "Node: 25": {"x": [168, null], "y": [-33, null], "on": [0, null]}, "Node: 26": {"x": [186, null], "y": [23, null], "on": [1, null]}, "Node: 27": {"x": [211, null], "y": [34, null], "on": [1, null]}, "Node: 28": {"x": [183, null], "y": [-3, null], "on": [0, null]}, "Node: 29": {"x": [113, null], "y": [-39, null], "on": [0, null]}, "Node: 30": {"x": [78, null], "y": [-39, null], "on": [1, null]}, "Node: 31": {"x": [32, null], "y": [-39, null], "on": [0, null]}, "Node: 32": {"x": [-21, null], "y": [11, null], "on": [0, null]}, "Node: 33": {"x": [-21, null], "y": [51, null], "on": [1, null]}, "Node: 34": {"x": [-21, null], "y": [93, null], "on": [0, null]}, "Node: 35": {"x": [29, null], "y": [167, null], "on": [0, null]}, "Node: 36": {"x": [114, null], "y": [214, null], "on": [0, null]}}}, "asterisk": {"Contour: 0": {"Node: 44": {"x": [543, 563]}, "Node: 41": {"x": [475, 495]}, "Node: 48": {"x": [349, 369]}, "Node: 58": {"x": [345, 365]}, "Node: 8": {"x": [226, 246]}, "Node: 14": {"x": [242, 262]}, "Node: 18": {"x": [253, 273]}, "Node: 40": {"x": [425, 445]}, "Node: 24": {"x": [273, 293]}, "Node: 1": {"x": [204, 224]}, "Node: 3": {"x": [282, 302]}, "Node: 19": {"x": [227, 247]}, "Node: 63": {"x": [318, 338]}, "Node: 36": {"x": [350, 370]}, "Node: 32": {"x": [390, 410]}, "Node: 30": {"x": [331, 351]}, "Node: 60": {"x": [326, 346]}, "Node: 20": {"x": [137, 157]}, "Node: 15": {"x": [283, 303]}, "Node: 2": {"x": [263, 283]}, "Node: 21": {"x": [180, 200]}, "Node: 50": {"x": [398, 418]}, "Node: 26": {"x": [307, 327]}, "Node: 12": {"x": [108, 128]}, "Node: 56": {"x": [378, 398]}, "Node: 57": {"x": [367, 387]}, "Node: 22": {"x": [203, 223]}, "Node: 31": {"x": [333, 353]}, "Node: 46": {"x": [411, 431]}, "Node: 11": {"x": [119, 139]}, "Node: 62": {"x": [320, 340]}, "Node: 17": {"x": [287, 307]}, "Node: 13": {"x": [213, 233]}, "Node: 61": {"x": [322, 342]}, "Node: 35": {"x": [369, 389]}, "Node: 53": {"x": [471, 491]}, "Node: 59": {"x": [331, 351]}, "Node: 43": {"x": [532, 552]}, "Node: 39": {"x": [403, 423]}, "Node: 47": {"x": [369, 389]}, "Node: 52": {"x": [515, 535]}, "Node: 42": {"x": [526, 546]}, "Node: 34": {"x": [388, 408]}, "Node: 4": {"x": [301, 321]}, "Node: 27": {"x": [320, 340]}, "Node: 28": {"x": [325, 345]}, "Node: 5": {"x": [308, 328]}, "Node: 6": {"x": [288, 308]}, "Node: 55": {"x": [405, 425]}, "Node: 16": {"x": [302, 322]}, "Node: 37": {"x": [343, 363]}, "Node: 29": {"x": [330, 350]}, "Node: 25": {"x": [284, 304]}, "Node: 23": {"x": [246, 266]}, "Node: 9": {"x": [176, 196]}, "Node: 49": {"x": [364, 384]}, "Node: 45": {"x": [439, 459]}, "Node: 0": {"x": [261, 281]}, "Node: 38": {"x": [363, 383]}, "Node: 51": {"x": [424, 444]}, "Node: 33": {"x": [447, 467]}, "Node: 7": {"x": [249, 269]}, "Node: 10": {"x": [125, 145]}, "Node: 54": {"x": [449, 469]}}}, "endash": {"Contour: 0": {"Node: 0": {"x": [64, 59]}, "Node: 1": {"x": [78, 73]}, "Node: 2": {"x": [532, 537]}, "Node: 3": {"x": [518, 523]}}}, "Aring": {"Component 1: uni030A.case": {"x": [214, 211], "y": [0, -56]}}, "longs_j.liga": {"Contour: 0": {"Node: 0": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 3": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 4": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 5": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 6": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 7": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 8": {"x": [null, -136], "y": [null, -192], "on": [null, 0]}, "Node: 9": {"x": [null, -126], "y": [null, -223], "on": [null, 1]}, "Node: 10": {"x": [null, -117], "y": [null, -251], "on": [null, 0]}, "Node: 11": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 12": {"x": [null, -92], "y": [null, -268], "on": [null, 1]}, "Node: 13": {"x": [null, -76], "y": [null, -268], "on": [null, 0]}, "Node: 14": {"x": [null, -43], "y": [null, -235], "on": [null, 0]}, "Node: 15": {"x": [null, -11], "y": [null, -172], "on": [null, 0]}, "Node: 16": {"x": [null, 4], "y": [null, -127], "on": [null, 1]}, "Node: 17": {"x": [null, 224], "y": [null, 548], "on": [null, 1]}, "Node: 18": {"x": [null, 281], "y": [null, 724], "on": [null, 0]}, "Node: 19": {"x": [null, 447], "y": [null, 724], "on": [null, 1]}, "Node: 20": {"x": [null, 517], "y": [null, 724], "on": [null, 0]}, "Node: 21": {"x": [null, 602], "y": [null, 677], "on": [null, 0]}, "Node: 22": {"x": [null, 602], "y": [null, 638], "on": [null, 1]}, "Node: 23": {"x": [null, 602], "y": [null, 614], "on": [null, 0]}, "Node: 24": {"x": [null, 568], "y": [null, 582], "on": [null, 0]}, "Node: 25": {"x": [null, 543], "y": [null, 582], "on": [null, 1]}, "Node: 26": {"x": [null, 521], "y": [null, 582], "on": [null, 0]}, "Node: 27": {"x": [null, 496], "y": [null, 610], "on": [null, 0]}, "Node: 28": {"x": [null, 496], "y": [null, 633], "on": [null, 1]}, "Node: 29": {"x": [null, 496], "y": [null, 669], "on": [null, 0]}, "Node: 30": {"x": [null, 470], "y": [null, 702], "on": [null, 0]}, "Node: 31": {"x": [null, 441], "y": [null, 702], "on": [null, 1]}, "Node: 32": {"x": [null, 396], "y": [null, 702], "on": [null, 0]}, "Node: 33": {"x": [null, 324], "y": [null, 633], "on": [null, 0]}, "Node: 34": {"x": [null, 303], "y": [null, 569], "on": [null, 1]}, "Node: 35": {"x": [null, 76], "y": [null, -127], "on": [null, 1]}, "Node: 36": {"x": [null, 47], "y": [null, -215], "on": [null, 0]}, "Node: 37": {"x": [null, -36], "y": [null, -290], "on": [null, 0]}}, "Contour: 1": {"Node: 38": {"x": [null, 170], "y": [null, -290], "on": [null, 1]}, "Node: 39": {"x": [null, 103], "y": [null, -290], "on": [null, 0]}, "Node: 40": {"x": [null, 16], "y": [null, -235], "on": [null, 0]}, "Node: 41": {"x": [null, 3], "y": [null, -186], "on": [null, 1]}, "Node: 42": {"x": [null, 56], "y": [null, -139], "on": [null, 1]}, "Node: 43": {"x": [null, 70], "y": [null, -206], "on": [null, 0]}, "Node: 44": {"x": [null, 122], "y": [null, -268], "on": [null, 0]}, "Node: 45": {"x": [null, 165], "y": [null, -268], "on": [null, 1]}, "Node: 46": {"x": [null, 206], "y": [null, -268], "on": [null, 0]}, "Node: 47": {"x": [null, 258], "y": [null, -207], "on": [null, 0]}, "Node: 48": {"x": [null, 284], "y": [null, -127], "on": [null, 1]}, "Node: 49": {"x": [null, 439], "y": [null, 344], "on": [null, 1]}, "Node: 50": {"x": [null, 450], "y": [null, 377], "on": [null, 0]}, "Node: 51": {"x": [null, 448], "y": [null, 407], "on": [null, 0]}, "Node: 52": {"x": [null, 412], "y": [null, 416], "on": [null, 0]}, "Node: 53": {"x": [null, 371], "y": [null, 416], "on": [null, 1]}, "Node: 54": {"x": [null, 379], "y": [null, 440], "on": [null, 1]}, "Node: 55": {"x": [null, 541], "y": [null, 443], "on": [null, 1]}, "Node: 56": {"x": [null, 356], "y": [null, -127], "on": [null, 1]}, "Node: 57": {"x": [null, 327], "y": [null, -216], "on": [null, 0]}, "Node: 58": {"x": [null, 243], "y": [null, -290], "on": [null, 0]}}}, "guilsinglright.case": {"Component 0: guilsinglright": {"glyphName": [null, "guilsinglright"], "x": [null, 43], "y": [null, 132]}, "Contour: 0": {"Node: 0": {"x": [159, null], "y": [529, null], "on": [1, null]}, "Node: 1": {"x": [207, null], "y": [508, null], "on": [0, null]}, "Node: 2": {"x": [258, null], "y": [442, null], "on": [0, null]}, "Node: 3": {"x": [258, null], "y": [401, null], "on": [1, null]}, "Node: 4": {"x": [258, null], "y": [360, null], "on": [0, null]}, "Node: 5": {"x": [210, null], "y": [278, null], "on": [0, null]}, "Node: 6": {"x": [123, null], "y": [206, null], "on": [0, null]}, "Node: 7": {"x": [65, null], "y": [181, null], "on": [1, null]}, "Node: 8": {"x": [52, null], "y": [203, null], "on": [1, null]}, "Node: 9": {"x": [117, null], "y": [238, null], "on": [0, null]}, "Node: 10": {"x": [191, null], "y": [341, null], "on": [0, null]}, "Node: 11": {"x": [191, null], "y": [396, null], "on": [1, null]}, "Node: 12": {"x": [191, null], "y": [458, null], "on": [0, null]}, "Node: 13": {"x": [144, null], "y": [508, null], "on": [1, null]}}}, "longs_longs.liga": {"Contour: 0": {"Node: 0": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 3": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 4": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 5": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 6": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 7": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 8": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 9": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 10": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 11": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 12": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 13": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 14": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 15": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 16": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 17": {"x": [null, 204], "y": [null, 490], "on": [null, 1]}, "Node: 18": {"x": [null, 242], "y": [null, 603], "on": [null, 0]}, "Node: 19": {"x": [null, 358], "y": [null, 694], "on": [null, 0]}, "Node: 20": {"x": [null, 440], "y": [null, 694], "on": [null, 1]}, "Node: 21": {"x": [null, 486], "y": [null, 694], "on": [null, 0]}, "Node: 22": {"x": [null, 568], "y": [null, 661], "on": [null, 0]}, "Node: 23": {"x": [null, 592], "y": [null, 629], "on": [null, 1]}, "Node: 24": {"x": [null, 527], "y": [null, 552], "on": [null, 1]}, "Node: 25": {"x": [null, 527], "y": [null, 610], "on": [null, 0]}, "Node: 26": {"x": [null, 478], "y": [null, 669], "on": [null, 0]}, "Node: 27": {"x": [null, 434], "y": [null, 669], "on": [null, 1]}, "Node: 28": {"x": [null, 388], "y": [null, 669], "on": [null, 0]}, "Node: 29": {"x": [null, 308], "y": [null, 590], "on": [null, 0]}, "Node: 30": {"x": [null, 285], "y": [null, 518], "on": [null, 1]}, "Node: 31": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 32": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 33": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}, "Contour: 1": {"Node: 34": {"x": [null, 181], "y": [null, -290], "on": [null, 1]}, "Node: 35": {"x": [null, 114], "y": [null, -290], "on": [null, 0]}, "Node: 36": {"x": [null, 27], "y": [null, -235], "on": [null, 0]}, "Node: 37": {"x": [null, 14], "y": [null, -186], "on": [null, 1]}, "Node: 38": {"x": [null, 67], "y": [null, -139], "on": [null, 1]}, "Node: 39": {"x": [null, 81], "y": [null, -206], "on": [null, 0]}, "Node: 40": {"x": [null, 133], "y": [null, -268], "on": [null, 0]}, "Node: 41": {"x": [null, 176], "y": [null, -268], "on": [null, 1]}, "Node: 42": {"x": [null, 217], "y": [null, -268], "on": [null, 0]}, "Node: 43": {"x": [null, 269], "y": [null, -207], "on": [null, 0]}, "Node: 44": {"x": [null, 295], "y": [null, -127], "on": [null, 1]}, "Node: 45": {"x": [null, 516], "y": [null, 552], "on": [null, 1]}, "Node: 46": {"x": [null, 544], "y": [null, 638], "on": [null, 0]}, "Node: 47": {"x": [null, 644], "y": [null, 724], "on": [null, 0]}, "Node: 48": {"x": [null, 716], "y": [null, 724], "on": [null, 1]}, "Node: 49": {"x": [null, 766], "y": [null, 724], "on": [null, 0]}, "Node: 50": {"x": [null, 822], "y": [null, 686], "on": [null, 0]}, "Node: 51": {"x": [null, 822], "y": [null, 652], "on": [null, 1]}, "Node: 52": {"x": [null, 822], "y": [null, 629], "on": [null, 0]}, "Node: 53": {"x": [null, 796], "y": [null, 601], "on": [null, 0]}, "Node: 54": {"x": [null, 775], "y": [null, 601], "on": [null, 1]}, "Node: 55": {"x": [null, 756], "y": [null, 601], "on": [null, 0]}, "Node: 56": {"x": [null, 735], "y": [null, 626], "on": [null, 0]}, "Node: 57": {"x": [null, 735], "y": [null, 651], "on": [null, 1]}, "Node: 58": {"x": [null, 735], "y": [null, 679], "on": [null, 0]}, "Node: 59": {"x": [null, 720], "y": [null, 702], "on": [null, 0]}, "Node: 60": {"x": [null, 701], "y": [null, 702], "on": [null, 1]}, "Node: 61": {"x": [null, 682], "y": [null, 702], "on": [null, 0]}, "Node: 62": {"x": [null, 647], "y": [null, 680], "on": [null, 0]}, "Node: 63": {"x": [null, 619], "y": [null, 640], "on": [null, 0]}, "Node: 64": {"x": [null, 609], "y": [null, 611], "on": [null, 1]}, "Node: 65": {"x": [null, 367], "y": [null, -127], "on": [null, 1]}, "Node: 66": {"x": [null, 338], "y": [null, -216], "on": [null, 0]}, "Node: 67": {"x": [null, 254], "y": [null, -290], "on": [null, 0]}}}, "uni030A.case": {"Contour: 1": {"Node: 25": {"x": [290, 299], "y": [741, 791]}, "Node: 23": {"x": [258, 267], "y": [795, 845]}, "Node: 20": {"x": [310, 319], "y": [849, 899]}, "Node: 14": {"x": [311, 320], "y": [741, 791]}, "Node: 18": {"x": [361, 370], "y": [821, 871]}, "Node: 15": {"x": [330, 339], "y": [741, 791]}, "Node: 21": {"x": [293, 302], "y": [849, 899]}, "Node: 24": {"x": [258, 267], "y": [770, 820]}, "Node: 19": {"x": [330, 339], "y": [849, 899]}, "Node: 22": {"x": [258, 267], "y": [824, 874]}, "Node: 16": {"x": [361, 370], "y": [768, 818]}, "Node: 17": {"x": [361, 370], "y": [795, 845]}}, "Contour: 0": {"Node: 8": {"x": [377, 386], "y": [853, 903]}, "Node: 9": {"x": [394, 403], "y": [814, 864]}, "Node: 2": {"x": [225, 234], "y": [760, 810]}, "Node: 1": {"x": [272, 281], "y": [710, 760]}, "Node: 12": {"x": [369, 378], "y": [728, 778]}, "Node: 3": {"x": [225, 234], "y": [795, 845]}, "Node: 0": {"x": [311, 320], "y": [710, 760]}, "Node: 4": {"x": [225, 234], "y": [827, 877]}, "Node: 5": {"x": [269, 278], "y": [880, 930]}, "Node: 6": {"x": [310, 319], "y": [880, 930]}, "Node: 7": {"x": [340, 349], "y": [880, 930]}, "Node: 10": {"x": [394, 403], "y": [795, 845]}, "Node: 11": {"x": [394, 403], "y": [766, 816]}, "Node: 13": {"x": [331, 340], "y": [710, 760]}}}, "longs_k.liga": {"Contour: 0": {"Node: 0": {"x": [null, 336], "y": [null, 0], "on": [null, 1]}, "Node: 1": {"x": [null, 553], "y": [null, 667], "on": [null, 1]}, "Node: 2": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 3": {"x": [null, 408], "y": [null, 0], "on": [null, 1]}}, "Contour: 1": {"Node: 4": {"x": [null, 667], "y": [null, -14], "on": [null, 1]}, "Node: 5": {"x": [null, 628], "y": [null, -14], "on": [null, 0]}, "Node: 6": {"x": [null, 596], "y": [null, 44], "on": [null, 0]}, "Node: 7": {"x": [null, 596], "y": [null, 117], "on": [null, 1]}, "Node: 8": {"x": [null, 596], "y": [null, 150], "on": [null, 1]}, "Node: 9": {"x": [null, 596], "y": [null, 195], "on": [null, 0]}, "Node: 10": {"x": [null, 576], "y": [null, 247], "on": [null, 0]}, "Node: 11": {"x": [null, 531], "y": [null, 269], "on": [null, 0]}, "Node: 12": {"x": [null, 492], "y": [null, 269], "on": [null, 1]}, "Node: 13": {"x": [null, 494], "y": [null, 284], "on": [null, 1]}, "Node: 14": {"x": [null, 560], "y": [null, 284], "on": [null, 0]}, "Node: 15": {"x": [null, 634], "y": [null, 260], "on": [null, 0]}, "Node: 16": {"x": [null, 664], "y": [null, 200], "on": [null, 0]}, "Node: 17": {"x": [null, 664], "y": [null, 147], "on": [null, 1]}, "Node: 18": {"x": [null, 664], "y": [null, 117], "on": [null, 1]}, "Node: 19": {"x": [null, 664], "y": [null, 59], "on": [null, 0]}, "Node: 20": {"x": [null, 676], "y": [null, 19], "on": [null, 0]}, "Node: 21": {"x": [null, 694], "y": [null, 19], "on": [null, 1]}, "Node: 22": {"x": [null, 725], "y": [null, 19], "on": [null, 0]}, "Node: 23": {"x": [null, 767], "y": [null, 84], "on": [null, 1]}, "Node: 24": {"x": [null, 784], "y": [null, 72], "on": [null, 1]}, "Node: 25": {"x": [null, 737], "y": [null, -14], "on": [null, 0]}}, "Contour: 2": {"Node: 26": {"x": [null, 474], "y": [null, 270], "on": [null, 1]}, "Node: 27": {"x": [null, 474], "y": [null, 284], "on": [null, 1]}, "Node: 28": {"x": [null, 504], "y": [null, 284], "on": [null, 0]}, "Node: 29": {"x": [null, 548], "y": [null, 296], "on": [null, 0]}, "Node: 30": {"x": [null, 591], "y": [null, 327], "on": [null, 0]}, "Node: 31": {"x": [null, 617], "y": [null, 355], "on": [null, 1]}, "Node: 32": {"x": [null, 654], "y": [null, 394], "on": [null, 1]}, "Node: 33": {"x": [null, 687], "y": [null, 429], "on": [null, 0]}, "Node: 34": {"x": [null, 727], "y": [null, 454], "on": [null, 0]}, "Node: 35": {"x": [null, 749], "y": [null, 454], "on": [null, 1]}, "Node: 36": {"x": [null, 776], "y": [null, 454], "on": [null, 0]}, "Node: 37": {"x": [null, 809], "y": [null, 420], "on": [null, 0]}, "Node: 38": {"x": [null, 809], "y": [null, 392], "on": [null, 1]}, "Node: 39": {"x": [null, 809], "y": [null, 367], "on": [null, 0]}, "Node: 40": {"x": [null, 784], "y": [null, 337], "on": [null, 0]}, "Node: 41": {"x": [null, 764], "y": [null, 337], "on": [null, 1]}, "Node: 42": {"x": [null, 748], "y": [null, 337], "on": [null, 0]}, "Node: 43": {"x": [null, 729], "y": [null, 357], "on": [null, 0]}, "Node: 44": {"x": [null, 729], "y": [null, 375], "on": [null, 1]}, "Node: 45": {"x": [null, 729], "y": [null, 398], "on": [null, 0]}, "Node: 46": {"x": [null, 723], "y": [null, 414], "on": [null, 0]}, "Node: 47": {"x": [null, 715], "y": [null, 414], "on": [null, 1]}, "Node: 48": {"x": [null, 707], "y": [null, 414], "on": [null, 0]}, "Node: 49": {"x": [null, 687], "y": [null, 400], "on": [null, 0]}, "Node: 50": {"x": [null, 670], "y": [null, 383], "on": [null, 1]}, "Node: 51": {"x": [null, 629], "y": [null, 340], "on": [null, 1]}, "Node: 52": {"x": [null, 602], "y": [null, 311], "on": [null, 0]}, "Node: 53": {"x": [null, 559], "y": [null, 281], "on": [null, 0]}, "Node: 54": {"x": [null, 511], "y": [null, 270], "on": [null, 0]}}, "Contour: 3": {"Node: 55": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 56": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 57": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 58": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 59": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 60": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 61": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 62": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 63": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 64": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 65": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 66": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 67": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 68": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 69": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 70": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 71": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 72": {"x": [null, 213], "y": [null, 520], "on": [null, 1]}, "Node: 73": {"x": [null, 248], "y": [null, 627], "on": [null, 0]}, "Node: 74": {"x": [null, 369], "y": [null, 724], "on": [null, 0]}, "Node: 75": {"x": [null, 460], "y": [null, 724], "on": [null, 1]}, "Node: 76": {"x": [null, 514], "y": [null, 724], "on": [null, 0]}, "Node: 77": {"x": [null, 600], "y": [null, 694], "on": [null, 0]}, "Node: 78": {"x": [null, 625], "y": [null, 668], "on": [null, 1]}, "Node: 79": {"x": [null, 574], "y": [null, 582], "on": [null, 1]}, "Node: 80": {"x": [null, 567], "y": [null, 637], "on": [null, 0]}, "Node: 81": {"x": [null, 505], "y": [null, 699], "on": [null, 0]}, "Node: 82": {"x": [null, 458], "y": [null, 699], "on": [null, 1]}, "Node: 83": {"x": [null, 400], "y": [null, 699], "on": [null, 0]}, "Node: 84": {"x": [null, 312], "y": [null, 601], "on": [null, 0]}, "Node: 85": {"x": [null, 280], "y": [null, 504], "on": [null, 1]}, "Node: 86": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 87": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 88": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}}, "longs": {"Contour: 0": {"Node: 0": {"x": [null, -107], "y": [null, -290], "on": [null, 1]}, "Node: 1": {"x": [null, -160], "y": [null, -290], "on": [null, 0]}, "Node: 2": {"x": [null, -222], "y": [null, -252], "on": [null, 0]}, "Node: 3": {"x": [null, -222], "y": [null, -219], "on": [null, 1]}, "Node: 4": {"x": [null, -222], "y": [null, -197], "on": [null, 0]}, "Node: 5": {"x": [null, -194], "y": [null, -170], "on": [null, 0]}, "Node: 6": {"x": [null, -173], "y": [null, -170], "on": [null, 1]}, "Node: 7": {"x": [null, -155], "y": [null, -170], "on": [null, 0]}, "Node: 8": {"x": [null, -134], "y": [null, -194], "on": [null, 0]}, "Node: 9": {"x": [null, -126], "y": [null, -224], "on": [null, 1]}, "Node: 10": {"x": [null, -118], "y": [null, -249], "on": [null, 0]}, "Node: 11": {"x": [null, -104], "y": [null, -268], "on": [null, 0]}, "Node: 12": {"x": [null, -93], "y": [null, -268], "on": [null, 1]}, "Node: 13": {"x": [null, -77], "y": [null, -268], "on": [null, 0]}, "Node: 14": {"x": [null, -46], "y": [null, -237], "on": [null, 0]}, "Node: 15": {"x": [null, -14], "y": [null, -174], "on": [null, 0]}, "Node: 16": {"x": [null, 1], "y": [null, -127], "on": [null, 1]}, "Node: 17": {"x": [null, 224], "y": [null, 552], "on": [null, 1]}, "Node: 18": {"x": [null, 253], "y": [null, 639], "on": [null, 0]}, "Node: 19": {"x": [null, 350], "y": [null, 724], "on": [null, 0]}, "Node: 20": {"x": [null, 422], "y": [null, 724], "on": [null, 1]}, "Node: 21": {"x": [null, 471], "y": [null, 724], "on": [null, 0]}, "Node: 22": {"x": [null, 528], "y": [null, 687], "on": [null, 0]}, "Node: 23": {"x": [null, 528], "y": [null, 652], "on": [null, 1]}, "Node: 24": {"x": [null, 528], "y": [null, 630], "on": [null, 0]}, "Node: 25": {"x": [null, 504], "y": [null, 601], "on": [null, 0]}, "Node: 26": {"x": [null, 481], "y": [null, 601], "on": [null, 1]}, "Node: 27": {"x": [null, 462], "y": [null, 601], "on": [null, 0]}, "Node: 28": {"x": [null, 441], "y": [null, 626], "on": [null, 0]}, "Node: 29": {"x": [null, 441], "y": [null, 651], "on": [null, 1]}, "Node: 30": {"x": [null, 441], "y": [null, 679], "on": [null, 0]}, "Node: 31": {"x": [null, 426], "y": [null, 702], "on": [null, 0]}, "Node: 32": {"x": [null, 407], "y": [null, 702], "on": [null, 1]}, "Node: 33": {"x": [null, 388], "y": [null, 702], "on": [null, 0]}, "Node: 34": {"x": [null, 353], "y": [null, 681], "on": [null, 0]}, "Node: 35": {"x": [null, 325], "y": [null, 640], "on": [null, 0]}, "Node: 36": {"x": [null, 315], "y": [null, 611], "on": [null, 1]}, "Node: 37": {"x": [null, 73], "y": [null, -127], "on": [null, 1]}, "Node: 38": {"x": [null, 44], "y": [null, -216], "on": [null, 0]}, "Node: 39": {"x": [null, -37], "y": [null, -290], "on": [null, 0]}}}}, "glyphOrder": {"error": ["There are 328 changes, check manually!", ""]}}, "OS/2": {"xAvgCharWidth": [541, 543], "achVendID": ["NONE", "ANRT"]}, "GDEF": {"table": {"MarkGlyphSetsDef": {"Coverage": {"1": {"glyphs": {"23": [null, "uni0308.narrow"]}}}}, "GlyphClassDef": {"classDefs": {"j.fina": [1, null], "uni0308.narrow": [null, 3], "uni030C.alt": [null, 3], "longs_i.liga": [null, 2], "longs": [null, 1]}}, "VarStore": {"VarData": {"0": {"Item": {"0": {"0": [-100, -90]}, "1": {"0": [-90, -80]}, "2": {"0": [-80, -70]}, "3": {"0": [-70, -60]}, "4": {"0": [-60, -50]}, "5": {"0": [-50, -40]}, "6": {"0": [-40, -30]}, "7": {"0": [-30, -28]}, "8": {"0": [-28, -25]}, "9": {"0": [-25, -22]}, "10": {"0": [-22, -20]}, "11": {"0": [-20, -18]}, "12": {"0": [-18, -17]}, "13": {"0": [-17, -16]}, "14": {"0": [-16, -15]}, "15": {"0": [-15, -14]}, "16": {"0": [-14, -13]}, "17": {"0": [-13, -12]}, "18": {"0": [-12, -11]}, "19": {"0": [-11, -10]}, "20": {"0": [-10, -9]}, "21": {"0": [-9, -8]}, "22": {"0": [-8, -7]}, "23": {"0": [-7, -6]}, "24": {"0": [-6, -5]}, "25": {"0": [-5, -4]}, "26": {"0": [-4, -3]}, "27": {"0": [-3, -2]}, "28": {"0": [-2, -1]}, "29": {"0": [-1, 1]}, "30": {"0": [1, 2]}, "31": {"0": [2, 3]}, "32": {"0": [3, 4]}, "33": {"0": [4, 5]}, "34": {"0": [5, 6]}, "35": {"0": [6, 7]}, "36": {"0": [7, 8]}, "37": {"0": [8, 9]}, "38": {"0": [9, 10]}, "39": {"0": [10, 11]}, "40": {"0": [11, 12]}, "41": {"0": [12, 13]}, "42": {"0": [13, 14]}, "43": {"0": [14, 15]}, "44": {"0": [15, 16]}, "45": {"0": [16, 17]}, "46": {"0": [17, 18]}, "47": {"0": [18, 19]}, "48": {"0": [19, 20]}, "49": {"0": [20, 21]}, "50": {"0": [21, 22]}, "51": {"0": [22, 23]}, "52": {"0": [23, 24]}, "53": {"0": [24, 25]}, "54": {"0": [25, 26]}, "55": {"0": [26, 27]}, "56": {"0": [27, 28]}, "57": {"0": [28, 29]}, "58": {"0": [29, 30]}, "59": {"0": [30, 31]}, "60": {"0": [31, 32]}, "61": {"0": [32, 33]}, "62": {"0": [33, 34]}, "63": {"0": [34, 35]}, "64": {"0": [35, 37]}, "65": {"0": [37, 38]}, "66": {"0": [38, 39]}, "67": {"0": [39, 40]}, "68": {"0": [40, 41]}, "69": {"0": [41, 42]}, "70": {"0": [42, 43]}, "71": {"0": [43, 44]}, "72": {"0": [44, 45]}, "73": {"0": [45, 46]}, "74": {"0": [46, 48]}, "75": {"0": [48, 49]}, "76": {"0": [49, 50]}, "77": {"0": [50, 51]}, "78": {"0": [51, 52]}, "79": {"0": [52, 53]}, "80": {"0": [53, 54]}, "81": {"0": [54, 55]}, "82": {"0": [55, 56]}, "83": {"0": [56, 58]}, "84": {"0": [57, 59]}, "85": {"0": [58, 60]}, "86": {"0": [59, 61]}, "87": {"0": [60, 63]}, "88": {"0": [61, 64]}, "89": {"0": [63, 65]}, "90": {"0": [64, 67]}, "91": {"0": [65, 68]}, "92": {"0": [67, 70]}, "93": {"0": [68, 71]}, "94": {"0": [70, 72]}, "95": {"0": [71, 74]}, "96": {"0": [72, 75]}, "97": {"0": [74, 77]}, "98": {"0": [75, 78]}, "99": {"0": [78, 79]}, "100": {"0": [79, 80]}, "101": {"0": [80, 90]}, "102": {"0": [90, 92]}}}}}}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
