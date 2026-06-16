@@ -21324,7 +21324,7 @@ width = 558;
 {
 color = 6;
 glyphname = a.sc;
-kernLeft = t;
+kernLeft = a.sc;
 kernRight = a.sc;
 lastChange = "2025-03-13 17:52:25 +0000";
 layers = (
